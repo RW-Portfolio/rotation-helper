@@ -1,32 +1,54 @@
-from re import X
+import json
 from engine import *
-import sys
-import os
 
-gameEngine = Engine()
+world = Engine()
+gcd_actions = []
+ogcd_actions = []
+background = []
+foreground = []
 
-entity = Entity(gameEngine, 800, 12, 50, 50)
-entity1 = Entity(gameEngine, 900, 12, 50, 50)
-entity2 = Entity(gameEngine, 1000, 12, 50, 50)
-entity3 = Entity(gameEngine, 1100, 12, 50, 50)
+# 60 == 1s
+move_speed = 60
+melee_gcd = 2.45
+melee_gcd_gap = move_speed * melee_gcd
+mage_gcd = 2.50
+mage_gcd_gap = move_speed * mage_gcd
 
-move = 50
+activation_time = 100
 
-@gameEngine.draw
+sln_path = "C:/Users/ryanw/Documents/GitHub/personal-tts"
+rel_fight_path = f"{sln_path}/fight.txt"
+rel_encounter_path = f"{sln_path}/encounters.json"
+
+def load_encounter(wrld, fight):
+    with open(rel_encounter_path) as json_file:
+        encounter = json.load(json_file)
+
+        for entry in encounter[fight]:
+            #array.append({"name" : entry['name'], "time" : entry['time']})
+            pass
+    foreground.append(Entity(wrld, activation_time, 0, 5, 50, (100,0,10,255)))
+    [gcd_actions.append(Entity(world, (activation_time + 600) + ( i * melee_gcd_gap), 5)) for i in range(100)]
+
+    for i in range(100):
+        ogcd_actions.append(Entity(wrld, (activation_time + 600) + ( i * melee_gcd_gap) + 50, 5, 25, 25))
+        ogcd_actions.append(Entity(wrld, (activation_time + 600) + ( i * melee_gcd_gap) + 85, 5, 25, 25))
+        
+load_encounter(world, "p1s")
+
+@world.draw
 def draw():
-    entity.draw()
-    entity1.draw()
-    entity2.draw()
-    entity3.draw()
+    [entity.draw() for entity in background]
+    [entity.draw() for entity in gcd_actions]
+    [entity.draw() for entity in ogcd_actions]
+    [entity.draw() for entity in foreground]
 
-
-@gameEngine.update
+@world.update
 def update(dt):
-    entity.set_pos(entity.get_x() - (move * dt), entity.get_y())
-    entity1.set_pos(entity1.get_x() - (move * dt), entity1.get_y())
-    entity2.set_pos(entity2.get_x() - (move * dt), entity2.get_y())
-    entity3.set_pos(entity3.get_x() - (move * dt), entity3.get_y())
+    [entity.set_pos(entity.get_x() - (move_speed * dt), entity.get_y()) for entity in gcd_actions]
+    [entity.set_pos(entity.get_x() - (move_speed * dt), entity.get_y()) for entity in ogcd_actions]
+    if gcd_actions:
+        if gcd_actions[0].get_x() < -50:
+            gcd_actions.pop(0)
 
-
-gameEngine.loop()
-
+world.loop()

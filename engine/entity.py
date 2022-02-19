@@ -1,7 +1,7 @@
 import sdl2
 
 class Entity(object):
-    def __init__(self, window, x = 0, y = 0, width = 20, height = 20, colour = (255, 255, 255, 255)) -> None:
+    def __init__(self, window, x = 0, y = 0, width = 40, height = 40, colour = (255, 255, 255, 255)) -> None:
         self.window = window
         self.width = width
         self.height = height

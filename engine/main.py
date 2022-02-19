@@ -2,7 +2,7 @@ import sdl2
 import sdl2.ext
 
 class Engine:
-    def __init__(self, title = "Rotation Helper", width = 800, height = 75, colour = (0,100,0,255)) -> None:
+    def __init__(self, title = "Rotation Helper", width = 588, height = 50, colour = (15,15,15,255)) -> None:
         self.title = title.encode()
         self.width = width
         self.height = height
@@ -15,7 +15,7 @@ class Engine:
 
         sdl2.SDL_Init(sdl2.SDL_INIT_EVERYTHING)
 
-        self.window = sdl2.SDL_CreateWindow(self.title, sdl2.SDL_WINDOWPOS_CENTERED, sdl2.SDL_WINDOWPOS_CENTERED, self.width, self.height, sdl2.SDL_WINDOW_SHOWN | sdl2.SDL_WINDOW_BORDERLESS | sdl2.SDL_WINDOW_ALWAYS_ON_TOP)
+        self.window = sdl2.SDL_CreateWindow(self.title, sdl2.SDL_WINDOWPOS_CENTERED, 115, self.width, self.height, sdl2.SDL_WINDOW_SHOWN | sdl2.SDL_WINDOW_BORDERLESS | sdl2.SDL_WINDOW_ALWAYS_ON_TOP | sdl2.SDL_WINDOW_INPUT_FOCUS)
         self.renderer = sdl2.SDL_CreateRenderer(self.window, -1, 0)
 
         self.running = True
