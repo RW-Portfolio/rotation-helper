@@ -14,9 +14,10 @@ class Engine:
         self.draw_handlers = []
 
         sdl2.SDL_Init(sdl2.SDL_INIT_EVERYTHING)
-
-        self.window = sdl2.SDL_CreateWindow(self.title, sdl2.SDL_WINDOWPOS_CENTERED, 115, self.width, self.height, sdl2.SDL_WINDOW_SHOWN | sdl2.SDL_WINDOW_BORDERLESS | sdl2.SDL_WINDOW_ALWAYS_ON_TOP | sdl2.SDL_WINDOW_INPUT_FOCUS)
-        self.renderer = sdl2.SDL_CreateRenderer(self.window, -1, 0)
+        self.window = sdl2.ext.Window(self.title, (self.width, self.height), (sdl2.SDL_WINDOWPOS_CENTERED, 115), 
+                                        sdl2.SDL_WINDOW_SHOWN | sdl2.SDL_WINDOW_BORDERLESS | sdl2.SDL_WINDOW_ALWAYS_ON_TOP | sdl2.SDL_WINDOW_INPUT_FOCUS)
+        self.renderer = sdl2.ext.Renderer(self.window)
+        self.factory = sdl2.ext.SpriteFactory(renderer=self.renderer)
 
         self.running = True
 
@@ -32,8 +33,6 @@ class Engine:
             draw()
 
     def loop(self):
-        sdl2.SDL_ShowWindow(self.window)
-
         event = sdl2.SDL_Event()
 
         current = sdl2.SDL_GetPerformanceCounter()
@@ -51,13 +50,9 @@ class Engine:
             self._update((new - current) / frequency)
             current = new
 
-            sdl2.SDL_RenderClear(self.renderer)
+            self.renderer.clear((30,30,30,255))
             self._draw()
-            sdl2.SDL_SetRenderDrawColor(self.renderer, self.colour[0], self.colour[1], self.colour[2], self.colour[3])
-            sdl2.SDL_RenderPresent(self.renderer)
-
-        sdl2.SDL_DestroyRenderer(self.renderer)
-        sdl2.SDL_DestroyWindow(self.window)
+            self.renderer.present()
         sdl2.SDL_Quit()
 
     def update(self, fn):
@@ -67,3 +62,6 @@ class Engine:
     def draw(self, fn):
         self.draw_handlers.append(fn)
         return fn
+
+    def get_window(self):
+        return self.window

@@ -1,21 +1,21 @@
 import sdl2
+import sdl2.ext
+
+RESOURCES = sdl2.ext.Resources("c:/Users/ryanw/Documents/GitHub/rotation-helper/", "resources")
 
 class Entity(object):
-    def __init__(self, window, x = 0, y = 0, width = 40, height = 40, colour = (255, 255, 255, 255)) -> None:
+    def __init__(self, window, spriteFn, x = 0, y = 0, width = 40, height = 40, colour = (255, 255, 255, 255)) -> None:
         self.window = window
-        self.width = width
-        self.height = height
-        self.x = x
-        self.y = y
         self.colour = colour
+        self.rect = sdl2.SDL_FRect(x, y, width, height)
 
-        self.rect = sdl2.SDL_FRect(self.x, self.y, self.width, self.height)
+        self.renderer = self.window.renderer
+        self.factory = sdl2.ext.SpriteFactory(renderer=self.renderer)
+        self.sprite = self.factory.from_image(RESOURCES.get_path(spriteFn))
+
 
     def draw(self):
-        sdl2.SDL_SetRenderDrawColor(self.window.renderer, self.colour[0], self.colour[1], self.colour[2], self.colour[3])
-        
-        sdl2.SDL_RenderDrawRectF(self.window.renderer, self.rect)
-        sdl2.SDL_RenderFillRectF(self.window.renderer, self.rect)
+        self.renderer.copy(self.sprite, dstrect=(self.rect.x, self.rect.y, self.rect.w, self.rect.h))
 
     def center_x(self):
         self.rect.x = self.window.width / 2 - self.width / 2

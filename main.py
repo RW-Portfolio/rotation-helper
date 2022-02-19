@@ -16,24 +16,31 @@ mage_gcd_gap = move_speed * mage_gcd
 
 activation_time = 100
 
-sln_path = "C:/Users/ryanw/Documents/GitHub/personal-tts"
+sln_path = "C:/Users/ryanw/Documents/GitHub/rotation-helper"
 rel_fight_path = f"{sln_path}/fight.txt"
 rel_encounter_path = f"{sln_path}/encounters.json"
 
+
+# Need to incorporate the gap better between melee and mage
 def load_encounter(wrld, fight):
+    foreground.append(Entity(wrld, "Activation.png", activation_time, 0, 5, 50, (100,0,10,255)))
+    
     with open(rel_encounter_path) as json_file:
         encounter = json.load(json_file)
 
+        index = 0
         for entry in encounter[fight]:
-            #array.append({"name" : entry['name'], "time" : entry['time']})
-            pass
-    foreground.append(Entity(wrld, activation_time, 0, 5, 50, (100,0,10,255)))
-    [gcd_actions.append(Entity(world, (activation_time + 600) + ( i * melee_gcd_gap), 5)) for i in range(100)]
+            if entry['name'] == "GCD":
+                gcd_actions.append(Entity(wrld, entry['skill'], (activation_time + 600) + (index * melee_gcd_gap), 5))
 
-    for i in range(100):
-        ogcd_actions.append(Entity(wrld, (activation_time + 600) + ( i * melee_gcd_gap) + 50, 5, 25, 25))
-        ogcd_actions.append(Entity(wrld, (activation_time + 600) + ( i * melee_gcd_gap) + 85, 5, 25, 25))
-        
+            if entry['name'] == "oGCD":
+                index -= 1
+                if entry['skill1'] != "none":
+                    ogcd_actions.append(Entity(wrld, entry['skill1'], (activation_time + 600) + (index * melee_gcd_gap) + 50, 5, 25, 25))
+                if entry['skill2'] != "none":
+                    ogcd_actions.append(Entity(wrld, entry['skill2'], (activation_time + 600) + (index * melee_gcd_gap) + 85, 5, 25, 25))
+            index += 1
+
 load_encounter(world, "p1s")
 
 @world.draw

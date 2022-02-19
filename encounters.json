@@ -1,8 +1,119 @@
 {
     "p1s": [
         {
-            "name" : "Holy Sprirt",
-            "time" : "0m -2s"
+            "name" : "GCD",
+            "skill": "Fast_Blade.png"
+        },
+        {
+            "name" : "oGCD",
+            "skill1": "Flight_or_Fight.png",
+            "skill2": "none"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Riot_Blade.png"
+        },        
+        {
+            "name" : "GCD",
+            "skill": "Goring_Blade.png"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Fast_Blade.png"
+        },
+        {
+            "name" : "oGCD",
+            "skill1": "Pot.png",
+            "skill2": "none"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Riot_Blade.png"
+        },
+        {
+            "name" : "oGCD",
+            "skill1": "Circle_of_Scorn.png",
+            "skill2": "Intervene.png"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Royal_Authority.png"
+        },
+        {
+            "name" : "oGCD",
+            "skill1": "Expiacion.png",
+            "skill2": "Requiescat.png"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Attonement.png"
+        },
+        {
+            "name" : "oGCD",
+            "skill1": "Intervene.png",
+            "skill2": "none"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Attonement.png"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Attonement.png"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Fast_Blade.png"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Riot_Blade.png"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Goring_Blade.png"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Holy_Spirit.png"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Holy_Spirit.png"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Holy_Spirit.png"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Holy_Spirit.png"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Confiteor.png"
+        },
+        {
+            "name" : "oGCD",
+            "skill1": "Circle_of_Scorn.png",
+            "skill2": "none"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Blade_of_Faith.png"
+        },
+        {
+            "name" : "oGCD",
+            "skill1": "Expiacion.png",
+            "skill2": "none"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Blade_of_Truth.png"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Blade_of_Valor.png"
         }
     ]
 }
