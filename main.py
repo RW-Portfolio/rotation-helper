@@ -21,7 +21,7 @@ rel_fight_path = f"{sln_path}/fight.txt"
 rel_encounter_path = f"{sln_path}/encounters.json"
 
 
-# Need to incorporate the gap better between melee and mage
+# Need to incorporate the gap better between melee and
 def load_encounter(wrld, fight):
     foreground.append(Entity(wrld, "Activation.png", activation_time, 0, 5, 50, (100,0,10,255)))
     

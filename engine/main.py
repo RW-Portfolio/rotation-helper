@@ -14,7 +14,7 @@ class Engine:
         self.draw_handlers = []
 
         sdl2.SDL_Init(sdl2.SDL_INIT_EVERYTHING)
-        self.window = sdl2.ext.Window(self.title, (self.width, self.height), (sdl2.SDL_WINDOWPOS_CENTERED, 115), 
+        self.window = sdl2.ext.Window(self.title, (self.width, self.height), (sdl2.SDL_WINDOWPOS_CENTERED, 1090), 
                                         sdl2.SDL_WINDOW_SHOWN | sdl2.SDL_WINDOW_BORDERLESS | sdl2.SDL_WINDOW_ALWAYS_ON_TOP | sdl2.SDL_WINDOW_INPUT_FOCUS)
         self.renderer = sdl2.ext.Renderer(self.window)
         self.factory = sdl2.ext.SpriteFactory(renderer=self.renderer)

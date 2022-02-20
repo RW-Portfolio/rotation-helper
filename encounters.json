@@ -114,6 +114,26 @@
         {
             "name" : "GCD",
             "skill": "Blade_of_Valor.png"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Fast_Blade.png"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Riot_Blade.png"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Royal_Authority.png"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Attonement.png"
+        },
+        {
+            "name" : "GCD",
+            "skill": "Attonement.png"
         }
     ]
 }
