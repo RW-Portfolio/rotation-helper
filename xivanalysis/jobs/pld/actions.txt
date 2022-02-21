@@ -1,0 +1,28 @@
+GCD
+Melee
+Fast Blade
+Riot Blade
+Goring Blade
+Royal Authority
+Atonement
+Mage
+Holy Spirit
+Confiteor
+Blade of Faith
+Blade of Truth
+Blade of Valor
+
+oGCD
+Fight or Flight
+Circle of Scorn
+Expiacion
+Medicated
+Requiescat
+Intervene
+Holy Sheltron
+Reprisal
+Divine Veil
+Sentinel
+Shirk
+Sprint
+Rampart
