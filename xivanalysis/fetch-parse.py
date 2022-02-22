@@ -5,7 +5,7 @@ import json
 sln_path = "C:/Users/ryanw/Documents/GitHub/rotation-helper/xivanalysis"
 rel_config_path = f"{sln_path}/config.txt"
 
-matches = ["attack"]
+matches = ["attack", "Iron Will", "Provoke", "Hallowed Ground", "Intervention"]
 
 #   1. Source ID
 #   2. Input File

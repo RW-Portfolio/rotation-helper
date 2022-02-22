@@ -11,7 +11,6 @@ Confiteor
 Blade of Faith
 Blade of Truth
 Blade of Valor
-
 oGCD
 Fight or Flight
 Circle of Scorn

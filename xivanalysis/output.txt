@@ -38,7 +38,6 @@ Fast Blade
 Fight or Flight
 Riot Blade
 Circle of Scorn
-Iron Will
 Goring Blade
 Intervene
 Fast Blade
@@ -90,7 +89,6 @@ Holy Spirit
 Holy Spirit
 Circle of Scorn
 Holy Spirit
-Provoke
 Holy Spirit
 Expiacion
 Confiteor
@@ -127,7 +125,6 @@ Holy Spirit
 Holy Spirit
 Circle of Scorn
 Holy Spirit
-Hallowed Ground
 Holy Spirit
 Expiacion
 Confiteor
@@ -153,7 +150,6 @@ Riot Blade
 Requiescat
 Royal Authority
 Atonement
-Intervention
 Atonement
 Atonement
 Fast Blade
@@ -245,7 +241,6 @@ Riot Blade
 Sprint
 Royal Authority
 Atonement
-Provoke
 Atonement
 Atonement
 Fight or Flight
