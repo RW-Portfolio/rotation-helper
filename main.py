@@ -16,7 +16,8 @@ mage_gcd_gap = move_speed * mage_gcd
 
 activation_time = 100
 
-sln_path = "C:/Users/ryanw/Documents/GitHub/rotation-helper"
+#sln_path = "C:/Users/ryanw/Documents/GitHub/rotation-helper"
+sln_path = "C:/Users/Ryan/Documents/Git/rotation-helper"
 rel_fight_path = f"{sln_path}/fight.txt"
 rel_encounter_path = f"{sln_path}/encounters.json"
 rel_jobs_path = f"{sln_path}/xivanalysis/jobs"
@@ -42,13 +43,13 @@ pngDict = {
   "Medicated":          "Pot.png",
   "Requiescat":         "Requiescat.png",
   "Intervene":          "Intervene.png",
-  "Holy Sheltron":      "Activation.png",
-  "Reprisal":           "Activation.png",
-  "Divine Veil":        "Activation.png",
-  "Sentinel":           "Activation.png",
-  "Shirk":              "Activation.png",
-  "Sprint":             "Activation.png",
-  "Rampart":            "Activation.png"
+  "Holy Sheltron":      "Holy_Sheltron.png",
+  "Reprisal":           "Reprisal.png",
+  "Divine Veil":        "Divine_Veil.png",
+  "Sentinel":           "Sentinel.png",
+  "Shirk":              "Shirk.png",
+  "Sprint":             "Sprint.png",
+  "Rampart":            "Rampart.png"
 }
 
 def load_actions(job):

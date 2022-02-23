@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\ryanw\Documents\GitHub\super-cheese\env"
+VIRTUAL_ENV="C:\Users\Ryan\Documents\Git\rotation-helper\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

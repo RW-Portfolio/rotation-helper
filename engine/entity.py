@@ -1,7 +1,8 @@
 import sdl2
 import sdl2.ext
 
-RESOURCES = sdl2.ext.Resources("c:/Users/ryanw/Documents/GitHub/rotation-helper/", "resources")
+#RESOURCES = sdl2.ext.Resources("c:/Users/ryanw/Documents/GitHub/rotation-helper/", "resources")
+RESOURCES = sdl2.ext.Resources("C:/Users/Ryan/Documents/Git/rotation-helper", "resources")
 
 class Entity(object):
     def __init__(self, window, spriteFn, x = 0, y = 0, width = 40, height = 40, colour = (255, 255, 255, 255)) -> None:
