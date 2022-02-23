@@ -20,6 +20,7 @@ class Engine:
         self.factory = sdl2.ext.SpriteFactory(renderer=self.renderer)
 
         self.running = True
+        self.started = False
 
     def _update(self, deltaTime):
         self.update_deltaTime += deltaTime
@@ -45,14 +46,20 @@ class Engine:
                 if event.type == sdl2.SDL_KEYDOWN:
                     if event.key.keysym.sym == sdl2.SDLK_ESCAPE:
                         self.running = False
+                if event.type == sdl2.SDL_KEYDOWN:
+                    if event.key.keysym.sym == sdl2.SDLK_p:
+                        self.started = True
+                        current = sdl2.SDL_GetPerformanceCounter()
 
-            new = sdl2.SDL_GetPerformanceCounter()
-            self._update((new - current) / frequency)
-            current = new
+            if self.started:
+                new = sdl2.SDL_GetPerformanceCounter()
+                self._update((new - current) / frequency)
+                current = new
 
             self.renderer.clear((30,30,30,255))
             self._draw()
             self.renderer.present()
+
         sdl2.SDL_Quit()
 
     def update(self, fn):
