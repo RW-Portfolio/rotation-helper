@@ -1,7 +1,9 @@
-import json
+import csv
+import sdl2
 from engine import *
 
 world = Engine()
+actions = []
 gcd_actions = []
 ogcd_actions = []
 background = []
@@ -15,6 +17,8 @@ mage_gcd = 2.50
 mage_gcd_gap = move_speed * mage_gcd
 
 activation_time = 100
+# 0 is about ~ 3seconds ish
+countdown = 60 * 0
 
 #sln_path = "C:/Users/ryanw/Documents/GitHub/rotation-helper"
 sln_path = "C:/Users/Ryan/Documents/Git/rotation-helper"
@@ -26,31 +30,7 @@ matchesMelee = []
 matchesMage = []
 matchesOgcd = []
 
-pngDict = {
-  "Fast Blade":         "Fast_Blade.png",
-  "Riot Blade":         "Riot_Blade.png",
-  "Goring Blade":       "Goring_Blade.png",
-  "Royal Authority":    "Royal_Authority.png",
-  "Atonement":          "Attonement.png",
-  "Holy Spirit":        "Holy_Spirit.png",
-  "Confiteor":          "Confiteor.png",
-  "Blade of Faith":     "Blade_of_Faith.png",
-  "Blade of Truth":     "Blade_of_Truth.png",
-  "Blade of Valor":     "Blade_of_Valor.png",
-  "Fight or Flight":    "Flight_or_Fight.png",
-  "Circle of Scorn":    "Circle_of_Scorn.png",
-  "Expiacion":          "Expiacion.png",
-  "Medicated":          "Pot.png",
-  "Requiescat":         "Requiescat.png",
-  "Intervene":          "Intervene.png",
-  "Holy Sheltron":      "Holy_Sheltron.png",
-  "Reprisal":           "Reprisal.png",
-  "Divine Veil":        "Divine_Veil.png",
-  "Sentinel":           "Sentinel.png",
-  "Shirk":              "Shirk.png",
-  "Sprint":             "Sprint.png",
-  "Rampart":            "Rampart.png"
-}
+pictures = {}
 
 def load_actions(job):
     isGCD = False
@@ -77,63 +57,50 @@ def load_actions(job):
             if isGCD == False:
                 matchesOgcd.append(line)
 
-def load_encounter(wrld, fight):
-    foreground.append(Entity(wrld, "Activation.png", activation_time, 0, 5, 50, (100,0,10,255)))
-    
-    with open(rel_encounter_path) as json_file:
-        encounter = json.load(json_file)
-
-        index = 0
-        for entry in encounter[fight]:
-            if entry['name'] == "GCD":
-                gcd_actions.append(Entity(wrld, entry['skill'], (activation_time + 600) + (index * melee_gcd_gap), 5))
-
-            if entry['name'] == "oGCD":
-                index -= 1
-                if entry['skill1'] != "none":
-                    ogcd_actions.append(Entity(wrld, entry['skill1'], (activation_time + 600) + (index * melee_gcd_gap) + 50, 5, 25, 25))
-                if entry['skill2'] != "none":
-                    ogcd_actions.append(Entity(wrld, entry['skill2'], (activation_time + 600) + (index * melee_gcd_gap) + 85, 5, 25, 25))
-            index += 1
-
-
-test_actions = []
-def load_encounter_txt(wrld):
-    global test_actions
-    foreground.append(Entity(wrld, "Activation.png", activation_time, 0, 5, 50, (100,0,10,255)))
+def load_encounter(wrld):
+    global actions
+    foreground.append(Entity(wrld, pictures["Activation"], activation_time, 0, 5, 50, (100,0,10,255)))
    
     with open(f"{sln_path}/xivanalysis/output.txt") as file:
         for line in file:
-            test_actions.append(line.rstrip())
+            actions.append(line.rstrip())
 
     index = 0
     gcd_gap_index = 1
     timeline = 1
-    while index < len(test_actions):
-        if any(x in test_actions[index] for x in matchesMelee):
+    while index < len(actions):
+        if any(x in actions[index] for x in matchesMelee):
             timeline += 2.45
-            gcd_actions.append(Entity(wrld, pngDict[test_actions[index]], (activation_time + 600) + (timeline * move_speed), 5))
+            gcd_actions.append(Entity(wrld, pictures[actions[index]], (activation_time + countdown) + (timeline * move_speed), 5))
             index += 1
 
-        if any(x in test_actions[index] for x in matchesMage):
+        if any(x in actions[index] for x in matchesMage):
             timeline += 2.45
-            gcd_actions.append(Entity(wrld, pngDict[test_actions[index]], (activation_time + 600) + (timeline * move_speed), 5))
+            gcd_actions.append(Entity(wrld, pictures[actions[index]], (activation_time + countdown) + (timeline * move_speed), 5))
             index += 1
 
-        if index < len(test_actions):
-            if any(x in test_actions[index] for x in matchesOgcd):
-                ogcd_actions.append(Entity(wrld, pngDict[test_actions[index]], (activation_time + 600) + (timeline * move_speed) + 50, 5, 25, 25))
+        if index < len(actions):
+            if any(x in actions[index] for x in matchesOgcd):
+                ogcd_actions.append(Entity(wrld, pictures[actions[index]], (activation_time + countdown) + (timeline * move_speed) + 50, 5, 25, 25))
                 index += 1
 
-        if index < len(test_actions):
-            if any(x in test_actions[index] for x in matchesOgcd):
-                ogcd_actions.append(Entity(wrld, pngDict[test_actions[index]], (activation_time + 600) + (timeline * move_speed) + 50, 5, 25, 25))
+        if index < len(actions):
+            if any(x in actions[index] for x in matchesOgcd):
+                ogcd_actions.append(Entity(wrld, pictures[actions[index]], (activation_time + 600) + (timeline * move_speed) + 50, 5, 25, 25))
                 index += 1 
 
         gcd_gap_index += 1
 
-load_actions("pld")
-load_encounter_txt(world)
+def load_images():
+    #RESOURCES = sdl2.ext.Resources("c:/Users/ryanw/Documents/GitHub/rotation-helper/", "resources")
+    RESOURCES = sdl2.ext.Resources("C:/Users/Ryan/Documents/Git/rotation-helper", "resources")
+    factory = world.factory
+
+    pictures["Activation"] = factory.from_image(RESOURCES.get_path("Activation.png"))
+    with open(f"{rel_jobs_path}/pld/pictures.csv") as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        for row in csv_reader:
+            pictures[row[0]] = factory.from_image(RESOURCES.get_path(row[1]))
 
 @world.draw
 def draw():
@@ -149,5 +116,9 @@ def update(dt):
     if gcd_actions:
         if gcd_actions[0].get_x() < -50:
             gcd_actions.pop(0)
+
+load_images()
+load_actions("pld")
+load_encounter(world)
 
 world.loop()
