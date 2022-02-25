@@ -21,12 +21,9 @@ activation_time = 100
 # 0 is about ~ 3seconds ish
 countdown = 60 * 0
 
-#sln_path = "C:/Users/ryanw/Documents/GitHub/rotation-helper"
-#sln_path = "C:/Users/Ryan/Documents/Git/rotation-helper"
-sln_path = pathlib.Path().resolve()
-rel_fight_path = f"{sln_path}/fight.txt"
-rel_encounter_path = f"{sln_path}/encounters.json"
-rel_jobs_path = f"{sln_path}/xivanalysis/jobs"
+rel_fight_path = f"{SLN_PATH}/fight.txt"
+rel_encounter_path = f"{SLN_PATH}/encounters.json"
+rel_jobs_path = f"{XIV_PATH}/jobs"
 
 matchesMelee = []
 matchesMage = []
@@ -63,7 +60,7 @@ def load_encounter(wrld, file):
     global actions
     foreground.append(Entity(wrld, pictures["Activation"], activation_time, 0, 5, 50, (100,0,10,255)))
    
-    with open(f"{sln_path}/xivanalysis/{file}.txt") as file:
+    with open(f"{XIV_PATH}/{file}.txt") as file:
         for line in file:
             actions.append(line.rstrip())
 
@@ -95,7 +92,7 @@ def load_encounter(wrld, file):
         gcd_gap_index += 1
 
 def load_images():
-    RESOURCES = sdl2.ext.Resources(sln_path, "resources")
+    RESOURCES = sdl2.ext.Resources(SLN_PATH, "resources")
     factory = world.factory
 
     pictures["Activation"] = factory.from_image(RESOURCES.get_path("Activation.png"))
