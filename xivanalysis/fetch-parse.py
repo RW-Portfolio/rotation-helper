@@ -1,10 +1,11 @@
 import json
+import pathlib
 
 # source ID - have this in another file to stop recompile?
 # data.json - open xivanalysis open network inspector refresh open largest file in new tab, copy to data.json file
-sln_path = "C:/Users/ryanw/Documents/GitHub/rotation-helper/xivanalysis"
+#sln_path = "C:/Users/ryanw/Documents/GitHub/rotation-helper/xivanalysis"
+sln_path = f"{pathlib.Path().resolve()}/xivanalysis"
 rel_config_path = f"{sln_path}/config.txt"
-
 matches = ["attack", "Iron Will", "Provoke", "Hallowed Ground", "Intervention"]
 
 #   1. Source ID

@@ -1,5 +1,6 @@
 import csv
 import sdl2
+import pathlib
 from engine import *
 
 world = Engine()
@@ -20,8 +21,9 @@ activation_time = 100
 # 0 is about ~ 3seconds ish
 countdown = 60 * 0
 
-sln_path = "C:/Users/ryanw/Documents/GitHub/rotation-helper"
+#sln_path = "C:/Users/ryanw/Documents/GitHub/rotation-helper"
 #sln_path = "C:/Users/Ryan/Documents/Git/rotation-helper"
+sln_path = pathlib.Path().resolve()
 rel_fight_path = f"{sln_path}/fight.txt"
 rel_encounter_path = f"{sln_path}/encounters.json"
 rel_jobs_path = f"{sln_path}/xivanalysis/jobs"
@@ -93,8 +95,7 @@ def load_encounter(wrld, file):
         gcd_gap_index += 1
 
 def load_images():
-    RESOURCES = sdl2.ext.Resources("c:/Users/ryanw/Documents/GitHub/rotation-helper/", "resources")
-    #RESOURCES = sdl2.ext.Resources("C:/Users/Ryan/Documents/Git/rotation-helper", "resources")
+    RESOURCES = sdl2.ext.Resources(sln_path, "resources")
     factory = world.factory
 
     pictures["Activation"] = factory.from_image(RESOURCES.get_path("Activation.png"))
