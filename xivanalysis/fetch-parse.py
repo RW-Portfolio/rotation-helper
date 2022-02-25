@@ -1,12 +1,12 @@
 import json
 import pathlib
+from engine.constants import *
 
 # source ID - have this in another file to stop recompile?
 # data.json - open xivanalysis open network inspector refresh open largest file in new tab, copy to data.json file
 #sln_path = "C:/Users/ryanw/Documents/GitHub/rotation-helper/xivanalysis"
-sln_path = f"{pathlib.Path().resolve()}/xivanalysis"
-rel_config_path = f"{sln_path}/config.txt"
-matches = ["attack", "Iron Will", "Provoke", "Hallowed Ground", "Intervention"]
+rel_config_path = f"{XIV_PATH}/config.txt"
+actionsToIgnore = ["attack", "Iron Will", "Provoke", "Hallowed Ground", "Intervention"]
 
 #   1. Source ID
 #   2. Input File
@@ -18,8 +18,8 @@ with open(rel_config_path) as file:
         config.append(text)
 
 sourceID = int(config[0])
-rel_input_path = f"{sln_path}/{config[1]}.json"
-rel_output_path = f"{sln_path}/{config[2]}.txt"
+rel_input_path = f"{XIV_PATH}/{config[1]}.json"
+rel_output_path = f"{XIV_PATH}/{config[2]}.txt"
 
 actions = []
 with open(rel_input_path) as json_file:
@@ -33,7 +33,7 @@ with open(rel_input_path) as json_file:
         if (
             entry["type"] == "cast" and
             entry["sourceID"] == sourceID and
-            not any(x in entry["ability"]["name"] for x in matches)
+            not any(x in entry["ability"]["name"] for x in actionsToIgnore)
         ):    
             actions.append(entry["ability"]["name"])
 

@@ -118,5 +118,5 @@ def update(dt):
 
 load_images()
 load_actions("pld")
-load_encounter(world, "p1s")
+load_encounter(world, "p2s")
 world.loop()
