@@ -20,8 +20,8 @@ activation_time = 100
 # 0 is about ~ 3seconds ish
 countdown = 60 * 0
 
-#sln_path = "C:/Users/ryanw/Documents/GitHub/rotation-helper"
-sln_path = "C:/Users/Ryan/Documents/Git/rotation-helper"
+sln_path = "C:/Users/ryanw/Documents/GitHub/rotation-helper"
+#sln_path = "C:/Users/Ryan/Documents/Git/rotation-helper"
 rel_fight_path = f"{sln_path}/fight.txt"
 rel_encounter_path = f"{sln_path}/encounters.json"
 rel_jobs_path = f"{sln_path}/xivanalysis/jobs"
@@ -57,11 +57,11 @@ def load_actions(job):
             if isGCD == False:
                 matchesOgcd.append(line)
 
-def load_encounter(wrld):
+def load_encounter(wrld, file):
     global actions
     foreground.append(Entity(wrld, pictures["Activation"], activation_time, 0, 5, 50, (100,0,10,255)))
    
-    with open(f"{sln_path}/xivanalysis/output.txt") as file:
+    with open(f"{sln_path}/xivanalysis/{file}.txt") as file:
         for line in file:
             actions.append(line.rstrip())
 
@@ -74,10 +74,11 @@ def load_encounter(wrld):
             gcd_actions.append(Entity(wrld, pictures[actions[index]], (activation_time + countdown) + (timeline * move_speed), 5))
             index += 1
 
-        if any(x in actions[index] for x in matchesMage):
-            timeline += 2.45
-            gcd_actions.append(Entity(wrld, pictures[actions[index]], (activation_time + countdown) + (timeline * move_speed), 5))
-            index += 1
+        if index < len(actions):
+            if any(x in actions[index] for x in matchesMage):
+                timeline += 2.50
+                gcd_actions.append(Entity(wrld, pictures[actions[index]], (activation_time + countdown) + (timeline * move_speed), 5))
+                index += 1
 
         if index < len(actions):
             if any(x in actions[index] for x in matchesOgcd):
@@ -92,8 +93,8 @@ def load_encounter(wrld):
         gcd_gap_index += 1
 
 def load_images():
-    #RESOURCES = sdl2.ext.Resources("c:/Users/ryanw/Documents/GitHub/rotation-helper/", "resources")
-    RESOURCES = sdl2.ext.Resources("C:/Users/Ryan/Documents/Git/rotation-helper", "resources")
+    RESOURCES = sdl2.ext.Resources("c:/Users/ryanw/Documents/GitHub/rotation-helper/", "resources")
+    #RESOURCES = sdl2.ext.Resources("C:/Users/Ryan/Documents/Git/rotation-helper", "resources")
     factory = world.factory
 
     pictures["Activation"] = factory.from_image(RESOURCES.get_path("Activation.png"))
@@ -119,6 +120,5 @@ def update(dt):
 
 load_images()
 load_actions("pld")
-load_encounter(world)
-
+load_encounter(world, "p1s")
 world.loop()

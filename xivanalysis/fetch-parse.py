@@ -24,6 +24,11 @@ actions = []
 with open(rel_input_path) as json_file:
     encounter = json.load(json_file)
     for entry in encounter['events']:
+        try:
+            entry["sourceID"] == sourceID
+        except:
+            continue
+        
         if (
             entry["type"] == "cast" and
             entry["sourceID"] == sourceID and

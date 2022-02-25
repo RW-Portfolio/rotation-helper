@@ -25,3 +25,5 @@ Sentinel
 Shirk
 Sprint
 Rampart
+Passage of Arms
+Arm's Length
