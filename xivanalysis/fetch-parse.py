@@ -1,10 +1,8 @@
 import json
-import pathlib
-from engine.constants import *
 
 # source ID - have this in another file to stop recompile?
 # data.json - open xivanalysis open network inspector refresh open largest file in new tab, copy to data.json file
-#sln_path = "C:/Users/ryanw/Documents/GitHub/rotation-helper/xivanalysis"
+XIV_PATH = "C:/Users/Ryan/Documents/Git/rotation-helper/xivanalysis"
 rel_config_path = f"{XIV_PATH}/config.txt"
 actionsToIgnore = ["attack", "Iron Will", "Provoke", "Hallowed Ground", "Intervention"]
 

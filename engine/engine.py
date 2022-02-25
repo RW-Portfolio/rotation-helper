@@ -22,17 +22,6 @@ class Engine:
         self.running = True
         self.started = False
 
-    def _update(self, deltaTime):
-        self.update_deltaTime += deltaTime
-        while self.update_deltaTime > self.deltaTime:
-            for update in self.update_handlers:
-                update(self.deltaTime)
-            self.update_deltaTime -= self.deltaTime
-
-    def _draw(self):
-        for draw in self.draw_handlers:
-            draw()
-
     def loop(self):
         event = sdl2.SDL_Event()
 
@@ -62,9 +51,20 @@ class Engine:
 
         sdl2.SDL_Quit()
 
+    def _update(self, deltaTime):
+        self.update_deltaTime += deltaTime
+        while self.update_deltaTime > self.deltaTime:
+            for update in self.update_handlers:
+                update(self.deltaTime)
+            self.update_deltaTime -= self.deltaTime
+
     def update(self, fn):
         self.update_handlers.append(fn)
         return fn
+
+    def _draw(self):
+        for draw in self.draw_handlers:
+            draw()
 
     def draw(self, fn):
         self.draw_handlers.append(fn)

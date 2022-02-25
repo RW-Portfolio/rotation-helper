@@ -86,7 +86,7 @@ def load_encounter(wrld, file):
 
         if index < len(actions):
             if any(x in actions[index] for x in matchesOgcd):
-                ogcd_actions.append(Entity(wrld, pictures[actions[index]], (activation_time + 600) + (timeline * move_speed) + 50, 5, 25, 25))
+                ogcd_actions.append(Entity(wrld, pictures[actions[index]], (activation_time + countdown) + (timeline * move_speed) + 85, 5, 25, 25))
                 index += 1 
 
         gcd_gap_index += 1
