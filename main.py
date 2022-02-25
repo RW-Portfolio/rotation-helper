@@ -1,6 +1,5 @@
 import csv
 import sdl2
-import pathlib
 from engine import *
 
 world = Engine()
@@ -60,7 +59,7 @@ def load_encounter(wrld, file):
     global actions
     foreground.append(Entity(wrld, pictures["Activation"], activation_time, 0, 5, 50, (100,0,10,255)))
    
-    with open(f"{XIV_PATH}/{file}.txt") as file:
+    with open(f"{XIV_PATH}/jobs/pld/parsed/{file}.txt") as file:
         for line in file:
             actions.append(line.rstrip())
 
@@ -96,7 +95,8 @@ def load_images():
     factory = world.factory
 
     pictures["Activation"] = factory.from_image(RESOURCES.get_path("Activation.png"))
-    with open(f"{rel_jobs_path}/pld/pictures.csv") as csv_file:
+    with open(f"{rel_jobs_path}/pld/icon_map.csv") as csv_file:
+        next(csv_file)
         csv_reader = csv.reader(csv_file, delimiter=',')
         for row in csv_reader:
             pictures[row[0]] = factory.from_image(RESOURCES.get_path(row[1]))
@@ -118,5 +118,5 @@ def update(dt):
 
 load_images()
 load_actions("pld")
-load_encounter(world, "p2s")
+load_encounter(world, "p4sp2")
 world.loop()

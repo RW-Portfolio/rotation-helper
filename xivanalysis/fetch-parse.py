@@ -16,8 +16,8 @@ with open(rel_config_path) as file:
         config.append(text)
 
 sourceID = int(config[0])
-rel_input_path = f"{XIV_PATH}/{config[1]}.json"
-rel_output_path = f"{XIV_PATH}/{config[2]}.txt"
+rel_input_path = f"{XIV_PATH}/jobs/pld/json/{config[1]}.json"
+rel_output_path = f"{XIV_PATH}/jobs/pld/parsed/{config[2]}.txt"
 
 actions = []
 with open(rel_input_path) as json_file:
