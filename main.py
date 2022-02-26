@@ -79,11 +79,46 @@ def load_actions(role, job):
             if isGCD == False:
                 matchesOgcd.append(line)
 
-def load_encounter(wrld, role, job, file):
+def load_encounter_xivanalysis(wrld, role, job, file):
     global actions
     foreground.append(Entity(wrld, pictures["Activation"], activation_time, 0, 5, 50, (100,0,10,255)))
    
     with open(f"{XIV_PATH}/jobs/{role}/{job}/parsed/{file}.txt") as file:
+        for line in file:
+            actions.append(line.rstrip())
+            
+    index = 0
+    gcd_gap_index = 1
+    timeline = 1
+    while index < len(actions):
+        if any(x in actions[index] for x in matchesMelee):
+            timeline += 2.45
+            gcd_actions.append(Entity(wrld, pictures[actions[index]], (activation_time + countdown) + (timeline * move_speed), 5))
+            index += 1
+
+        if index < len(actions):
+            if any(x in actions[index] for x in matchesMage):
+                timeline += 2.50
+                gcd_actions.append(Entity(wrld, pictures[actions[index]], (activation_time + countdown) + (timeline * move_speed), 5))
+                index += 1
+
+        if index < len(actions):
+            if any(x in actions[index] for x in matchesOgcd):
+                ogcd_actions.append(Entity(wrld, pictures[actions[index]], (activation_time + countdown) + (timeline * move_speed) + 50, 5, 25, 25))
+                index += 1
+
+        if index < len(actions):
+            if any(x in actions[index] for x in matchesOgcd):
+                ogcd_actions.append(Entity(wrld, pictures[actions[index]], (activation_time + countdown) + (timeline * move_speed) + 85, 5, 25, 25))
+                index += 1 
+
+        gcd_gap_index += 1
+
+def load_encounter_personal(wrld, role, job, file):
+    global actions
+    foreground.append(Entity(wrld, pictures["Activation"], activation_time, 0, 5, 50, (100,0,10,255)))
+    
+    with open(f"{SLN_PATH}/perfect/{role}/{job}/{file}.txt") as file:
         for line in file:
             actions.append(line.rstrip())
 
@@ -130,9 +165,11 @@ def update(dt):
             gcd_actions.pop(0)
 
 role = "tank"
-job = "war"
+job = "pld"
 
 load_images(role, job)
 load_actions(role, job)
-load_encounter(world, role, job, "p4sp2")
+#load_encounter_xivanalysis(world, role, job, "p1s")
+load_encounter_personal(world, role, job, "p1s")
+
 world.loop()
