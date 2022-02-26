@@ -1,6 +1,36 @@
 GCD
 Melee
-
+Keen Edge
+Brutal Shell
+Demon Slice
+Lightning Shot
+Solid Barrel
+Burst Strike
+Demon Slaughter
+Gnashing Fang
+Savage Claw
+Wicked Talon
+Fated Circle
+Sonic Break
 Mage
-
 oGCD
+No Mercy
+Camouflage
+Royal Guard
+Danger Zone
+Nebula
+Aurora
+Superbolide
+Rough Divide
+Bow Shock
+Heart of Light
+Heart of Stone
+Continuation
+Jugular Rip
+Abdomen Tear
+Eye Gouge
+Bloodfest
+Blasting Zone
+Double Down
+Hypervelocity
+Heart of Corundum

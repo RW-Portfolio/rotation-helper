@@ -31,21 +31,20 @@ matchesOgcd = []
 pictures = {}
 
 def load_images(role, job):
-    RESOURCES = sdl2.ext.Resources(SLN_PATH, "resources")
     factory = world.factory
-    pictures["Activation"] = factory.from_image(RESOURCES.get_path("Activation.png"))
+    pictures["Activation"] = factory.from_image(f"{SLN_PATH}/resources/Activation.png")
 
-    with open(f"{rel_jobs_path}/{role}/icon_map.csv") as csv_file:
-        next(csv_file)
-        csv_reader = csv.reader(csv_file, delimiter=',')
+    with open(f"{rel_jobs_path}/{role}/icon_map.csv") as tank_file:
+        next(tank_file)
+        csv_reader = csv.reader(tank_file, delimiter=',')
         for row in csv_reader:
-                pictures[row[0]] = factory.from_image(RESOURCES.get_path(row[1]))
+                pictures[row[0]] = factory.from_image(f"{SLN_PATH}/resources/{role}/{row[1]}")
     
-    with open(f"{rel_jobs_path}/{role}/{job}/icon_map.csv") as csv_file:
-        next(csv_file)
-        csv_reader = csv.reader(csv_file, delimiter=',')
+    with open(f"{rel_jobs_path}/{role}/{job}/icon_map.csv") as job_file:
+        next(job_file)
+        csv_reader = csv.reader(job_file, delimiter=',')
         for row in csv_reader:
-            pictures[row[0]] = factory.from_image(RESOURCES.get_path(row[1]))
+            pictures[row[0]] = factory.from_image(f"{SLN_PATH}/resources/{role}/{job}/{row[1]}")
 
 def load_actions(role, job):
     isGCD = False
@@ -124,16 +123,16 @@ def draw():
 
 @world.update
 def update(dt):
-    [entity.set_pos(entity.get_x() - (move_speed * dt), entity.get_y()) for entity in gcd_actions]
-    [entity.set_pos(entity.get_x() - (move_speed * dt), entity.get_y()) for entity in ogcd_actions]
+    [entity.update(move_speed * dt) for entity in gcd_actions]
+    [entity.update(move_speed * dt) for entity in ogcd_actions]
     if gcd_actions:
-        if gcd_actions[0].get_x() < -50:
+        if gcd_actions[0].rect.x < -50:
             gcd_actions.pop(0)
 
 role = "tank"
-job = "pld"
+job = "gnb"
 
 load_images(role, job)
 load_actions(role, job)
-load_encounter(world, role, job, "p1s")
+load_encounter(world, role, job, "p4sp1")
 world.loop()

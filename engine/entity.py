@@ -1,3 +1,4 @@
+from shutil import move
 import sdl2
 import sdl2.ext
 
@@ -13,12 +14,5 @@ class Entity(object):
     def draw(self):
         self.renderer.copy(self.sprite, dstrect=(self.rect.x, self.rect.y, self.rect.w, self.rect.h))
 
-    def set_pos(self, x, y):
-        self.rect.x = x
-        self.rect.y = y
-
-    def get_x(self) -> int:
-        return self.rect.x
-
-    def get_y(self) -> int:
-        return self.rect.y        
+    def update(self, movement):
+        self.rect.x -= movement
