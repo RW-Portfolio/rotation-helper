@@ -18,7 +18,8 @@ mage_gcd_gap = move_speed * mage_gcd
 
 activation_time = 100
 # 0 is about ~ 3seconds ish
-countdown = 60 * 0
+# 8 seconds - Use on 10s pre pull
+countdown = (60 * 5) - 30
 
 rel_fight_path = f"{SLN_PATH}/fight.txt"
 rel_encounter_path = f"{SLN_PATH}/encounters.json"
@@ -27,6 +28,9 @@ rel_jobs_path = f"{SLN_PATH}/game/roles/"
 matchesMelee = []
 matchesMage = []
 matchesOgcd = []
+halfSecondSpacer = "Half-Second"
+halfTenthSpacer = "Half-Tenth"
+
 
 pictures = {}
 
@@ -112,6 +116,16 @@ def load_encounter_xivanalysis(wrld, role, job, file):
                 ogcd_actions.append(Entity(wrld, pictures[actions[index]], (activation_time + countdown) + (timeline * move_speed) + 85, 5, 25, 25))
                 index += 1 
 
+        if index < len(actions):
+            if actions[index] == halfSecondSpacer:
+                timeline += 0.5
+                index += 1      
+
+        if index < len(actions):
+            if actions[index] == halfTenthSpacer:
+                timeline += 0.05
+                index += 1       
+
         gcd_gap_index += 1
 
 def load_encounter_personal(wrld, role, job, file):
@@ -147,6 +161,16 @@ def load_encounter_personal(wrld, role, job, file):
                 ogcd_actions.append(Entity(wrld, pictures[actions[index]], (activation_time + countdown) + (timeline * move_speed) + 85, 5, 25, 25))
                 index += 1 
 
+        if index < len(actions):
+            if actions[index] == halfSecondSpacer:
+                timeline += 0.5
+                index += 1
+
+        if index < len(actions):
+            if actions[index] == halfTenthSpacer:
+                timeline += 0.05
+                index += 1       
+
         gcd_gap_index += 1
 
 @world.draw
@@ -170,6 +194,6 @@ job = "pld"
 load_images(role, job)
 load_actions(role, job)
 #load_encounter_xivanalysis(world, role, job, "p1s")
-load_encounter_personal(world, role, job, "p1s")
+load_encounter_personal(world, role, job, "p2s")
 
 world.loop()
