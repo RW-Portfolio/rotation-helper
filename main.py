@@ -130,9 +130,9 @@ def update(dt):
             gcd_actions.pop(0)
 
 role = "tank"
-job = "gnb"
+job = "war"
 
 load_images(role, job)
 load_actions(role, job)
-load_encounter(world, role, job, "p4sp1")
+load_encounter(world, role, job, "p4sp2")
 world.loop()

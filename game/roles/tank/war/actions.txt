@@ -1,6 +1,33 @@
 GCD
 Melee
-
+Heavy Swing
+Maim
+Overpower
+Tomahawk
+Storm's Path
+Inner Beast
+Mythril Tempest
+Steel Cyclone
+Storm's Eye
+Fell Cleave
+Decimate
+Chaotic Cyclone
+Inner Chaos
+Primal Rend
 Mage
-
 oGCD
+Berserk
+Bloodwhetting
+Defiance
+Thrill of Battle
+Vengeance
+Holmgang
+Infuriate
+Raw Intuition
+Equilibrium
+Onslaught
+Upheaval
+Shake It Off
+Inner Release
+Nascent Flash
+Orogeny
