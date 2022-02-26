@@ -1,5 +1,7 @@
 import json
 
+role = "tank"
+job = "drk"
 # source ID - have this in another file to stop recompile?
 # data.json - open xivanalysis open network inspector refresh open largest file in new tab, copy to data.json file
 XIV_PATH = "C:/Users/Ryan/Documents/Git/rotation-helper/xivanalysis"
@@ -8,7 +10,6 @@ actionsToIgnore = ["attack", "Iron Will", "Provoke", "Hallowed Ground", "Interve
 
 #   1. Source ID
 #   2. Input File
-#   3. Output File
 config = []
 with open(rel_config_path) as file:
     for line in file:
@@ -16,8 +17,8 @@ with open(rel_config_path) as file:
         config.append(text)
 
 sourceID = int(config[0])
-rel_input_path = f"{XIV_PATH}/jobs/pld/json/{config[1]}.json"
-rel_output_path = f"{XIV_PATH}/jobs/pld/parsed/{config[2]}.txt"
+rel_input_path = f"{XIV_PATH}/jobs/{role}/{job}/json/{config[1]}.json"
+rel_output_path = f"{XIV_PATH}/jobs/{role}/{job}/parsed/{config[1]}.txt"
 
 actions = []
 with open(rel_input_path) as json_file:

@@ -22,7 +22,7 @@ countdown = 60 * 0
 
 rel_fight_path = f"{SLN_PATH}/fight.txt"
 rel_encounter_path = f"{SLN_PATH}/encounters.json"
-rel_jobs_path = f"{XIV_PATH}/jobs"
+rel_jobs_path = f"{SLN_PATH}/game/roles/"
 
 matchesMelee = []
 matchesMage = []
@@ -30,10 +30,35 @@ matchesOgcd = []
 
 pictures = {}
 
-def load_actions(job):
+def load_images(role, job):
+    RESOURCES = sdl2.ext.Resources(SLN_PATH, "resources")
+    factory = world.factory
+    pictures["Activation"] = factory.from_image(RESOURCES.get_path("Activation.png"))
+
+    with open(f"{rel_jobs_path}/{role}/icon_map.csv") as csv_file:
+        next(csv_file)
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        for row in csv_reader:
+                pictures[row[0]] = factory.from_image(RESOURCES.get_path(row[1]))
+    
+    with open(f"{rel_jobs_path}/{role}/{job}/icon_map.csv") as csv_file:
+        next(csv_file)
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        for row in csv_reader:
+            pictures[row[0]] = factory.from_image(RESOURCES.get_path(row[1]))
+
+def load_actions(role, job):
     isGCD = False
     isMelee = False
-    with open(f"{rel_jobs_path}/{job}/actions.txt", 'r') as file:
+
+    with open(f"{rel_jobs_path}/{role}/actions.txt", 'r') as file1:
+        for line in file1:
+            line = line.rstrip()
+            if line == "oGCD":
+                continue
+            matchesOgcd.append(line)
+
+    with open(f"{rel_jobs_path}/{role}/{job}/actions.txt", 'r') as file:
         for line in file:
             line = line.rstrip()
             if line == "GCD":
@@ -55,11 +80,11 @@ def load_actions(job):
             if isGCD == False:
                 matchesOgcd.append(line)
 
-def load_encounter(wrld, file):
+def load_encounter(wrld, role, job, file):
     global actions
     foreground.append(Entity(wrld, pictures["Activation"], activation_time, 0, 5, 50, (100,0,10,255)))
    
-    with open(f"{XIV_PATH}/jobs/pld/parsed/{file}.txt") as file:
+    with open(f"{XIV_PATH}/jobs/{role}/{job}/parsed/{file}.txt") as file:
         for line in file:
             actions.append(line.rstrip())
 
@@ -90,17 +115,6 @@ def load_encounter(wrld, file):
 
         gcd_gap_index += 1
 
-def load_images():
-    RESOURCES = sdl2.ext.Resources(SLN_PATH, "resources")
-    factory = world.factory
-
-    pictures["Activation"] = factory.from_image(RESOURCES.get_path("Activation.png"))
-    with open(f"{rel_jobs_path}/pld/icon_map.csv") as csv_file:
-        next(csv_file)
-        csv_reader = csv.reader(csv_file, delimiter=',')
-        for row in csv_reader:
-            pictures[row[0]] = factory.from_image(RESOURCES.get_path(row[1]))
-
 @world.draw
 def draw():
     [entity.draw() for entity in background]
@@ -116,7 +130,10 @@ def update(dt):
         if gcd_actions[0].get_x() < -50:
             gcd_actions.pop(0)
 
-load_images()
-load_actions("pld")
-load_encounter(world, "p4sp2")
+role = "tank"
+job = "pld"
+
+load_images(role, job)
+load_actions(role, job)
+load_encounter(world, role, job, "p1s")
 world.loop()
