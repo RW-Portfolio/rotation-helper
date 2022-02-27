@@ -1,8 +1,8 @@
 Holy Spirit
 Intervene
 Fast Blade
-Requiescat
 Circle of Scorn
+Requiescat
 Riot Blade
 Expiacion
 Intervene
@@ -168,12 +168,14 @@ Expiacion
 Fast Blade
 Riot Blade
 Fight or Flight
+Intervene
 Royal Authority
 Atonement
 Atonement
 Atonement
 Fast Blade
 Riot Blade
+Intervene
 Goring Blade
 Fast Blade
 Requiescat
@@ -206,11 +208,13 @@ Riot Blade
 Royal Authority
 Atonement
 Fight or Flight
+Intervene
 Atonement
 Atonement
 Fast Blade
 Riot Blade
 Goring Blade
+Intervene
 Fast Blade
 Riot Blade
 Requiescat
@@ -238,6 +242,7 @@ Atonement
 Fast Blade
 Fight or Flight
 Riot Blade
+Intervene
 Goring Blade
 Fast Blade
 Riot Blade
@@ -248,6 +253,7 @@ Atonement
 Circle of Scorn
 Atonement
 Expiacion
+Intervene
 Fast Blade
 Riot Blade
 Goring Blade
@@ -269,6 +275,7 @@ Atonement
 Fast Blade
 Fight or Flight
 Riot Blade
+Intervene
 Goring Blade
 Fast Blade
 Riot Blade
@@ -280,6 +287,7 @@ Circle of Scorn
 Atonement
 Expiacion
 Fast Blade
+Intervene
 Riot Blade
 Goring Blade
 Holy Spirit
@@ -310,6 +318,7 @@ Fast Blade
 Riot Blade
 Medicated
 Goring Blade
+Intervene
 Fast Blade
 Requiescat
 Riot Blade
@@ -317,6 +326,7 @@ Circle of Scorn
 Royal Authority
 Expiacion
 Atonement
+Intervene
 Atonement
 Atonement
 Holy Spirit
