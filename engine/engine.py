@@ -69,6 +69,3 @@ class Engine:
     def draw(self, fn):
         self.draw_handlers.append(fn)
         return fn
-
-    def get_window(self):
-        return self.window
