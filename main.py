@@ -5,7 +5,7 @@ from engine import *
 #######################################
 
 ROLE = "tank"
-JOB = "pld"
+JOB = "war"
 ENCOUNTER = "p2s"
 
 PERFECT_PARSE = f"{SLN_PATH}/perfect/{ROLE}/{JOB}/{ENCOUNTER}.txt"
@@ -21,30 +21,27 @@ gcd_actions = []
 ogcd_actions = []
 background = []
 foreground = []
+ability_icons = {}
 
-# 60 == 1s
-move_speed = 60
+is_melee = []
+is_mage = []
+is_ogcd = []
+
+fight_path = f"{SLN_PATH}/fight.txt"
+encounter_path = f"{SLN_PATH}/encounters.json"
+jobs_path = f"{SLN_PATH}/game/roles/"
+
+move_speed = 60 # 60 == 1s
 melee_gcd = 2.45
 melee_gcd_gap = move_speed * melee_gcd
 mage_gcd = 2.50
 mage_gcd_gap = move_speed * mage_gcd
 
 activation_time = 100
-# 8 seconds - Use on 10s pre pull
-countdown = (60 * 5) - 30
+countdown = (60 * 5) - 30 # 8 seconds - Use on 10s pre pull
 
-fight_path = f"{SLN_PATH}/fight.txt"
-encounter_path = f"{SLN_PATH}/encounters.json"
-jobs_path = f"{SLN_PATH}/game/roles/"
-
-matchesMelee = []
-matchesMage = []
-matchesOgcd = []
-
-halfSecondSpacer = "Half-Second"
-halfTenthSpacer = "Half-Tenth"
-
-ability_icons = {}
+half_second = "Half-Second"
+half_tenth = "Half-Tenth"
 
 def load_images(role, job):
     factory = window.factory
@@ -71,7 +68,7 @@ def load_actions(role, job):
             line = line.rstrip()
             if line == "oGCD":
                 continue
-            matchesOgcd.append(line)
+            is_ogcd.append(line)
 
     with open(f"{jobs_path}/{role}/{job}/actions.txt", 'r') as job_file:
         for line in job_file:
@@ -89,15 +86,15 @@ def load_actions(role, job):
                 isMelee = False
                 continue
             if isGCD == True and isMelee == True:
-                matchesMelee.append(line)
+                is_melee.append(line)
             if isGCD == True and isMelee == False:
-                matchesMage.append(line)
+                is_mage.append(line)
             if isGCD == False:
-                matchesOgcd.append(line)
+                is_ogcd.append(line)
 
-def load_encounter(wrld, file):
+def load_encounter(window, file):
     global actions
-    foreground.append(Entity(wrld, ability_icons["Activation"], activation_time, 0, 5, 50, (100,0,10,255)))
+    foreground.append(Entity(window, ability_icons["Activation"], activation_time, 0, 5, 50, (100,0,10,255)))
     
     with open(file) as encounter_file:
         for line in encounter_file:
@@ -107,34 +104,34 @@ def load_encounter(wrld, file):
     gcd_gap_index = 1
     timeline = 1
     while index < len(actions):
-        if any(x in actions[index] for x in matchesMelee):
+        if any(x in actions[index] for x in is_melee):
             timeline += 2.45
-            gcd_actions.append(Entity(wrld, ability_icons[actions[index]], (activation_time + countdown) + (timeline * move_speed), 5))
+            gcd_actions.append(Entity(window, ability_icons[actions[index]], (activation_time + countdown) + (timeline * move_speed), 5))
             index += 1
 
         if index < len(actions):
-            if any(x in actions[index] for x in matchesMage):
+            if any(x in actions[index] for x in is_mage):
                 timeline += 2.50
-                gcd_actions.append(Entity(wrld, ability_icons[actions[index]], (activation_time + countdown) + (timeline * move_speed), 5))
+                gcd_actions.append(Entity(window, ability_icons[actions[index]], (activation_time + countdown) + (timeline * move_speed), 5))
                 index += 1
 
         if index < len(actions):
-            if any(x in actions[index] for x in matchesOgcd):
-                ogcd_actions.append(Entity(wrld, ability_icons[actions[index]], (activation_time + countdown) + (timeline * move_speed) + 50, 5, 25, 25))
+            if any(x in actions[index] for x in is_ogcd):
+                ogcd_actions.append(Entity(window, ability_icons[actions[index]], (activation_time + countdown) + (timeline * move_speed) + 50, 5, 25, 25))
                 index += 1
 
         if index < len(actions):
-            if any(x in actions[index] for x in matchesOgcd):
-                ogcd_actions.append(Entity(wrld, ability_icons[actions[index]], (activation_time + countdown) + (timeline * move_speed) + 85, 5, 25, 25))
+            if any(x in actions[index] for x in is_ogcd):
+                ogcd_actions.append(Entity(window, ability_icons[actions[index]], (activation_time + countdown) + (timeline * move_speed) + 85, 5, 25, 25))
                 index += 1 
 
         if index < len(actions):
-            if actions[index] == halfSecondSpacer:
+            if actions[index] == half_second:
                 timeline += 0.5
                 index += 1
 
         if index < len(actions):
-            if actions[index] == halfTenthSpacer:
+            if actions[index] == half_tenth:
                 timeline += 0.05
                 index += 1       
 
@@ -158,8 +155,11 @@ def update(dt):
         if ogcd_actions[0].rect.x < -50:
             ogcd_actions.pop(0)
 
-load_images(ROLE, JOB)
-load_actions(ROLE, JOB)
-load_encounter(window, PARSE)
+def main():
+    load_images(ROLE, JOB)
+    load_actions(ROLE, JOB)
+    load_encounter(window, PARSE)
+    window.loop()
 
-window.loop()
+if __name__ == '__main__':
+    main()
