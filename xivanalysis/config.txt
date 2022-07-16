@@ -1,3 +1,5 @@
-1
-p4sp6
-N6nvcKYmQC2d3M4W
+Source ID: 1
+Encounter: p4sp6
+Get Reqeust: N6nvcKYmQC2d3M4W?start=1994517&end=2406988&translate=true
+Role: tank
+Job: pld

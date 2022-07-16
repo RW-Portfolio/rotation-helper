@@ -5,11 +5,11 @@ from engine import *
 #######################################
 
 ROLE = "tank"
-JOB = "war"
-ENCOUNTER = "p2s"
+JOB = "pld"
+ENCOUNTER = "p4sp6"
 
 PERFECT_PARSE = f"{SLN_PATH}/perfect/{ROLE}/{JOB}/{ENCOUNTER}.txt"
-XIV_PARSE = f"{XIV_PATH}/jobs/{ROLE}/{JOB}/parsed/{ENCOUNTER}.txt"
+XIV_PARSE = f"{XIV_PATH}/jobs/{ROLE}/{JOB}/{ENCOUNTER}.txt"
 
 PARSE = XIV_PARSE
 
