@@ -27,7 +27,8 @@ def main():
             config.append(text)
 
     sourceID = int(config[Flag.SOURCEID])
-    output_path = f"{XIV_PATH}/jobs/{config[Flag.ROLE]}/{config[Flag.JOB]}/{config[Flag.ENCOUNTER]}.txt"
+    action_output_path = f"{XIV_PATH}/jobs/{config[Flag.ROLE]}/{config[Flag.JOB]}/{config[Flag.ENCOUNTER]}.txt"
+    timing_output_path = f"{XIV_PATH}/jobs/{config[Flag.ROLE]}/{config[Flag.JOB]}/{config[Flag.ENCOUNTER]}-timings.txt"
     
     conn = http.client.HTTPSConnection("xivanalysis.com")
 
@@ -67,7 +68,7 @@ def main():
             actions.append(entry["ability"]["name"])
             actions.append(entry["timestamp"])
 
-    with open(output_path, 'w') as f:
+    with open(action_output_path, 'w') as f:
         for line in actions:
             f.write(f"{line}\n")
 
