@@ -6,7 +6,7 @@ from engine import *
 
 ROLE = "tank"
 JOB = "pld"
-ENCOUNTER = "p4sp6"
+ENCOUNTER = "p2s"
 
 PERFECT_PARSE = f"{SLN_PATH}/perfect/{ROLE}/{JOB}/{ENCOUNTER}.txt"
 XIV_PARSE = f"{XIV_PATH}/jobs/{ROLE}/{JOB}/{ENCOUNTER}.txt"
