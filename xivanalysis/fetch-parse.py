@@ -65,9 +65,11 @@ def main():
             not any(x in entry["ability"]["name"] for x in IGNORE_ACTION)
         ):    
             actions.append(entry["ability"]["name"])
+            actions.append(entry["timestamp"])
 
     with open(output_path, 'w') as f:
-        f.write('\n'.join(actions))
+        for line in actions:
+            f.write(f"{line}\n")
 
 if __name__ == '__main__':
     main()
