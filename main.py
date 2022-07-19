@@ -97,6 +97,7 @@ def load_actions(role, job):
                 is_ogcd.append(line)
 
 def load_timings(file):
+    global timings
     with open(f"{XIV_PATH}/jobs/{ROLE}/{JOB}/{ENCOUNTER}.txt") as timing_file:
         for line in timing_file:
             actions.append(line.rstrip())
@@ -105,13 +106,13 @@ def load_timings(file):
     while index < len(actions):
         if any(x in actions[index] for x in is_melee):
             index += 1  
-            timings.append(["melee" ,int(actions[index])/1000])
+            timings.append(["melee" ,int(actions[index])])
             index += 1  
 
         if index < len(actions):
             if any(x in actions[index] for x in is_mage):
                 index += 1
-                timings.append(["mage", int(actions[index])/1000])
+                timings.append(["mage", int(actions[index])])
                 index += 1    
 
         if index < len(actions):
@@ -122,28 +123,30 @@ def load_timings(file):
             if any(x in actions[index] for x in is_ogcd):
                 index += 2 
 
+    new = [x[1] / 1000 for x in timings]
+
+    for i in range (1, len(new)):
+        timings[i] = new[i] - new[i-1]
+    timings[0] = 2.45
+
 def load_encounter(window, file):
     global actions
     foreground.append(Entity(window, ability_icons["Activation"], activation_time, 0, 5, 50, (100,0,10,255)))
     
-    with open(file) as action_file:
-        for line in action_file:
-            actions.append(line.rstrip())
-
     del actions[1::2]
     index = 0
     timeline = 1
     while index < len(actions):
         if any(x in actions[index] for x in is_melee):
+            timeline += float(timings.pop(0))
             gcd_actions.append(Entity(window, ability_icons[actions[index]], (activation_time + countdown) + (timeline * move_speed), 5))
             index += 1
-            timeline += melee_gcd
 
         if index < len(actions):
             if any(x in actions[index] for x in is_mage):
+                timeline += float(timings.pop(0))
                 gcd_actions.append(Entity(window, ability_icons[actions[index]], (activation_time + countdown) + (timeline * move_speed), 5))
                 index += 1 
-                timeline += mage_gcd
 
         if index < len(actions):
             if any(x in actions[index] for x in is_ogcd):
