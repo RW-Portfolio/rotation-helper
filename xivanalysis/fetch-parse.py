@@ -1,5 +1,6 @@
 import http.client
 import json
+import os
 
 class Flag():
     SOURCEID = 0
@@ -10,7 +11,7 @@ class Flag():
 
 #  ONLY VARIABLES THAT NEED CHANGING in Config.txt  #
 #####################################################
-XIV_PATH = "C:/Users/Ryan/Documents/Git/rotation-helper/xivanalysis"
+XIV_PATH = f"{os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), os.pardir))}/xivanalysis"
 CONFIG_PATH = f"{XIV_PATH}/config.txt"
 IGNORE_ACTION = ["attack", "Iron Will", "Provoke", "Hallowed Ground", "Intervention", "Interject", "Shield Wall", "Stronghold", "Last Bastion", "Land Waker", "Dark Force", "Gunmetal Soul"]
 #####################################################
