@@ -127,15 +127,19 @@ def add_encounter_ogcd(index, timeline, position):
 def load_encounter(window):
     foreground.append(Entity(window, ability_icons["Activation"], ACTIVATION_TIME, 0, 5, 50, (100,0,10,255)))
     del actions[1::2]   
-
-    timeline = 1
-    index = 0
+    
+    index, timeline = 0, 1
     while index < len(actions):
         index, timeline = add_encounter_gcd(index, timeline, is_melee)
         index, timeline = add_encounter_gcd(index, timeline, is_mage)
         index = add_encounter_ogcd(index, timeline, 50)
         index = add_encounter_ogcd(index, timeline, 85)
 
+def remove_out_of_bounds_obj(action):
+    if action:
+        if action[0].rect.x < -50:
+            action.pop(0)
+            
 @window.draw
 def draw():
     [entity.draw() for entity in gcd_actions]
@@ -146,12 +150,8 @@ def draw():
 def update(dt):
     [entity.update(MOVE_SPEED * dt) for entity in gcd_actions]
     [entity.update(MOVE_SPEED * dt) for entity in ogcd_actions]
-    if gcd_actions:
-        if gcd_actions[0].rect.x < -50:
-            gcd_actions.pop(0)
-    if ogcd_actions:
-        if ogcd_actions[0].rect.x < -50:
-            ogcd_actions.pop(0)
+    remove_out_of_bounds_obj(gcd_actions)
+    remove_out_of_bounds_obj(ogcd_actions)
 
 def main():
     load_images(ROLE, JOB)
