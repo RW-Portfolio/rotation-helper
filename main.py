@@ -42,37 +42,23 @@ def load_images(role, job):
     load_images_from_txt(f"{role}/{job}")
 
 def load_actions(role, job):
-    isGCD = False
-    isMelee = False
-
     with open(f"{JOBS_PATH}/{role}/actions.txt", 'r') as role_file:
-        for line in role_file:
-            line = line.rstrip()
-            if line == "oGCD":
-                continue
-            is_ogcd.append(line)
-
+        for line in role_file:            
+            if line.rstrip() != "oGCD":
+                is_ogcd.append(line.rstrip())  
+        
+    isMelee, isGCD = False, False
     with open(f"{JOBS_PATH}/{role}/{job}/actions.txt", 'r') as job_file:
         for line in job_file:
             line = line.rstrip()
-            if line == "GCD":
-                isGCD = True
-                continue
-            if line == "oGCD":
-                isGCD = False
-                continue
-            if line == "Melee":
-                isMelee = True
-                continue
-            if line == "Mage":
-                isMelee = False
-                continue
-            if isGCD == True and isMelee == True:
-                is_melee.append(line)
-            if isGCD == True and isMelee == False:
-                is_mage.append(line)
-            if isGCD == False:
-                is_ogcd.append(line)
+            if line == "GCD":   isGCD = True
+            if line == "oGCD":  isGCD = False
+            if line == "Melee": isMelee = True
+            if line == "Mage":  isMelee = False
+
+            if isGCD == True and isMelee == True:   is_melee.append(line)
+            if isGCD == True and isMelee == False:  is_mage.append(line)
+            if isGCD == False:                      is_ogcd.append(line)
 
 def add_timings_gcd(index, cast_type):
     if index < len(actions):
