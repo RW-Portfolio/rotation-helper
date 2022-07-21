@@ -1,4 +1,3 @@
-from operator import index
 from engine import *
 
 #  ONLY VARIABLES THAT NEED CHANGING  #
