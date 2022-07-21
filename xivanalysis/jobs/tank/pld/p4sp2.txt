@@ -1,279 +1,538 @@
-Holy Spirit
+Intervene
+1571128
 Fast Blade
-Fight or Flight
-Riot Blade
-Goring Blade
-Fast Blade
-Medicated
-Riot Blade
-Expiacion
+1571927
 Circle of Scorn
-Royal Authority
+1572638
+Expiacion
+1573307
+Riot Blade
+1574331
 Requiescat
+1574998
 Intervene
-Atonement
-Intervene
-Holy Sheltron
-Atonement
-Atonement
-Fast Blade
-Riot Blade
+1575666
 Goring Blade
+1576782
 Holy Spirit
-Holy Spirit
-Holy Spirit
-Holy Spirit
+1579188
 Reprisal
-Holy Sheltron
+1580837
+Holy Spirit
+1581685
+Holy Spirit
+1584172
+Holy Spirit
+1586708
 Confiteor
-Expiacion
-Circle of Scorn
+1589198
 Blade of Faith
+1591779
 Blade of Truth
+1594274
 Blade of Valor
+1596766
 Fast Blade
+1599300
 Riot Blade
+1601701
+Circle of Scorn
+1602633
+Expiacion
+1603302
+Royal Authority
+1604147
+Atonement
+1606595
+Atonement
+1609000
+Fast Blade
+1611450
+Fight or Flight
+1613142
+Riot Blade
+1613853
+Intervene
+1614654
+Goring Blade
+1616343
+Fast Blade
+1618746
+Riot Blade
+1621190
+Royal Authority
+1623600
+Atonement
+1626053
 Rampart
-Royal Authority
+1626718
 Atonement
-Atonement
-Fast Blade
-Fight or Flight
-Riot Blade
-Intervene
-Holy Sheltron
-Goring Blade
-Fast Blade
-Riot Blade
-Expiacion
-Circle of Scorn
-Royal Authority
-Requiescat
-Intervene
-Atonement
-Atonement
-Atonement
-Fast Blade
+1628538
 Sentinel
-Riot Blade
-Goring Blade
-Holy Sheltron
-Holy Spirit
-Divine Veil
-Holy Spirit
-Holy Spirit
-Holy Spirit
-Confiteor
-Expiacion
-Blade of Faith
-Circle of Scorn
-Blade of Truth
-Blade of Valor
-Fast Blade
-Holy Sheltron
-Riot Blade
-Royal Authority
+1629473
 Atonement
-Atonement
-Reprisal
-Fast Blade
-Fight or Flight
-Riot Blade
+1630942
 Intervene
-Goring Blade
+1632056
 Fast Blade
-Riot Blade
-Expiacion
+1633391
 Circle of Scorn
-Royal Authority
+1634191
+Expiacion
+1634904
+Riot Blade
+1635794
 Requiescat
-Intervene
-Atonement
-Atonement
-Atonement
-Fast Blade
-Riot Blade
+1636462
 Goring Blade
+1638238
+Holy Sheltron
+1638904
 Holy Spirit
+1640684
 Holy Spirit
+1643219
 Holy Spirit
+1645711
 Holy Spirit
+1648205
 Confiteor
+1650695
 Blade of Faith
-Expiacion
-Circle of Scorn
+1653189
 Blade of Truth
+1655683
+Divine Veil
+1656353
+Blade of Valor
+1658217
+Fast Blade
+1660712
+Riot Blade
+1663162
+Circle of Scorn
+1664187
+Expiacion
+1664902
+Royal Authority
+1665572
+Atonement
+1668066
+Atonement
+1670466
+Fast Blade
+1672913
+Fight or Flight
+1674605
+Riot Blade
+1675406
+Goring Blade
+1677809
+Fast Blade
+1680212
+Sprint
+1681104
+Riot Blade
+1682663
+Holy Spirit
+1686051
+Intervene
+1686675
+Royal Authority
+1687609
+Atonement
+1690015
+Atonement
+1692464
+Intervene
+1693666
+Fast Blade
+1694868
+Circle of Scorn
+1695493
+Expiacion
+1696205
+Riot Blade
+1697320
+Reprisal
+1698033
+Requiescat
+1698701
+Goring Blade
+1699814
+Holy Spirit
+1702215
+Holy Spirit
+1704708
+Holy Spirit
+1707204
+Holy Spirit
+1709699
+Confiteor
+1712231
+Blade of Faith
+1714721
+Blade of Truth
+1717258
+Blade of Valor
+1719750
+Fast Blade
+1722243
+Riot Blade
+1724689
+Circle of Scorn
+1725536
+Expiacion
+1726203
+Royal Authority
+1727137
+Atonement
+1729585
+Atonement
+1731991
+Fast Blade
+1734480
+Fight or Flight
+1735951
+Riot Blade
+1736885
 Arm's Length
-Blade of Valor
+1737908
+Goring Blade
+1739287
+Fast Blade
+1741734
+Riot Blade
+1744229
+Intervene
+1745742
+Royal Authority
+1746675
 Rampart
-Fast Blade
-Riot Blade
-Royal Authority
+1747698
 Atonement
-Atonement
-Holy Sheltron
-Fast Blade
-Fight or Flight
-Riot Blade
-Intervene
-Goring Blade
-Fast Blade
-Riot Blade
-Intervene
-Expiacion
-Royal Authority
-Circle of Scorn
-Atonement
-Requiescat
-Atonement
-Holy Sheltron
-Atonement
-Fast Blade
-Riot Blade
-Holy Sheltron
-Goring Blade
-Holy Spirit
-Holy Spirit
-Holy Spirit
-Reprisal
-Holy Spirit
-Confiteor
-Expiacion
-Blade of Faith
-Circle of Scorn
-Blade of Truth
-Blade of Valor
-Fast Blade
-Riot Blade
-Royal Authority
-Atonement
-Intervene
-Atonement
-Fast Blade
-Fight or Flight
-Riot Blade
-Goring Blade
-Fast Blade
-Expiacion
-Intervene
-Riot Blade
-Divine Veil
-Circle of Scorn
-Royal Authority
-Requiescat
-Atonement
-Rampart
-Atonement
-Atonement
-Fast Blade
-Riot Blade
-Passage of Arms
-Goring Blade
-Holy Spirit
-Holy Spirit
-Holy Spirit
-Holy Spirit
-Expiacion
-Confiteor
-Reprisal
-Blade of Faith
-Circle of Scorn
-Blade of Truth
-Blade of Valor
-Fast Blade
-Riot Blade
-Royal Authority
-Holy Sheltron
-Atonement
-Atonement
-Fast Blade
-Fight or Flight
-Riot Blade
-Goring Blade
-Holy Sheltron
-Fast Blade
-Medicated
-Riot Blade
-Expiacion
-Intervene
-Royal Authority
-Circle of Scorn
-Requiescat
-Atonement
-Intervene
-Atonement
-Atonement
-Fast Blade
-Riot Blade
-Goring Blade
-Holy Sheltron
-Holy Spirit
-Holy Spirit
-Holy Spirit
-Holy Spirit
-Confiteor
+1749078
 Sentinel
+1749837
+Atonement
+1751486
 Holy Sheltron
-Blade of Faith
-Expiacion
+1753275
+Atonement
+1753987
+Intervene
+1755632
+Fast Blade
+1756434
 Circle of Scorn
-Blade of Truth
-Blade of Valor
+1757905
+Riot Blade
+1758887
+Expiacion
+1759601
+Goring Blade
+1761558
+Requiescat
+1762851
+Holy Spirit
+1763964
+Holy Spirit
+1766456
+Holy Spirit
+1768993
 Shirk
-Fast Blade
-Reprisal
-Riot Blade
-Royal Authority
-Atonement
-Atonement
-Fast Blade
-Fight or Flight
-Riot Blade
-Intervene
-Goring Blade
-Fast Blade
-Riot Blade
-Expiacion
-Royal Authority
-Requiescat
-Circle of Scorn
-Atonement
-Atonement
-Atonement
-Intervene
-Fast Blade
-Riot Blade
-Goring Blade
+1770598
 Holy Spirit
-Divine Veil
-Holy Spirit
-Holy Spirit
-Holy Spirit
+1771531
 Confiteor
-Rampart
+1774030
 Blade of Faith
-Expiacion
-Circle of Scorn
+1776522
 Blade of Truth
+1779015
 Blade of Valor
+1781509
+Holy Sheltron
+1782223
 Fast Blade
-Riot Blade
+1784007
 Reprisal
-Royal Authority
-Atonement
-Atonement
-Fast Blade
-Passage of Arms
+1785031
 Riot Blade
-Fight or Flight
-Goring Blade
-Intervene
-Atonement
-Expiacion
-Requiescat
-Holy Spirit
+1786453
 Circle of Scorn
+1787877
+Royal Authority
+1788902
+Expiacion
+1789615
+Atonement
+1791353
+Atonement
+1793760
+Divine Veil
+1794427
+Fast Blade
+1796212
+Fight or Flight
+1797946
+Riot Blade
+1798658
 Intervene
+1799324
+Goring Blade
+1801062
+Fast Blade
+1803513
+Riot Blade
+1805963
+Royal Authority
+1808364
+Atonement
+1810858
+Atonement
+1813266
 Holy Spirit
+1816652
+Intervene
+1817275
+Fast Blade
+1818254
+Circle of Scorn
+1818966
+Expiacion
+1819812
+Riot Blade
+1820661
+Requiescat
+1822840
+Goring Blade
+1823551
 Holy Spirit
+1825958
+Holy Spirit
+1828496
+Holy Spirit
+1830990
+Holy Spirit
+1833483
 Confiteor
+1835976
+Blade of Faith
+1838469
+Blade of Truth
+1840963
+Blade of Valor
+1843462
+Reprisal
+1845022
+Fast Blade
+1845960
+Riot Blade
+1848409
+Circle of Scorn
+1849036
+Expiacion
+1849792
+Royal Authority
+1850865
+Atonement
+1853270
+Atonement
+1855724
+Passage of Arms
+1856702
+Fast Blade
+1858171
+Fight or Flight
+1859728
+Riot Blade
+1860577
+Intervene
+1861467
+Goring Blade
+1863026
+Fast Blade
+1865468
+Riot Blade
+1867875
+Royal Authority
+1870324
+Intervene
+1871843
+Atonement
+1872779
+Atonement
+1875228
+Atonement
+1877635
+Circle of Scorn
+1879061
+Fast Blade
+1880084
+Expiacion
+1880842
+Riot Blade
+1882490
+Requiescat
+1883157
+Goring Blade
+1884939
+Holy Spirit
+1887390
+Holy Spirit
+1889889
+Holy Spirit
+1892385
+Holy Spirit
+1894883
+Confiteor
+1897388
+Blade of Faith
+1899885
+Blade of Truth
+1902387
+Blade of Valor
+1904885
+Fast Blade
+1907385
+Circle of Scorn
+1909217
+Riot Blade
+1909885
+Rampart
+1910510
+Expiacion
+1911135
+Royal Authority
+1912298
+Sentinel
+1913101
+Atonement
+1914711
+Atonement
+1917167
+Reprisal
+1918014
+Fast Blade
+1919621
+Fight or Flight
+1921228
+Riot Blade
+1922032
+Holy Sheltron
+1922880
+Goring Blade
+1924442
+Intervene
+1925157
+Fast Blade
+1926899
+Riot Blade
+1929353
+Royal Authority
+1931810
+Intervene
+1932970
+Atonement
+1934223
+Atonement
+1936634
+Atonement
+1939093
+Circle of Scorn
+1939719
+Fast Blade
+1941549
+Expiacion
+1942175
+Requiescat
+1943155
+Riot Blade
+1943960
+Goring Blade
+1946411
+Holy Spirit
+1948822
+Divine Veil
+1950338
+Holy Spirit
+1951320
+Medicated
+1952524
+Holy Spirit
+1953859
+Holy Spirit
+1956397
+Confiteor
+1958892
+Blade of Faith
+1961390
+Blade of Truth
+1963845
+Blade of Valor
+1966390
+Fast Blade
+1968893
+Circle of Scorn
+1969741
+Riot Blade
+1971302
+Expiacion
+1972196
+Royal Authority
+1973758
+Atonement
+1976172
+Atonement
+1978627
+Fast Blade
+1981035
+Fight or Flight
+1982688
+Riot Blade
+1983492
+Sprint
+1984655
+Goring Blade
+1985905
+Intervene
+1986622
+Fast Blade
+1988360
+Holy Spirit
+1991751
+Intervene
+1992642
+Riot Blade
+1993270
+Royal Authority
+1995722
+Atonement
+1998130
+Circle of Scorn
+1999736
+Atonement
+2000586
+Expiacion
+2002190
+Fast Blade
+2003037
+Requiescat
+2004332
+Riot Blade
+2005446
+Reprisal
+2006160
+Goring Blade
+2007897
+Passage of Arms
+2008523
+Holy Spirit
+2010352
+Holy Spirit
+2012848
+Confiteor
+2015348
+Blade of Faith
+2017846
