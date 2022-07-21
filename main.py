@@ -1,3 +1,4 @@
+from operator import index
 from engine import *
 
 #  ONLY VARIABLES THAT NEED CHANGING  #
@@ -28,18 +29,16 @@ timings = []
 types = ["GCD", "oGCD", "Melee", "Mage"]
 
 def load_images_from_txt(file_loc):
-    factory = window.factory
     with open(f"{JOBS_PATH}/{file_loc}/actions.txt") as role_file:
         for line in role_file:
             if any(x in line for x in types):
                 continue
             image_name = line.replace(" ", "_").strip('\n')
             image_name += ".png"           
-            ability_icons[line.strip('\n')] = factory.from_image(f"{SLN_PATH}/resources/{file_loc}/{image_name}")
+            ability_icons[line.strip('\n')] = window.factory.from_image(f"{SLN_PATH}/resources/{file_loc}/{image_name}")
 
 def load_images(role, job):
-    factory = window.factory
-    ability_icons["Activation"] = factory.from_image(f"{SLN_PATH}/resources/Activation.png")
+    ability_icons["Activation"] = window.factory.from_image(f"{SLN_PATH}/resources/Activation.png")
     load_images_from_txt(f"{role}")
     load_images_from_txt(f"{role}/{job}")
 
@@ -77,7 +76,6 @@ def load_actions(role, job):
                 is_ogcd.append(line)
 
 def load_timings(file):
-    global timings
     with open(f"{XIV_PATH}/jobs/{ROLE}/{JOB}/{ENCOUNTER}.txt") as timing_file:
         for line in timing_file:
             actions.append(line.rstrip())
@@ -86,13 +84,13 @@ def load_timings(file):
     while index < len(actions):
         if any(x in actions[index] for x in is_melee):
             index += 1  
-            timings.append(["melee" ,int(actions[index])])
+            timings.append(int(actions[index]))
             index += 1  
 
         if index < len(actions):
             if any(x in actions[index] for x in is_mage):
                 index += 1
-                timings.append(["mage", int(actions[index])])
+                timings.append(int(actions[index]))
                 index += 1    
 
         if index < len(actions):
@@ -103,40 +101,40 @@ def load_timings(file):
             if any(x in actions[index] for x in is_ogcd):
                 index += 2 
 
-    new = [x[1] / 1000 for x in timings]
+    converted_to_seconds = [x / 1000 for x in timings]
 
-    for i in range (1, len(new)):
-        timings[i] = new[i] - new[i-1]
+    for i in range (1, len(converted_to_seconds)):
+        timings[i] = converted_to_seconds[i] - converted_to_seconds[i-1]
     timings[0] = 2.45
 
-def load_encounter(window, file):
-    global actions
-    foreground.append(Entity(window, ability_icons["Activation"], ACTIVATION_TIME, 0, 5, 50, (100,0,10,255)))
-    
-    del actions[1::2]
-    index = 0
-    timeline = 1
-    while index < len(actions):
-        if any(x in actions[index] for x in is_melee):
-            timeline += float(timings.pop(0))
-            gcd_actions.append(Entity(window, ability_icons[actions[index]], (ACTIVATION_TIME + COUNDOWN) + (timeline * MOVE_SPEED), 5))
-            index += 1
-
-        if index < len(actions):
-            if any(x in actions[index] for x in is_mage):
+def add_encounter_gcd(index, timeline, cast_type):
+    if index < len(actions):
+            if any(x in actions[index] for x in cast_type):
                 timeline += float(timings.pop(0))
                 gcd_actions.append(Entity(window, ability_icons[actions[index]], (ACTIVATION_TIME + COUNDOWN) + (timeline * MOVE_SPEED), 5))
                 index += 1 
+                return index, timeline
+    return index, timeline
 
-        if index < len(actions):
-            if any(x in actions[index] for x in is_ogcd):
-                ogcd_actions.append(Entity(window, ability_icons[actions[index]], (ACTIVATION_TIME + COUNDOWN) + (timeline * MOVE_SPEED) + 50, 5, 25, 25))
-                index += 1
+def add_encounter_ogcd(index, timeline, position):
+    if index < len(actions):
+        if any(x in actions[index] for x in is_ogcd):
+            ogcd_actions.append(Entity(window, ability_icons[actions[index]], (ACTIVATION_TIME + COUNDOWN) + (timeline * MOVE_SPEED) + position, 5, 25, 25))
+            index += 1
+            return index
+    return index
 
-        if index < len(actions):
-            if any(x in actions[index] for x in is_ogcd):
-                ogcd_actions.append(Entity(window, ability_icons[actions[index]], (ACTIVATION_TIME + COUNDOWN) + (timeline * MOVE_SPEED) + 85, 5, 25, 25))
-                index += 1 
+def load_encounter(window):
+    foreground.append(Entity(window, ability_icons["Activation"], ACTIVATION_TIME, 0, 5, 50, (100,0,10,255)))
+    del actions[1::2]   
+
+    timeline = 1
+    index = 0
+    while index < len(actions):
+        index, timeline = add_encounter_gcd(index, timeline, is_melee)
+        index, timeline = add_encounter_gcd(index, timeline, is_mage)
+        index = add_encounter_ogcd(index, timeline, 50)
+        index = add_encounter_ogcd(index, timeline, 85)
 
 @window.draw
 def draw():
@@ -159,7 +157,7 @@ def main():
     load_images(ROLE, JOB)
     load_actions(ROLE, JOB)
     load_timings(PARSE)
-    load_encounter(window, PARSE)
+    load_encounter(window)
     window.loop()
 
 if __name__ == '__main__':
