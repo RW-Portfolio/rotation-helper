@@ -1,6 +1,5 @@
 import sdl2
 import sdl2.ext
-import constants
 
 class Engine:
     def __init__(self, title = "Rotation Helper", width = 588, height = 50, colour = (15,15,15,255)) -> None:
