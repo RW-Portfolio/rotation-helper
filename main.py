@@ -1,5 +1,4 @@
 import csv
-from re import I
 from engine import *
 
 #  ONLY VARIABLES THAT NEED CHANGING  #
@@ -20,7 +19,6 @@ window = Engine()
 actions = []
 gcd_actions = []
 ogcd_actions = []
-background = []
 foreground = []
 ability_icons = {}
 
@@ -28,53 +26,38 @@ is_melee = []
 is_mage = []
 is_ogcd = []
 
-fight_path = f"{SLN_PATH}/fight.txt"
-encounter_path = f"{SLN_PATH}/encounters.json"
-jobs_path = f"{SLN_PATH}/game/roles/"
-
-move_speed = 60 # 60 == 1s
-melee_gcd = 2.45
-melee_gcd_gap = move_speed * melee_gcd
-mage_gcd = 2.50
-mage_gcd_gap = move_speed * mage_gcd
-
-activation_time = 100
-countdown = (60 * 5) - 30 # 8 seconds - Use on 10s pre pull
-
-half_second = "Half-Second"
-half_tenth = "Half-Tenth"
-
-gcd_times = []
 timings = []
+
+types = ["GCD", "oGCD", "Melee", "Mage"]
+
+def load_images_from_txt(file_loc):
+    factory = window.factory
+    with open(f"{JOBS_PATH}/{file_loc}/actions.txt") as role_file:
+        for line in role_file:
+            if any(x in line for x in types):
+                continue
+            image_name = line.replace(" ", "_").strip('\n')
+            image_name += ".png"           
+            ability_icons[line.strip('\n')] = factory.from_image(f"{SLN_PATH}/resources/{file_loc}/{image_name}")
 
 def load_images(role, job):
     factory = window.factory
     ability_icons["Activation"] = factory.from_image(f"{SLN_PATH}/resources/Activation.png")
-
-    with open(f"{jobs_path}/{role}/icon_map.csv") as role_file:
-        next(role_file)
-        csv_reader = csv.reader(role_file, delimiter=',')
-        for row in csv_reader:
-                ability_icons[row[0]] = factory.from_image(f"{SLN_PATH}/resources/{role}/{row[1]}")
-    
-    with open(f"{jobs_path}/{role}/{job}/icon_map.csv") as job_file:
-        next(job_file)
-        csv_reader = csv.reader(job_file, delimiter=',')
-        for row in csv_reader:
-            ability_icons[row[0]] = factory.from_image(f"{SLN_PATH}/resources/{role}/{job}/{row[1]}")
+    load_images_from_txt(f"{role}")
+    load_images_from_txt(f"{role}/{job}")
 
 def load_actions(role, job):
     isGCD = False
     isMelee = False
 
-    with open(f"{jobs_path}/{role}/actions.txt", 'r') as role_file:
+    with open(f"{JOBS_PATH}/{role}/actions.txt", 'r') as role_file:
         for line in role_file:
             line = line.rstrip()
             if line == "oGCD":
                 continue
             is_ogcd.append(line)
 
-    with open(f"{jobs_path}/{role}/{job}/actions.txt", 'r') as job_file:
+    with open(f"{JOBS_PATH}/{role}/{job}/actions.txt", 'r') as job_file:
         for line in job_file:
             line = line.rstrip()
             if line == "GCD":
@@ -131,7 +114,7 @@ def load_timings(file):
 
 def load_encounter(window, file):
     global actions
-    foreground.append(Entity(window, ability_icons["Activation"], activation_time, 0, 5, 50, (100,0,10,255)))
+    foreground.append(Entity(window, ability_icons["Activation"], ACTIVATION_TIME, 0, 5, 50, (100,0,10,255)))
     
     del actions[1::2]
     index = 0
@@ -139,36 +122,35 @@ def load_encounter(window, file):
     while index < len(actions):
         if any(x in actions[index] for x in is_melee):
             timeline += float(timings.pop(0))
-            gcd_actions.append(Entity(window, ability_icons[actions[index]], (activation_time + countdown) + (timeline * move_speed), 5))
+            gcd_actions.append(Entity(window, ability_icons[actions[index]], (ACTIVATION_TIME + COUNDOWN) + (timeline * MOVE_SPEED), 5))
             index += 1
 
         if index < len(actions):
             if any(x in actions[index] for x in is_mage):
                 timeline += float(timings.pop(0))
-                gcd_actions.append(Entity(window, ability_icons[actions[index]], (activation_time + countdown) + (timeline * move_speed), 5))
+                gcd_actions.append(Entity(window, ability_icons[actions[index]], (ACTIVATION_TIME + COUNDOWN) + (timeline * MOVE_SPEED), 5))
                 index += 1 
 
         if index < len(actions):
             if any(x in actions[index] for x in is_ogcd):
-                ogcd_actions.append(Entity(window, ability_icons[actions[index]], (activation_time + countdown) + (timeline * move_speed) + 50, 5, 25, 25))
+                ogcd_actions.append(Entity(window, ability_icons[actions[index]], (ACTIVATION_TIME + COUNDOWN) + (timeline * MOVE_SPEED) + 50, 5, 25, 25))
                 index += 1
 
         if index < len(actions):
             if any(x in actions[index] for x in is_ogcd):
-                ogcd_actions.append(Entity(window, ability_icons[actions[index]], (activation_time + countdown) + (timeline * move_speed) + 85, 5, 25, 25))
+                ogcd_actions.append(Entity(window, ability_icons[actions[index]], (ACTIVATION_TIME + COUNDOWN) + (timeline * MOVE_SPEED) + 85, 5, 25, 25))
                 index += 1 
 
 @window.draw
 def draw():
-    [entity.draw() for entity in background]
     [entity.draw() for entity in gcd_actions]
     [entity.draw() for entity in ogcd_actions]
     [entity.draw() for entity in foreground]
 
 @window.update
 def update(dt):
-    [entity.update(move_speed * dt) for entity in gcd_actions]
-    [entity.update(move_speed * dt) for entity in ogcd_actions]
+    [entity.update(MOVE_SPEED * dt) for entity in gcd_actions]
+    [entity.update(MOVE_SPEED * dt) for entity in ogcd_actions]
     if gcd_actions:
         if gcd_actions[0].rect.x < -50:
             gcd_actions.pop(0)
