@@ -5,7 +5,7 @@ from engine import *
 #######################################
 ROLE = "tank"
 JOB = "pld"
-ENCOUNTER = "p4sp2"
+ENCOUNTER = "p3s"
 
 PERFECT_PARSE = f"{SLN_PATH}/perfect/{ROLE}/{JOB}/{ENCOUNTER}.txt"
 XIV_PARSE = f"{XIV_PATH}/jobs/{ROLE}/{JOB}/{ENCOUNTER}.txt"
@@ -75,6 +75,22 @@ def load_actions(role, job):
             if isGCD == False:
                 is_ogcd.append(line)
 
+def add_timings_gcd(index, cast_type):
+    if index < len(actions):
+        if any(x in actions[index] for x in cast_type):
+            index += 1
+            timings.append(int(actions[index]) / 1000)
+            index += 1 
+            return index
+    return index
+
+def add_timings_ogcd(index):
+    if index < len(actions):
+        if any(x in actions[index] for x in is_ogcd):
+            index += 2
+            return index
+    return index
+
 def load_timings(file):
     with open(f"{XIV_PATH}/jobs/{ROLE}/{JOB}/{ENCOUNTER}.txt") as timing_file:
         for line in timing_file:
@@ -82,30 +98,13 @@ def load_timings(file):
 
     index = 0
     while index < len(actions):
-        if any(x in actions[index] for x in is_melee):
-            index += 1  
-            timings.append(int(actions[index]))
-            index += 1  
+        index = add_timings_gcd(index, is_melee)
+        index = add_timings_gcd(index, is_mage)
+        index = add_timings_ogcd(index)
+        index = add_timings_ogcd(index)
 
-        if index < len(actions):
-            if any(x in actions[index] for x in is_mage):
-                index += 1
-                timings.append(int(actions[index]))
-                index += 1    
-
-        if index < len(actions):
-            if any(x in actions[index] for x in is_ogcd):
-                index += 2
-
-        if index < len(actions):
-            if any(x in actions[index] for x in is_ogcd):
-                index += 2 
-
-    converted_to_seconds = [x / 1000 for x in timings]
-
-    for i in range (1, len(converted_to_seconds)):
-        timings[i] = converted_to_seconds[i] - converted_to_seconds[i-1]
-    timings[0] = 2.45
+    for i in range (1, len(timings)):
+        timings[i-1] = timings[i] - timings[i-1]
 
 def add_encounter_gcd(index, timeline, cast_type):
     if index < len(actions):
@@ -139,7 +138,7 @@ def remove_out_of_bounds_obj(action):
     if action:
         if action[0].rect.x < -50:
             action.pop(0)
-            
+
 @window.draw
 def draw():
     [entity.draw() for entity in gcd_actions]
