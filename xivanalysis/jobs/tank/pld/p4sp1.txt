@@ -1,234 +1,470 @@
 Holy Spirit
+216911
 Intervene
+217581
 Fast Blade
+218471
 Requiescat
+219229
 Circle of Scorn
+219939
 Riot Blade
+220922
 Expiacion
+221771
 Intervene
+222527
 Goring Blade
+223326
 Divine Veil
+224042
 Holy Spirit
-Reprisal
+225737
 Holy Spirit
-Passage of Arms
+228235
 Holy Spirit
+230728
 Holy Spirit
+233228
 Confiteor
-Blade of Faith
-Blade of Truth
-Blade of Valor
-Fast Blade
-Riot Blade
-Circle of Scorn
-Royal Authority
-Expiacion
-Atonement
-Atonement
-Fast Blade
-Fight or Flight
-Riot Blade
-Intervene
-Goring Blade
-Fast Blade
-Riot Blade
-Royal Authority
-Atonement
-Atonement
-Atonement
-Intervene
-Requiescat
-Fast Blade
-Circle of Scorn
-Expiacion
-Riot Blade
-Goring Blade
-Holy Spirit
+235727
 Reprisal
-Rampart
+236485
+Passage of Arms
+237241
+Blade of Faith
+238265
+Blade of Truth
+240761
+Blade of Valor
+243258
+Fast Blade
+245753
+Riot Blade
+248204
+Circle of Scorn
+249946
+Royal Authority
+250790
+Expiacion
+251769
+Atonement
+253197
+Atonement
+255606
+Fast Blade
+258014
+Fight or Flight
+259796
+Riot Blade
+260600
+Goring Blade
+263005
+Fast Blade
+265410
+Riot Blade
+267860
+Royal Authority
+270263
+Atonement
+272711
+Atonement
+275117
+Intervene
+276407
+Atonement
+277565
+Fast Blade
+279968
+Requiescat
+280726
+Circle of Scorn
+281484
+Riot Blade
+282422
+Expiacion
+283267
+Intervene
+284027
+Goring Blade
+284826
 Holy Spirit
+287235
+Holy Spirit
+289778
+Holy Spirit
+292279
+Holy Spirit
+294775
+Confiteor
+297271
 Sentinel
-Holy Spirit
-Holy Spirit
-Confiteor
+298028
 Holy Sheltron
+298741
 Blade of Faith
+299769
 Blade of Truth
+302262
 Blade of Valor
+304802
+Fast Blade
+307299
+Riot Blade
+309707
+Circle of Scorn
+311490
+Royal Authority
+312247
+Expiacion
+313274
 Shirk
-Fast Blade
-Riot Blade
-Circle of Scorn
-Royal Authority
-Expiacion
+314030
 Atonement
+314790
 Atonement
+317200
 Fast Blade
+319609
 Fight or Flight
+321394
 Riot Blade
+322197
 Intervene
+323400
 Goring Blade
+324602
+Fast Blade
+327055
 Divine Veil
-Fast Blade
+327900
 Riot Blade
+329461
 Royal Authority
+331870
 Atonement
+334323
 Atonement
+336728
+Holy Sheltron
+337886
 Atonement
+339179
 Requiescat
-Circle of Scorn
+340830
 Fast Blade
+341631
 Intervene
-Expiacion
+342523
 Riot Blade
+344041
+Circle of Scorn
+344797
+Expiacion
+345600
 Goring Blade
+346492
 Holy Spirit
-Sprint
+348896
 Holy Spirit
+351390
+Holy Sheltron
+352369
 Holy Spirit
+353884
 Holy Spirit
+356422
 Confiteor
+358917
 Blade of Faith
+361411
 Blade of Truth
+363904
 Blade of Valor
+366398
+Rampart
+367201
 Fast Blade
-Circle of Scorn
+368935
+Holy Sheltron
+370494
 Riot Blade
-Expiacion
+371384
 Royal Authority
+373789
+Circle of Scorn
+374768
+Expiacion
+375617
 Atonement
+376330
 Atonement
-Reprisal
+378782
 Fast Blade
-Passage of Arms
+381233
 Fight or Flight
+383150
 Riot Blade
-Intervene
+383953
 Goring Blade
+386402
+Intervene
+387783
 Fast Blade
+388851
 Riot Blade
+391260
 Royal Authority
+393666
+Holy Sheltron
+394424
 Atonement
+396076
 Atonement
-Intervene
+398574
+Atonement
+400979
 Requiescat
-Atonement
-Circle of Scorn
+401733
 Fast Blade
-Expiacion
+403384
+Intervene
+404140
 Riot Blade
+405790
+Circle of Scorn
+406595
+Expiacion
+407354
 Goring Blade
+408197
 Holy Spirit
+410648
 Holy Spirit
+413143
 Holy Spirit
+415632
 Holy Spirit
-Confiteor
+418171
 Divine Veil
-Blade of Faith
-Blade of Truth
-Blade of Valor
-Fast Blade
-Circle of Scorn
-Riot Blade
-Expiacion
-Royal Authority
-Atonement
-Atonement
-Fast Blade
-Fight or Flight
-Riot Blade
-Intervene
-Goring Blade
-Fast Blade
-Riot Blade
-Royal Authority
-Reprisal
-Atonement
-Intervene
-Atonement
-Requiescat
-Circle of Scorn
-Atonement
-Expiacion
-Fast Blade
-Riot Blade
-Goring Blade
-Holy Spirit
-Holy Spirit
-Holy Spirit
-Holy Spirit
+419106
 Confiteor
-Blade of Faith
-Blade of Truth
-Blade of Valor
-Circle of Scorn
-Fast Blade
-Expiacion
-Riot Blade
-Royal Authority
-Atonement
-Atonement
-Fast Blade
-Fight or Flight
-Riot Blade
-Intervene
-Goring Blade
-Fast Blade
-Riot Blade
-Royal Authority
-Intervene
-Atonement
-Requiescat
-Atonement
-Circle of Scorn
-Atonement
-Expiacion
-Fast Blade
-Riot Blade
-Goring Blade
-Holy Spirit
-Holy Spirit
+420711
 Reprisal
-Holy Spirit
+421469
+Blade of Faith
+423205
+Blade of Truth
+425699
+Blade of Valor
+428195
+Fast Blade
+430688
+Riot Blade
+433098
+Royal Authority
+435585
+Circle of Scorn
+436565
+Expiacion
+437322
+Atonement
+438080
+Atonement
+440531
+Fast Blade
+442983
+Fight or Flight
+444452
+Riot Blade
+445388
 Passage of Arms
-Holy Spirit
-Confiteor
-Blade of Faith
-Blade of Truth
-Blade of Valor
-Circle of Scorn
+446145
+Intervene
+446900
+Goring Blade
+447790
 Fast Blade
-Expiacion
+450241
 Riot Blade
+452694
+Royal Authority
+455095
+Atonement
+457497
+Intervene
+458295
+Atonement
+459936
+Atonement
+462339
+Requiescat
+463138
+Fast Blade
+464784
+Riot Blade
+467190
+Circle of Scorn
+467991
+Expiacion
+468837
+Goring Blade
+469639
+Holy Spirit
+472089
+Holy Spirit
+474581
+Holy Spirit
+477070
+Holy Spirit
+479607
+Confiteor
+482099
+Blade of Faith
+484591
+Reprisal
+485349
+Blade of Truth
+487133
+Blade of Valor
+489625
+Fast Blade
+492118
+Riot Blade
+494566
+Royal Authority
+496975
+Circle of Scorn
+498044
+Expiacion
+498846
+Atonement
+499647
+Atonement
+502050
+Fast Blade
+504453
+Fight or Flight
+506365
+Riot Blade
+507210
+Intervene
+507967
+Goring Blade
+509619
+Fast Blade
+512074
+Riot Blade
+514487
+Royal Authority
+516896
+Intervene
+517788
+Atonement
+519301
+Atonement
+521755
+Atonement
+524166
+Requiescat
+524967
+Fast Blade
+526569
+Circle of Scorn
+528039
+Riot Blade
+529018
+Expiacion
+529818
+Goring Blade
+531465
+Divine Veil
+532799
+Holy Spirit
+533866
+Holy Spirit
+536403
+Holy Spirit
+538893
+Holy Spirit
+541385
+Sentinel
+542633
+Confiteor
+544238
+Holy Sheltron
+545755
+Blade of Faith
+546735
+Blade of Truth
+549230
+Holy Sheltron
+550835
+Blade of Valor
+551728
+Fast Blade
+554266
+Riot Blade
+556675
+Royal Authority
+559077
+Circle of Scorn
+560013
+Expiacion
+560770
+Atonement
+561571
+Atonement
+563978
 Shirk
-Royal Authority
-Atonement
-Atonement
+564779
 Fast Blade
+566385
 Fight or Flight
+568257
 Riot Blade
-Divine Veil
+569105
+Intervene
+569865
 Goring Blade
+571513
 Fast Blade
-Riot Blade
+573915
 Medicated
-Royal Authority
-Intervene
-Atonement
-Requiescat
-Circle of Scorn
-Atonement
-Expiacion
-Atonement
-Fast Blade
-Sprint
+574808
 Riot Blade
+576366
+Royal Authority
+578771
 Intervene
+579575
+Atonement
+581222
+Atonement
+583671
+Atonement
+586077
+Requiescat
+586878
+Fast Blade
+588483
+Circle of Scorn
+589999
+Riot Blade
+590935
+Expiacion
+592004
 Goring Blade
+593341
 Holy Spirit
+595789
 Holy Spirit
+598281
 Holy Spirit
+600776
 Holy Spirit
+603316
 Arm's Length
+604117
 Confiteor
-Blade of Faith
+605812

@@ -12,7 +12,7 @@ class Flag():
 #####################################################
 XIV_PATH = "C:/Users/Ryan/Documents/Git/rotation-helper/xivanalysis"
 CONFIG_PATH = f"{XIV_PATH}/config.txt"
-IGNORE_ACTION = ["attack", "Iron Will", "Provoke", "Hallowed Ground", "Intervention"]
+IGNORE_ACTION = ["attack", "Iron Will", "Provoke", "Hallowed Ground", "Intervention", "Interject", "Shield Wall", "Stronghold", "Last Bastion", "Land Waker", "Dark Force", "Gunmetal Soul"]
 #####################################################
 
 actions = []
@@ -28,7 +28,6 @@ def main():
 
     sourceID = int(config[Flag.SOURCEID])
     action_output_path = f"{XIV_PATH}/jobs/{config[Flag.ROLE]}/{config[Flag.JOB]}/{config[Flag.ENCOUNTER]}.txt"
-    timing_output_path = f"{XIV_PATH}/jobs/{config[Flag.ROLE]}/{config[Flag.JOB]}/{config[Flag.ENCOUNTER]}-timings.txt"
     
     conn = http.client.HTTPSConnection("xivanalysis.com")
 
