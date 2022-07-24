@@ -1,6 +1,32 @@
 GCD
 Melee
-
+Hard Slash
+Syphon Strike
+Souleater
+Bloodspiller
+Quietus
 Mage
-
+Unleash
+Unmend
+Stalwart Soul
 oGCD
+Grit
+Flood of Darkness
+Blood Weapon
+Shadow Wall
+Living Dead
+Edge of Darkness
+Dark Mind
+Salted Earth
+Plunge
+Carve and Spit
+Abyssal Drain
+Delirium
+The Blackest Night
+Flood of Shadow
+Edge of Shadow
+Dark Missionary
+Living Shadow
+Oblation
+Salt and Darkness
+Shadowbringer
