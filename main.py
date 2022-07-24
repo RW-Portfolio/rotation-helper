@@ -3,7 +3,7 @@ from engine import *
 #  ONLY VARIABLES THAT NEED CHANGING  #
 #######################################
 ROLE = "tank"
-JOB = "gnb"
+JOB = "drk"
 ENCOUNTER = "p3s"
 
 XIV_PARSE = f"{XIV_PATH}/jobs/{ROLE}/{JOB}/{ENCOUNTER}.txt"

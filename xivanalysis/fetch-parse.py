@@ -31,10 +31,10 @@ identifiers = {
   f"{Tank.WAR.name}": "Maim"
 }
 
-JOB     = Tank.GNB
+JOB     = Tank.DRK
 RAID_TIER = Pandaemonium
 XIV_PATH = f"{os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), os.pardir))}/xivanalysis"
-IGNORE_ACTION = ["attack", "Dark Force"]
+IGNORE_ACTION = ["attack"]
 
 members = [attr for attr in dir(RAID_TIER) if not callable(getattr(RAID_TIER, attr)) and not attr.startswith("__")]
 actions = []
