@@ -25,13 +25,16 @@ class Tank(Enum):
     WAR = "Warrior"
 
 identifiers = {
-  f"{Tank.PLD.name}": "Intervene"
+  f"{Tank.PLD.name}": "Intervene",
+  f"{Tank.GNB.name}": "Bloodfest",
+  f"{Tank.DRK.name}": "Bloodspiller",
+  f"{Tank.WAR.name}": "Maim"
 }
 
-JOB     = Tank.PLD
+JOB     = Tank.GNB
 RAID_TIER = Pandaemonium
 XIV_PATH = f"{os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), os.pardir))}/xivanalysis"
-IGNORE_ACTION = ["attack", "Iron Will", "Provoke", "Hallowed Ground", "Intervention", "Interject", "Shield Wall", "Stronghold", "Last Bastion", "Land Waker", "Dark Force", "Gunmetal Soul"]
+IGNORE_ACTION = ["attack", "Dark Force"]
 
 members = [attr for attr in dir(RAID_TIER) if not callable(getattr(RAID_TIER, attr)) and not attr.startswith("__")]
 actions = []
@@ -94,9 +97,10 @@ def create_single_file(fight_name, override = False):
     data = result.read()
     string = data.decode("utf-8")
 
-    if "429 Too many requests" in string:
+    if "429 Too Many Requests" in string:
         sleep(5)
         create_single_file(fight_name, override)
+        return
 
     encounter = json.loads(string)
     for entry in encounter['events']:
@@ -132,7 +136,7 @@ def create_raid_tier(force_refresh = False):
         create_single_file(members[x], force_refresh)
 
 def main():
-    #create_single_file("P2S")
+    #create_single_file("P4SP2", True)
     create_raid_tier()
 
 if __name__ == '__main__':

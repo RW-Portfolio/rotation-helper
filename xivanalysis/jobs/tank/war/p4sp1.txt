@@ -1,230 +1,462 @@
-Infuriate
+Onslaught
+58848
 Heavy Swing
+59559
+Infuriate
+60272
+Inner Release
+60987
 Maim
-Vengeance
+62015
+Medicated
+63131
+Storm's Eye
+64424
+Upheaval
+65092
+Onslaught
+65762
+Inner Chaos
+66832
+Onslaught
+67500
+Fell Cleave
+69285
+Fell Cleave
+71737
 Reprisal
-Storm's Eye
-Medicated
-Inner Chaos
-Upheaval
-Inner Release
+72494
 Fell Cleave
-Onslaught
+74143
 Primal Rend
-Onslaught
-Fell Cleave
-Onslaught
-Fell Cleave
+76594
 Infuriate
+77889
 Inner Chaos
+79047
 Heavy Swing
-Bloodwhetting
+81495
 Maim
+83946
 Storm's Path
+86395
 Fell Cleave
+88848
+Onslaught
+89517
 Infuriate
+90231
 Inner Chaos
+91257
 Heavy Swing
-Maim
+93709
 Upheaval
+95090
+Maim
+96163
 Storm's Eye
+98613
 Heavy Swing
+101063
 Maim
-Storm's Path
+103517
+Storm's Eye
+105967
+Bloodwhetting
+107167
 Heavy Swing
+108372
 Maim
+110823
 Fell Cleave
+113276
 Storm's Path
+115724
 Heavy Swing
+118174
 Maim
-Storm's Path
-Heavy Swing
-Maim
-Upheaval
+120622
 Inner Release
+121289
 Fell Cleave
-Onslaught
-Fell Cleave
-Onslaught
-Fell Cleave
-Fell Cleave
-Holmgang
-Primal Rend
-Storm's Eye
-Shirk
-Heavy Swing
-Equilibrium
-Infuriate
-Inner Chaos
-Bloodwhetting
-Maim
-Storm's Path
-Fell Cleave
-Heavy Swing
-Upheaval
-Maim
-Storm's Path
-Heavy Swing
-Maim
-Fell Cleave
-Storm's Eye
-Rampart
-Heavy Swing
-Bloodwhetting
-Thrill of Battle
-Maim
-Storm's Path
-Heavy Swing
-Infuriate
-Inner Chaos
-Maim
-Storm's Path
-Inner Release
-Fell Cleave
-Onslaught
-Upheaval
-Fell Cleave
-Fell Cleave
-Onslaught
-Fell Cleave
-Primal Rend
-Heavy Swing
-Infuriate
-Inner Chaos
-Bloodwhetting
-Maim
-Defiance
-Storm's Eye
-Heavy Swing
-Maim
-Storm's Path
-Fell Cleave
-Upheaval
-Heavy Swing
-Maim
-Storm's Path
-Heavy Swing
-Maim
-Fell Cleave
-Storm's Eye
-Heavy Swing
-Maim
-Equilibrium
-Storm's Path
-Bloodwhetting
-Fell Cleave
-Inner Release
-Fell Cleave
-Onslaught
-Fell Cleave
-Upheaval
-Onslaught
-Fell Cleave
-Primal Rend
-Infuriate
-Inner Chaos
+123069
 Shake It Off
-Heavy Swing
-Maim
-Storm's Path
-Heavy Swing
-Maim
-Storm's Eye
-Heavy Swing
-Bloodwhetting
-Fell Cleave
-Infuriate
-Inner Chaos
-Maim
+123958
 Upheaval
-Storm's Path
-Heavy Swing
-Maim
-Storm's Path
-Heavy Swing
-Maim
+125072
 Fell Cleave
-Storm's Eye
-Thrill of Battle
-Heavy Swing
-Maim
-Inner Release
+125740
 Fell Cleave
-Onslaught
-Fell Cleave
-Onslaught
-Fell Cleave
-Upheaval
+128147
 Primal Rend
+130593
 Infuriate
+131840
 Inner Chaos
+133043
 Storm's Path
+135495
 Fell Cleave
-Heavy Swing
-Maim
-Storm's Path
-Heavy Swing
-Maim
-Fell Cleave
-Storm's Eye
-Heavy Swing
-Upheaval
-Maim
-Storm's Path
-Heavy Swing
-Maim
-Storm's Path
-Heavy Swing
-Maim
-Medicated
-Storm's Path
-Fell Cleave
-Infuriate
-Inner Chaos
-Inner Release
-Primal Rend
-Onslaught
-Fell Cleave
-Onslaught
-Fell Cleave
-Upheaval
-Fell Cleave
-Fell Cleave
-Infuriate
-Inner Chaos
+137949
 Holmgang
+139064
 Heavy Swing
+140402
 Maim
+142851
 Storm's Eye
-Shirk
-Equilibrium
+145298
 Heavy Swing
-Bloodwhetting
+147747
 Maim
+150152
 Storm's Path
+152604
 Fell Cleave
-Heavy Swing
-Maim
+155056
 Upheaval
-Storm's Path
+155724
 Heavy Swing
+157507
 Maim
-Storm's Eye
-Heavy Swing
-Maim
+159958
 Storm's Path
-Arm's Length
-Fell Cleave
-Infuriate
-Inner Chaos
+162414
 Heavy Swing
-Inner Release
-Primal Rend
+164868
+Maim
+167322
+Storm's Path
+169728
 Fell Cleave
+172175
 Onslaught
-Vengeance
-Fell Cleave
+172847
+Heavy Swing
+174631
 Rampart
-Upheaval
-Fell Cleave
+175302
+Thrill of Battle
+176013
+Maim
+177086
+Vengeance
+178109
+Storm's Path
+179581
 Bloodwhetting
+180429
+Inner Release
+181276
+Fell Cleave
+182035
+Fell Cleave
+184483
+Upheaval
+185907
+Fell Cleave
+186887
+Primal Rend
+189299
+Infuriate
+190547
+Inner Chaos
+191791
+Heavy Swing
+194237
+Arm's Length
+194905
+Maim
+196645
+Onslaught
+198649
+Fell Cleave
+200119
+Shirk
+200966
+Storm's Path
+202573
+Reprisal
+203240
+Heavy Swing
+205019
+Maim
+207472
+Storm's Eye
+209929
+Heavy Swing
+212340
+Maim
+214792
+Upheaval
+215906
+Storm's Eye
+217241
+Fell Cleave
+219691
+Heavy Swing
+222188
+Maim
+224595
+Storm's Path
+227000
+Heavy Swing
+229450
+Maim
+231903
+Onslaught
+232881
+Fell Cleave
+234354
+Storm's Path
+236763
+Heavy Swing
+239216
+Inner Release
+241308
+Fell Cleave
+241974
+Infuriate
+242777
+Inner Chaos
+244426
+Nascent Flash
+245453
+Upheaval
+246300
+Fell Cleave
+246970
+Equilibrium
+248307
+Primal Rend
+249376
+Fell Cleave
+251827
+Maim
+254281
+Storm's Eye
+256729
+Heavy Swing
+259179
+Maim
+261632
+Onslaught
+263014
+Fell Cleave
+264082
+Storm's Path
+266531
+Heavy Swing
+268937
+Maim
+271386
+Storm's Eye
+273835
+Infuriate
+274773
+Inner Chaos
+276286
+Upheaval
+276911
+Heavy Swing
+278783
+Maim
+281192
+Shake It Off
+281905
+Storm's Path
+283599
+Fell Cleave
+286093
+Heavy Swing
+288546
+Maim
+290955
+Onslaught
+291626
+Storm's Path
+293410
+Fell Cleave
+295817
+Heavy Swing
+298269
+Maim
+300720
+Inner Release
+301387
+Reprisal
+302056
+Fell Cleave
+303172
+Fell Cleave
+305624
+Upheaval
+306920
+Fell Cleave
+308038
+Infuriate
+308974
+Inner Chaos
+310491
+Storm's Path
+312943
+Heavy Swing
+315394
+Maim
+317844
+Primal Rend
+320297
+Storm's Path
+322708
+Fell Cleave
+325163
+Onslaught
+325877
+Heavy Swing
+327617
+Maim
+330067
+Storm's Eye
+332518
+Heavy Swing
+334970
+Upheaval
+336935
+Maim
+337602
+Storm's Path
+340056
+Fell Cleave
+342512
+Heavy Swing
+344963
+Maim
+347369
+Vengeance
+348529
+Storm's Path
+349822
+Heavy Swing
+352276
+Maim
+354730
+Fell Cleave
+357140
+Infuriate
+357806
+Storm's Path
+359592
+Onslaught
+360263
+Inner Release
+361379
+Heavy Swing
+362047
+Maim
+364501
+Medicated
+365796
+Inner Chaos
+367001
+Upheaval
+367713
+Fell Cleave
+369411
+Fell Cleave
+371865
+Fell Cleave
+374320
+Shake It Off
+375303
+Primal Rend
+376732
+Infuriate
+377980
+Inner Chaos
+379186
+Onslaught
+379855
+Storm's Eye
+381641
+Onslaught
+382310
+Heavy Swing
+384095
+Maim
+386504
+Fell Cleave
+388960
+Infuriate
+389629
+Holmgang
+390298
+Inner Chaos
+391413
+Onslaught
+392080
+Storm's Path
+393864
+Heavy Swing
+396314
+Upheaval
+397696
+Maim
+398721
+Storm's Eye
+401177
+Heavy Swing
+403630
+Maim
+406086
+Fell Cleave
+408492
+Storm's Path
+410944
+Heavy Swing
+413398
+Maim
+415853
+Storm's Path
+418263
+Fell Cleave
+420718
+Onslaught
+421387
+Inner Release
+422056
+Primal Rend
+423170
+Fell Cleave
+425625
+Rampart
+426383
+Fell Cleave
+428122
+Upheaval
+428835
+Fell Cleave
+430533
+Thrill of Battle
+431202
+Bloodwhetting
+431915
+Infuriate
+432629
+Inner Chaos
+433297
+Reprisal
+434144
+Heavy Swing
+436195
+Maim
+438602
+Equilibrium
+439270
+Storm's Path
+441010
+Heavy Swing
+443464
+Maim
+445918
+Arm's Length
+446588

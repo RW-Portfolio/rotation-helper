@@ -1,298 +1,566 @@
 Keen Edge
-No Mercy
-Brutal Shell
-Nebula
-Solid Barrel
+9067704
 Medicated
-Gnashing Fang
-Blasting Zone
-Jugular Rip
+9068949
 Sonic Break
+9070153
 Bow Shock
+9070865
 Bloodfest
+9071578
+Gnashing Fang
+9072600
+Blasting Zone
+9073357
+Jugular Rip
+9074024
 Double Down
+9075048
 Rough Divide
-Savage Claw
-Rough Divide
-Abdomen Tear
-Wicked Talon
-Eye Gouge
-Burst Strike
-Hypervelocity
-Keen Edge
-Brutal Shell
-Solid Barrel
-Reprisal
-Keen Edge
-Brutal Shell
-Solid Barrel
-Gnashing Fang
-Jugular Rip
-Blasting Zone
-Savage Claw
-Abdomen Tear
-Wicked Talon
-Eye Gouge
-Keen Edge
-Brutal Shell
-Solid Barrel
-Keen Edge
-Brutal Shell
-Solid Barrel
-Keen Edge
-Brutal Shell
-No Mercy
-Burst Strike
-Hypervelocity
-Solid Barrel
-Gnashing Fang
-Rampart
-Jugular Rip
-Sonic Break
-Blasting Zone
-Rough Divide
-Double Down
-Bow Shock
-Rough Divide
-Savage Claw
-Abdomen Tear
-Royal Guard
-Wicked Talon
-Eye Gouge
-Keen Edge
-Brutal Shell
-Solid Barrel
-Keen Edge
-Brutal Shell
-Solid Barrel
-Burst Strike
-Hypervelocity
-Gnashing Fang
-Jugular Rip
-Savage Claw
-Abdomen Tear
-Blasting Zone
-Wicked Talon
-Bloodfest
-Eye Gouge
-Keen Edge
-Brutal Shell
-Burst Strike
-Hypervelocity
-Solid Barrel
-Keen Edge
-Brutal Shell
-Burst Strike
-Hypervelocity
-Solid Barrel
-Keen Edge
-No Mercy
-Gnashing Fang
-Jugular Rip
-Rough Divide
-Sonic Break
-Double Down
-Blasting Zone
-Savage Claw
-Abdomen Tear
-Bow Shock
-Wicked Talon
-Rough Divide
-Eye Gouge
-Brutal Shell
-Solid Barrel
-Burst Strike
-Hypervelocity
-Keen Edge
-Reprisal
-Brutal Shell
-Solid Barrel
-Keen Edge
-Gnashing Fang
-Jugular Rip
-Savage Claw
-Abdomen Tear
-Wicked Talon
-Eye Gouge
-Blasting Zone
-Brutal Shell
-Solid Barrel
+9075716
 Superbolide
-Sprint
-Keen Edge
-Brutal Shell
-Solid Barrel
-Keen Edge
-Brutal Shell
-Solid Barrel
-Heart of Light
-Keen Edge
-Brutal Shell
-No Mercy
-Gnashing Fang
-Jugular Rip
-Rough Divide
-Sonic Break
-Double Down
-Blasting Zone
-Bloodfest
+9076384
 Savage Claw
-Bow Shock
+9077497
 Abdomen Tear
-Wicked Talon
-Eye Gouge
+9078074
 Rough Divide
-Burst Strike
-Hypervelocity
-Burst Strike
-Hypervelocity
-Burst Strike
-Hypervelocity
-Solid Barrel
-Keen Edge
-Brutal Shell
-Solid Barrel
-Royal Guard
-Gnashing Fang
-Jugular Rip
-Savage Claw
-Abdomen Tear
+9078741
 Wicked Talon
+9079897
 Eye Gouge
-Blasting Zone
-Keen Edge
+9080700
 Brutal Shell
+9082305
 Solid Barrel
-Keen Edge
-Shirk
-Brutal Shell
-Solid Barrel
-Keen Edge
-Brutal Shell
+9084710
 Burst Strike
+9087117
 Hypervelocity
-Solid Barrel
+9087785
 Keen Edge
-No Mercy
-Gnashing Fang
-Jugular Rip
-Rough Divide
-Sonic Break
-Blasting Zone
-Double Down
-Bow Shock
-Rough Divide
-Savage Claw
-Reprisal
-Abdomen Tear
-Wicked Talon
-Eye Gouge
-Brutal Shell
+9089521
 Heart of Corundum
-Solid Barrel
-Burst Strike
-Hypervelocity
-Keen Edge
+9090189
 Brutal Shell
-Heart of Light
+9091928
 Solid Barrel
+9094330
 Keen Edge
+9096737
+Brutal Shell
+9099141
 Gnashing Fang
+9101545
 Jugular Rip
+9102302
 Savage Claw
-Abdomen Tear
+9103993
 Blasting Zone
+9104527
+Abdomen Tear
+9105196
 Wicked Talon
-Bloodfest
+9106394
 Eye Gouge
-Brutal Shell
-Burst Strike
-Hypervelocity
+9107239
 Solid Barrel
+9108795
 Keen Edge
+9111198
 Brutal Shell
-Burst Strike
-Hypervelocity
+9113605
 Solid Barrel
+9116006
 Keen Edge
+9118413
 Brutal Shell
-Burst Strike
-Hypervelocity
+9120820
 Solid Barrel
-Keen Edge
+9123266
 No Mercy
+9125047
+Keen Edge
+9125758
+Brutal Shell
+9128164
+Nebula
+9129277
 Gnashing Fang
-Blasting Zone
-Jugular Rip
-Sonic Break
-Rough Divide
+9130569
 Bow Shock
-Double Down
-Rough Divide
-Savage Claw
-Reprisal
-Abdomen Tear
-Wicked Talon
-Eye Gouge
-Brutal Shell
-Solid Barrel
-Burst Strike
-Hypervelocity
-Keen Edge
-Brutal Shell
-Solid Barrel
-Keen Edge
-Gnashing Fang
+9131325
 Jugular Rip
+9132037
+Double Down
+9133015
+Rough Divide
+9133681
+Heart of Light
+9134349
+Sonic Break
+9135461
 Blasting Zone
+9136129
+Heart of Corundum
+9136797
 Savage Claw
+9137910
 Abdomen Tear
+9138490
+Rough Divide
+9139204
 Wicked Talon
+9140316
 Eye Gouge
-Brutal Shell
+9141164
+Shirk
+9141832
 Solid Barrel
+9142723
+Burst Strike
+9145127
+Hypervelocity
+9145797
 Keen Edge
+9147533
 Brutal Shell
+9149939
 Solid Barrel
+9152345
 Keen Edge
+9154747
 Brutal Shell
+9157151
+Gnashing Fang
+9159557
+Jugular Rip
+9160316
+Savage Claw
+9162009
+Bloodfest
+9162547
+Abdomen Tear
+9163217
+Wicked Talon
+9164417
+Eye Gouge
+9165219
+Burst Strike
+9166820
+Blasting Zone
+9167487
+Hypervelocity
+9168156
 Solid Barrel
+9169228
+Royal Guard
+9169900
+Burst Strike
+9171637
+Hypervelocity
+9172304
 Keen Edge
+9174040
+Aurora
+9175064
+Brutal Shell
+9176447
+Heart of Corundum
+9177336
+Solid Barrel
+9178847
+Keen Edge
+9181250
+Brutal Shell
+9183658
+No Mercy
+9185396
+Burst Strike
+9186109
+Hypervelocity
+9186778
+Solid Barrel
+9188514
+Gnashing Fang
+9190919
+Bow Shock
+9191680
+Jugular Rip
+9192393
+Double Down
+9193373
+Rough Divide
+9194044
+Sonic Break
+9195823
+Rough Divide
+9196490
+Savage Claw
+9198270
+Blasting Zone
+9198849
+Abdomen Tear
+9199515
+Wicked Talon
+9200676
+Eye Gouge
+9201479
+Keen Edge
+9203084
+Reprisal
+9203753
+Brutal Shell
+9205492
+Solid Barrel
+9207896
+Keen Edge
+9210301
+Brutal Shell
+9212711
+Solid Barrel
+9215118
+Keen Edge
+9217528
+Gnashing Fang
+9219934
+Jugular Rip
+9220692
+Rampart
+9221361
+Savage Claw
+9222388
+Abdomen Tear
+9222967
+Camouflage
+9223635
+Wicked Talon
+9224796
+Eye Gouge
+9225640
+Brutal Shell
+9227200
+Blasting Zone
+9228847
+Solid Barrel
+9229605
+Keen Edge
+9232012
+Brutal Shell
+9234419
+Heart of Corundum
+9235132
+Solid Barrel
+9236820
+Keen Edge
+9239227
+Burst Strike
+9241635
+Hypervelocity
+9242304
+Heart of Light
+9242969
+Brutal Shell
+9244041
+No Mercy
+9245599
+Solid Barrel
+9246447
+Gnashing Fang
+9248858
+Jugular Rip
+9249618
+Rough Divide
+9250288
+Double Down
+9251269
+Bow Shock
+9251938
+Bloodfest
+9252609
+Sonic Break
+9253723
+Savage Claw
+9256175
+Abdomen Tear
+9256710
+Rough Divide
+9257378
+Burst Strike
+9258584
+Blasting Zone
+9259254
+Hypervelocity
+9259923
+Wicked Talon
+9260994
+Eye Gouge
+9261796
+Burst Strike
+9263402
+Hypervelocity
+9264074
+Burst Strike
+9265770
+Hypervelocity
+9266438
+Keen Edge
+9268221
+Brutal Shell
+9270628
+Solid Barrel
+9273038
+Keen Edge
+9275444
+Gnashing Fang
+9277854
+Jugular Rip
+9278612
+Nebula
+9279280
+Savage Claw
+9280306
+Abdomen Tear
+9280885
+Wicked Talon
+9282711
+Eye Gouge
+9283513
+Brutal Shell
+9285119
+Solid Barrel
+9287523
+Heart of Corundum
+9288281
+Blasting Zone
+9289260
+Keen Edge
+9289929
+Rough Divide
+9291044
+Brutal Shell
+9292338
+Shirk
+9293363
+Solid Barrel
+9294745
+Keen Edge
+9297237
+Brutal Shell
+9299645
+Solid Barrel
+9302052
+Keen Edge
+9304461
+No Mercy
+9306018
+Brutal Shell
+9306865
+Gnashing Fang
+9309273
+Jugular Rip
+9310076
+Sonic Break
+9311722
+Bow Shock
+9312390
+Savage Claw
+9314171
+Abdomen Tear
+9314706
+Wicked Talon
+9316576
+Eye Gouge
+9317380
+Rough Divide
+9318049
+Double Down
+9318985
+Blasting Zone
+9319654
+Solid Barrel
+9321437
+Burst Strike
+9323842
+Hypervelocity
+9324508
+Keen Edge
+9326245
+Royal Guard
+9326913
+Brutal Shell
+9328649
+Solid Barrel
+9331052
+Keen Edge
+9333455
+Brutal Shell
+9335856
+Gnashing Fang
+9338259
+Jugular Rip
+9339015
+Savage Claw
+9340711
+Abdomen Tear
+9341289
+Wicked Talon
+9343115
+Bloodfest
+9343960
+Eye Gouge
+9344629
+Burst Strike
+9345521
+Hypervelocity
+9346190
+Solid Barrel
+9347927
+Blasting Zone
+9349664
+Burst Strike
+9350333
+Hypervelocity
+9351002
+Burst Strike
+9352740
+Hypervelocity
+9353405
+Keen Edge
+9355140
+Brutal Shell
+9357586
+Solid Barrel
+9359994
+Sprint
+9360661
+Keen Edge
+9362396
+Brutal Shell
+9364843
+No Mercy
+9366313
+Solid Barrel
+9367245
+Sonic Break
+9369650
+Rough Divide
+9370316
+Gnashing Fang
+9372098
+Bow Shock
+9372855
+Jugular Rip
+9373522
+Savage Claw
+9374544
+Abdomen Tear
+9375124
+Rough Divide
+9375878
+Wicked Talon
+9376945
+Eye Gouge
+9377745
+Double Down
+9379346
+Blasting Zone
+9380016
+Keen Edge
+9381796
+Brutal Shell
+9384203
+Solid Barrel
+9386603
+Keen Edge
+9389010
+Heart of Corundum
+9390567
+Brutal Shell
+9391415
+Solid Barrel
+9393817
+Keen Edge
+9396223
+Brutal Shell
+9398627
+Gnashing Fang
+9401028
+Jugular Rip
+9401783
+Savage Claw
+9403473
+Abdomen Tear
+9404005
+Aurora
+9404717
+Wicked Talon
+9405873
+Eye Gouge
+9406718
+Solid Barrel
+9408320
+Keen Edge
+9410723
+Blasting Zone
+9411392
+Brutal Shell
+9413125
 Medicated
-Brutal Shell
-No Mercy
-Gnashing Fang
-Blasting Zone
-Jugular Rip
-Sonic Break
-Bow Shock
-Rough Divide
-Double Down
-Bloodfest
-Rough Divide
-Savage Claw
-Abdomen Tear
-Wicked Talon
-Eye Gouge
-Burst Strike
-Hypervelocity
-Burst Strike
-Hypervelocity
-Burst Strike
-Hypervelocity
+9414237
 Solid Barrel
+9415529
 Burst Strike
+9417936
 Hypervelocity
+9418605
 Keen Edge
-Heart of Light
+9420346
 Brutal Shell
-Reprisal
+9422754
+Sprint
+9423646
 Solid Barrel
-Blasting Zone
+9425204
+No Mercy
+9426851
+Sonic Break
+9427608
 Gnashing Fang
+9430057
 Jugular Rip
+9430816
+Burst Strike
+9432505
+Bow Shock
+9433173
+Hypervelocity
+9433842
 Savage Claw
-Abdomen Tear
+9434909
 Rough Divide
+9435487
+Abdomen Tear
+9436201
 Wicked Talon
+9437314
 Eye Gouge
+9439139
+Burst Strike
+9439806
+Hypervelocity
+9440518
+Bloodfest
+9441185
+Burst Strike
+9442255
+Blasting Zone
+9442923
+Hypervelocity
+9443635
+Double Down
+9444663
+Rough Divide
+9445331
+Keen Edge
+9447114

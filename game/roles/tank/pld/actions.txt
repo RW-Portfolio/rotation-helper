@@ -23,3 +23,6 @@ Holy Sheltron
 Divine Veil
 Sentinel
 Passage of Arms
+Iron Will
+Hallowed Ground
+Intervention
