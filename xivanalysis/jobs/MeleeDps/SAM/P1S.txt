@@ -1,0 +1,590 @@
+Gekko
+12934030
+Ikishoten
+12934699
+Kasha
+12936482
+Yukikaze
+12938928
+Hakaze
+12941110
+Medicated
+12941780
+Midare Setsugekka
+12944010
+Hissatsu: Senei
+12944633
+Kaeshi: Setsugekka
+12945390
+Hissatsu: Shinten
+12946058
+Yukikaze
+12947573
+Hissatsu: Shinten
+12948243
+Higanbana
+12950468
+Hissatsu: Shinten
+12951092
+Ogi Namikiri
+12952607
+Shoha
+12953229
+Kaeshi: Namikiri
+12953987
+Hakaze
+12956168
+Hissatsu: Gyoten
+12956879
+Yukikaze
+12958305
+Meikyo Shisui
+12958972
+Gekko
+12960443
+Hissatsu: Shinten
+12961155
+Kasha
+12962581
+Third Eye
+12963651
+Midare Setsugekka
+12965477
+Kaeshi: Setsugekka
+12966860
+Kasha
+12969044
+Hissatsu: Shinten
+12969757
+Hakaze
+12971183
+Hissatsu: Gyoten
+12971854
+Yukikaze
+12973324
+Hakaze
+12975466
+Jinpu
+12977602
+Gekko
+12979740
+Midare Setsugekka
+12982634
+Hakaze
+12984018
+Shifu
+12986160
+Kasha
+12988299
+Hakaze
+12990439
+Hissatsu: Shinten
+12991109
+Yukikaze
+12992580
+Hakaze
+12994720
+Jinpu
+12996858
+Gekko
+12998993
+Hakaze
+13001129
+Midare Setsugekka
+13004022
+Shoha
+13004646
+Kaeshi: Setsugekka
+13005402
+Hissatsu: Shinten
+13006115
+Third Eye
+13006784
+Yukikaze
+13007585
+Hissatsu: Shinten
+13008253
+Higanbana
+13010480
+Hissatsu: Shinten
+13011105
+Hakaze
+13011862
+Hissatsu: Shinten
+13012531
+Yukikaze
+13014003
+Meikyo Shisui
+13014716
+Gekko
+13016144
+Kasha
+13018287
+Midare Setsugekka
+13021184
+Kasha
+13022564
+Hakaze
+13024706
+Jinpu
+13026849
+Gekko
+13028986
+Hakaze
+13031123
+Hissatsu: Shinten
+13031880
+Yukikaze
+13033259
+Midare Setsugekka
+13036152
+Third Eye
+13036821
+Hakaze
+13037532
+Hissatsu: Shinten
+13038202
+Yukikaze
+13039674
+Meikyo Shisui
+13040342
+Gekko
+13041817
+Hissatsu: Shinten
+13042529
+Kasha
+13044000
+Shoha
+13044669
+Midare Setsugekka
+13046898
+Gekko
+13048279
+Hakaze
+13050421
+Hissatsu: Shinten
+13051088
+Yukikaze
+13052557
+Hakaze
+13054694
+Shifu
+13056837
+Kasha
+13058979
+Hakaze
+13061116
+Hissatsu: Shinten
+13062186
+Midare Setsugekka
+13064012
+Hissatsu: Senei
+13064681
+Kaeshi: Setsugekka
+13065395
+Hissatsu: Shinten
+13066065
+Third Eye
+13066778
+Yukikaze
+13067580
+Ikishoten
+13068250
+Hissatsu: Shinten
+13068919
+Higanbana
+13070477
+Shoha
+13071102
+Ogi Namikiri
+13072616
+Hissatsu: Shinten
+13073241
+Kaeshi: Namikiri
+13073999
+Hissatsu: Shinten
+13074668
+Hakaze
+13076182
+Hissatsu: Shinten
+13076852
+Yukikaze
+13078319
+Hakaze
+13080454
+Jinpu
+13082591
+Third Eye
+13083479
+Gekko
+13084726
+Hissatsu: Shinten
+13085439
+Hakaze
+13086872
+Shifu
+13089009
+Kasha
+13091149
+Midare Setsugekka
+13094041
+Hakaze
+13095419
+Yukikaze
+13097555
+Meikyo Shisui
+13098221
+Hissatsu: Shinten
+13098890
+Gekko
+13099693
+True North
+13100359
+Kasha
+13101827
+Third Eye
+13103164
+Midare Setsugekka
+13104723
+Kasha
+13106105
+Hakaze
+13108248
+Hissatsu: Shinten
+13108919
+Jinpu
+13110390
+Gekko
+13112529
+Hakaze
+13114713
+Yukikaze
+13116852
+Hissatsu: Shinten
+13117521
+Third Eye
+13118235
+Hakaze
+13118993
+Shoha
+13119886
+Midare Setsugekka
+13121933
+Hissatsu: Shinten
+13122510
+Yukikaze
+13123268
+Hakaze
+13125405
+Hissatsu: Shinten
+13126164
+Jinpu
+13127545
+Higanbana
+13130440
+Gekko
+13131820
+Hakaze
+13134001
+Shifu
+13136188
+Kasha
+13138326
+Hissatsu: Shinten
+13139353
+Hakaze
+13140468
+Yukikaze
+13142607
+Midare Setsugekka
+13145505
+Shoha
+13146128
+Hakaze
+13146886
+Hissatsu: Gyoten
+13147601
+Jinpu
+13149030
+Hissatsu: Shinten
+13149742
+Gekko
+13151167
+Hakaze
+13153307
+Shifu
+13155444
+True North
+13156113
+Hissatsu: Shinten
+13156780
+Kasha
+13157582
+Third Eye
+13158296
+Hakaze
+13159722
+Yukikaze
+13161860
+Midare Setsugekka
+13164756
+Hakaze
+13166138
+Hissatsu: Shinten
+13166805
+Jinpu
+13168273
+Gekko
+13170416
+Hakaze
+13172553
+Shifu
+13174695
+Hissatsu: Shinten
+13175363
+Kasha
+13176877
+Hakaze
+13179013
+Yukikaze
+13181154
+Midare Setsugekka
+13184049
+Hissatsu: Senei
+13184718
+Kaeshi: Setsugekka
+13185430
+Hissatsu: Shinten
+13186098
+Meikyo Shisui
+13186767
+Kasha
+13187612
+Hissatsu: Shinten
+13188281
+Ikishoten
+13188951
+Higanbana
+13190513
+Shoha
+13191182
+Ogi Namikiri
+13192653
+Hissatsu: Shinten
+13193275
+Kaeshi: Namikiri
+13194033
+Hissatsu: Shinten
+13194700
+Kasha
+13196213
+Hissatsu: Shinten
+13196883
+Gekko
+13198353
+Hakaze
+13200493
+Hissatsu: Shinten
+13201161
+Yukikaze
+13202630
+Midare Setsugekka
+13205525
+Feint
+13206150
+Hakaze
+13206908
+Third Eye
+13207799
+Jinpu
+13209047
+Gekko
+13211187
+Hakaze
+13213323
+Shifu
+13215458
+Kasha
+13217594
+Hissatsu: Shinten
+13218309
+Hakaze
+13219735
+Yukikaze
+13221874
+Midare Setsugekka
+13224771
+Hakaze
+13226152
+Hissatsu: Shinten
+13226864
+Jinpu
+13228331
+Gekko
+13230474
+Hakaze
+13232615
+Yukikaze
+13234755
+Third Eye
+13235471
+Hakaze
+13236894
+Hissatsu: Shinten
+13237562
+Shifu
+13239034
+True North
+13239703
+Kasha
+13241174
+Shoha
+13242329
+Midare Setsugekka
+13244064
+Hissatsu: Shinten
+13244733
+Kaeshi: Setsugekka
+13245446
+Hissatsu: Shinten
+13246116
+Hakaze
+13247631
+Yukikaze
+13249768
+Third Eye
+13250481
+Higanbana
+13252662
+Hakaze
+13254041
+Hissatsu: Shinten
+13254711
+Yukikaze
+13256183
+Meikyo Shisui
+13256852
+Gekko
+13258323
+Kasha
+13260507
+Midare Setsugekka
+13263446
+Shoha
+13264028
+Gekko
+13264786
+Hissatsu: Shinten
+13265453
+Hakaze
+13266926
+Shifu
+13269065
+Kasha
+13271202
+Hissatsu: Shinten
+13271871
+Hakaze
+13273339
+Yukikaze
+13275475
+Hissatsu: Shinten
+13276144
+Midare Setsugekka
+13278368
+Hakaze
+13279750
+Yukikaze
+13281889
+Hakaze
+13284026
+Hissatsu: Shinten
+13284693
+Shifu
+13286164
+Higanbana
+13289109
+Third Eye
+13289732
+Kasha
+13290489
+Hakaze
+13292628
+Hissatsu: Shinten
+13293296
+Yukikaze
+13294766
+Hakaze
+13296906
+Sprint
+13297619
+Jinpu
+13299047
+Medicated
+13299760
+Gekko
+13301184
+Midare Setsugekka
+13304080
+Hissatsu: Senei
+13304747
+Kaeshi: Setsugekka
+13305459
+Shoha
+13306129
+Meikyo Shisui
+13306842
+Gekko
+13307645
+Hissatsu: Shinten
+13308359
+Kasha
+13310274
+Hissatsu: Shinten
+13310983
+Ikishoten
+13311700
+Ogi Namikiri
+13313168
+Hissatsu: Shinten
+13313840
+Kaeshi: Namikiri
+13314553
+Hissatsu: Shinten
+13315221
+Yukikaze
+13316742
+Hissatsu: Shinten
+13317500
+Third Eye
+13318170
+Midare Setsugekka
+13319642
+Meikyo Shisui
+13320310
+Kaeshi: Setsugekka
+13321024
+Hissatsu: Shinten
+13321692
+Gekko
+13323208
+Kasha
+13325347
+Hissatsu: Shinten
+13326061
+Yukikaze
+13327492
+Midare Setsugekka
+13330388
+Shoha
+13331013
+Hakaze
+13331771
+Hissatsu: Shinten
+13332439
+Jinpu
+13333907
+Gekko
+13336048
+Hagakure
+13336716

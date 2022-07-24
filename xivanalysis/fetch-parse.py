@@ -24,14 +24,26 @@ class Tank(Enum):
     DRK = "DarkKnight"
     WAR = "Warrior"
 
+class MeleeDps(Enum):
+    MNK = "Monk"
+    DRG = "Dragoon"
+    NIN = "Ninja"
+    SAM = "Samurai"
+    RPR = "Reaper"
+
 identifiers = {
   f"{Tank.PLD.name}": "Intervene",
   f"{Tank.GNB.name}": "Bloodfest",
   f"{Tank.DRK.name}": "Bloodspiller",
-  f"{Tank.WAR.name}": "Maim"
+  f"{Tank.WAR.name}": "Maim",
+  f"{MeleeDps.MNK.name}":   "Phantom Rush",
+  f"{MeleeDps.DRG.name}":   "Chaotic Spring",
+  f"{MeleeDps.NIN.name}":   "Fleeting Raiju",
+  f"{MeleeDps.SAM.name}":   "Ogi Namikiri",
+  f"{MeleeDps.RPR.name}":   "Communio",
 }
 
-JOB     = Tank.DRK
+JOB     = MeleeDps.RPR
 RAID_TIER = Pandaemonium
 XIV_PATH = f"{os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), os.pardir))}/xivanalysis"
 IGNORE_ACTION = ["attack"]
@@ -124,8 +136,11 @@ def create_single_file(fight_name, override = False):
             actions.append(entry["ability"]["name"])
             actions.append(entry["timestamp"])
 
-    action_output_path = f"{XIV_PATH}/jobs/{Tank.__qualname__}/{JOB.name}/{fight_name}.txt"
-    with open(action_output_path, 'w') as f:
+    action_output_path = f"{XIV_PATH}/jobs/{type(JOB).__qualname__}/{JOB.name}"
+    if not os.path.exists(action_output_path):        
+        os.makedirs(action_output_path)
+
+    with open(f"{action_output_path}/{fight_name}.txt", 'w+') as f:
         for line in actions:
             f.write(f"{line}\n")
     actions.clear()
@@ -136,8 +151,8 @@ def create_raid_tier(force_refresh = False):
         create_single_file(members[x], force_refresh)
 
 def main():
-    #create_single_file("P4SP2", True)
-    create_raid_tier()
+    create_single_file("P1S")
+    #create_raid_tier()
 
 if __name__ == '__main__':
     main()

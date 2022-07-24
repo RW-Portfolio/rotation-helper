@@ -1,0 +1,644 @@
+Kassatsu
+2625691
+Spinning Edge
+2626584
+Medicated
+2627250
+Gust Slash
+2628674
+Mug
+2629298
+Bunshin
+2629920
+Phantom Kamaitachi
+2630767
+Trick Attack
+2632148
+Aeolian Edge
+2632903
+Dream Within a Dream
+2633526
+Ten
+2635039
+Jin
+2635529
+Hyosho Ranryu
+2636018
+Ten
+2637661
+Chi
+2638151
+Raiton
+2638639
+Ten Chi Jin
+2639261
+Fuma Shuriken
+2640148
+Raiton
+2641169
+Suiton
+2642144
+Meisui
+2642721
+Fleeting Raiju
+2643653
+Bhavacakra
+2644274
+Fleeting Raiju
+2645788
+Bhavacakra
+2646455
+Ten
+2647875
+Chi
+2648451
+Raiton
+2648938
+Fleeting Raiju
+2650401
+Spinning Edge
+2652532
+Gust Slash
+2654619
+Aeolian Edge
+2656796
+Spinning Edge
+2658885
+Gust Slash
+2661015
+True North
+2661637
+Aeolian Edge
+2663102
+Spinning Edge
+2665238
+Gust Slash
+2667374
+Bhavacakra
+2668176
+Armor Crush
+2669466
+Spinning Edge
+2671602
+Gust Slash
+2673739
+Aeolian Edge
+2675834
+Ten
+2677975
+Chi
+2678466
+Jin
+2678956
+Suiton
+2679447
+Spinning Edge
+2680962
+Gust Slash
+2683097
+Aeolian Edge
+2685190
+Kassatsu
+2685904
+Spinning Edge
+2687330
+Gust Slash
+2689425
+Bhavacakra
+2690049
+Aeolian Edge
+2691566
+Trick Attack
+2692192
+Bhavacakra
+2692815
+Spinning Edge
+2693662
+Dream Within a Dream
+2694331
+Ten
+2695800
+Jin
+2696289
+Hyosho Ranryu
+2696779
+Ten
+2698474
+Chi
+2698965
+Raiton
+2699456
+Fleeting Raiju
+2700976
+Ten
+2703069
+Chi
+2703560
+Raiton
+2704094
+Fleeting Raiju
+2705566
+Gust Slash
+2707752
+Armor Crush
+2709849
+Spinning Edge
+2712166
+Gust Slash
+2714263
+True North
+2715377
+Aeolian Edge
+2716357
+Spinning Edge
+2718542
+Gust Slash
+2720640
+Bunshin
+2721264
+Armor Crush
+2722739
+Bhavacakra
+2723719
+Spinning Edge
+2724834
+Gust Slash
+2726972
+Aeolian Edge
+2729113
+Spinning Edge
+2731207
+Gust Slash
+2733347
+Aeolian Edge
+2735442
+Ten
+2737585
+Chi
+2738076
+Jin
+2738566
+Suiton
+2739058
+Spinning Edge
+2740570
+Gust Slash
+2742712
+Bhavacakra
+2743511
+Aeolian Edge
+2744802
+Kassatsu
+2745871
+Spinning Edge
+2746939
+True North
+2747699
+Gust Slash
+2749037
+Bhavacakra
+2749707
+Aeolian Edge
+2751177
+Mug
+2751798
+Trick Attack
+2752423
+Phantom Kamaitachi
+2753314
+Dream Within a Dream
+2754293
+Ten
+2755408
+Jin
+2755944
+Hyosho Ranryu
+2756432
+Bhavacakra
+2757060
+Ten
+2758037
+Chi
+2758527
+Raiton
+2759061
+Ten Chi Jin
+2759687
+Fuma Shuriken
+2760534
+Raiton
+2761560
+Suiton
+2762538
+Meisui
+2763160
+Fleeting Raiju
+2764052
+Bhavacakra
+2764720
+Ten
+2766143
+Chi
+2766679
+Raiton
+2767169
+Fleeting Raiju
+2768681
+Fleeting Raiju
+2770775
+Spinning Edge
+2772908
+Gust Slash
+2774999
+Bhavacakra
+2775713
+True North
+2776382
+Armor Crush
+2777142
+Spinning Edge
+2779279
+Gust Slash
+2781371
+Aeolian Edge
+2783513
+Spinning Edge
+2785606
+Gust Slash
+2787747
+Armor Crush
+2789846
+Spinning Edge
+2791983
+Gust Slash
+2794122
+Feint
+2794790
+Aeolian Edge
+2796215
+Ten
+2798355
+Chi
+2798844
+Jin
+2799334
+Suiton
+2799823
+Spinning Edge
+2801337
+Bhavacakra
+2802094
+Gust Slash
+2803474
+Aeolian Edge
+2805568
+Kassatsu
+2806190
+Spinning Edge
+2807706
+Gust Slash
+2809844
+Bunshin
+2811271
+Phantom Kamaitachi
+2811939
+Trick Attack
+2812562
+Aeolian Edge
+2814074
+Dream Within a Dream
+2814742
+Ten
+2816170
+Jin
+2816705
+Hyosho Ranryu
+2817196
+Bhavacakra
+2817862
+Ten
+2818842
+Chi
+2819378
+Raiton
+2819868
+Fleeting Raiju
+2821382
+Ten
+2823477
+Chi
+2823966
+Raiton
+2824500
+Fleeting Raiju
+2825970
+Spinning Edge
+2828107
+Gust Slash
+2830246
+True North
+2831536
+Aeolian Edge
+2832341
+Bhavacakra
+2833054
+Spinning Edge
+2834479
+Gust Slash
+2836574
+Armor Crush
+2838711
+Spinning Edge
+2840849
+Gust Slash
+2842985
+Aeolian Edge
+2845079
+Spinning Edge
+2847215
+Gust Slash
+2849308
+Aeolian Edge
+2851446
+Spinning Edge
+2853582
+Gust Slash
+2855674
+Bhavacakra
+2856653
+Ten
+2857812
+Chi
+2858301
+Jin
+2858834
+Suiton
+2859322
+Armor Crush
+2860791
+Spinning Edge
+2862973
+Gust Slash
+2865063
+True North
+2865687
+Kassatsu
+2866354
+Aeolian Edge
+2867155
+Spinning Edge
+2869293
+Bhavacakra
+2869958
+Gust Slash
+2871383
+Mug
+2872006
+Trick Attack
+2872674
+Ten
+2873520
+Jin
+2874011
+Hyosho Ranryu
+2874546
+Dream Within a Dream
+2875169
+Ten
+2876236
+Chi
+2876681
+Raiton
+2877214
+Bhavacakra
+2877840
+Fleeting Raiju
+2878686
+Ten Chi Jin
+2879709
+Fuma Shuriken
+2880822
+Raiton
+2881802
+Suiton
+2882783
+Meisui
+2883451
+Ten
+2884297
+Chi
+2884787
+Raiton
+2885323
+Bhavacakra
+2885902
+Fleeting Raiju
+2886795
+Fleeting Raiju
+2888932
+Bhavacakra
+2889557
+Aeolian Edge
+2891031
+Spinning Edge
+2893169
+Gust Slash
+2895307
+Armor Crush
+2897401
+Spinning Edge
+2899539
+Feint
+2900206
+Gust Slash
+2901633
+Bunshin
+2902300
+Aeolian Edge
+2903772
+Spinning Edge
+2905866
+Gust Slash
+2908008
+Aeolian Edge
+2910145
+Spinning Edge
+2912240
+Bhavacakra
+2912864
+Gust Slash
+2914379
+Aeolian Edge
+2916476
+Ten
+2918616
+Chi
+2919104
+Jin
+2919595
+Suiton
+2920087
+Spinning Edge
+2921602
+Gust Slash
+2923746
+True North
+2924638
+Armor Crush
+2925841
+Kassatsu
+2926508
+Spinning Edge
+2927980
+Gust Slash
+2930076
+Aeolian Edge
+2932218
+Trick Attack
+2932841
+Bhavacakra
+2933508
+Phantom Kamaitachi
+2934314
+Dream Within a Dream
+2935162
+Ten
+2936451
+Jin
+2936942
+Hyosho Ranryu
+2937433
+Bhavacakra
+2938104
+Ten
+2939085
+Chi
+2939622
+Raiton
+2940112
+Ten
+2941582
+Chi
+2942115
+Raiton
+2942606
+Fleeting Raiju
+2944123
+Fleeting Raiju
+2946218
+Spinning Edge
+2948403
+Gust Slash
+2950499
+Shade Shift
+2951392
+Aeolian Edge
+2952597
+Spinning Edge
+2954694
+Gust Slash
+2956830
+Armor Crush
+2958967
+Spinning Edge
+2961060
+Gust Slash
+2963199
+Aeolian Edge
+2965295
+Bhavacakra
+2965963
+Spinning Edge
+2967432
+Gust Slash
+2969527
+Aeolian Edge
+2971669
+Spinning Edge
+2973808
+Ten
+2975904
+Chi
+2976437
+Jin
+2976882
+Suiton
+2977416
+Gust Slash
+2978885
+True North
+2979555
+Aeolian Edge
+2981026
+Medicated
+2981650
+Spinning Edge
+2983123
+Bhavacakra
+2983924
+Gust Slash
+2985304
+Kassatsu
+2986549
+Aeolian Edge
+2987396
+Spinning Edge
+2989490
+Gust Slash
+2991631
+Bunshin
+2992300
+Mug
+2992925
+Phantom Kamaitachi
+2993769
+Trick Attack
+2994391
+Bhavacakra
+2995015
+Ten
+2995862
+Jin
+2996395
+Hyosho Ranryu
+2996886
+Dream Within a Dream
+2997510
+Ten
+2998492
+Chi
+2999025
+Raiton
+2999515
+Fleeting Raiju
+3001069
+Ten Chi Jin
+3001829
+Fuma Shuriken
+3003165
+Raiton
+3004145
+Suiton
+3005125
+Meisui
+3005793
+Fleeting Raiju
+3006638
+Bhavacakra
+3007304
+Ten
+3008774
+Chi
+3009265
+Raiton
+3009754
+Fleeting Raiju
+3011269
+Bhavacakra
+3011894
+Aeolian Edge
+3013362
+Spinning Edge
+3015499
+Gust Slash
+3017595

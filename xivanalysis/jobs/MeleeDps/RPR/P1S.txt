@@ -1,0 +1,518 @@
+Harpe
+5552799
+Hell's Ingress
+5553422
+Shadow of Death
+5554539
+Arcane Circle
+5555165
+Soul Slice
+5556993
+Soul Slice
+5559534
+Medicated
+5560203
+Plentiful Harvest
+5562033
+Enshroud
+5562613
+Void Reaping
+5564487
+Cross Reaping
+5566049
+Lemure's Slice
+5566627
+Void Reaping
+5567518
+Cross Reaping
+5569080
+Lemure's Slice
+5569658
+Communio
+5571308
+Gluttony
+5571934
+Gallows
+5573048
+Gibbet
+5575504
+Unveiled Gallows
+5576173
+Gallows
+5578002
+Shadow of Death
+5580545
+Arcane Crest
+5581839
+Slice
+5582998
+Waxing Slice
+5585496
+Infernal Slice
+5587995
+Soul Slice
+5591114
+Slice
+5593610
+Waxing Slice
+5596104
+Unveiled Gibbet
+5596730
+Gibbet
+5598603
+Unveiled Gallows
+5599272
+Gallows
+5601055
+Enshroud
+5601813
+Void Reaping
+5603554
+Cross Reaping
+5605113
+Lemure's Slice
+5605647
+Void Reaping
+5606583
+Cross Reaping
+5608055
+Lemure's Slice
+5608636
+Communio
+5610330
+Shadow of Death
+5612109
+Infernal Slice
+5614559
+Soul Slice
+5617056
+Unveiled Gibbet
+5617726
+Gibbet
+5619552
+Slice
+5622045
+Waxing Slice
+5624541
+Infernal Slice
+5627037
+Slice
+5629533
+Waxing Slice
+5632028
+Gluttony
+5632608
+Gallows
+5634567
+Gibbet
+5637056
+Infernal Slice
+5639550
+Shadow of Death
+5642000
+Slice
+5644489
+Waxing Slice
+5646983
+Infernal Slice
+5649520
+Unveiled Gallows
+5650099
+Gallows
+5652016
+Soul Slice
+5654467
+Unveiled Gibbet
+5655046
+Arcane Crest
+5655714
+Gibbet
+5657005
+Slice
+5659495
+Waxing Slice
+5661985
+Infernal Slice
+5664436
+Slice
+5666932
+Waxing Slice
+5669432
+Infernal Slice
+5671930
+Enshroud
+5672601
+Shadow of Death
+5674431
+Shadow of Death
+5676930
+Arcane Circle
+5677556
+Void Reaping
+5679430
+Cross Reaping
+5680993
+Lemure's Slice
+5681573
+Void Reaping
+5682465
+Cross Reaping
+5683938
+Lemure's Slice
+5684562
+Communio
+5686210
+Plentiful Harvest
+5687949
+Enshroud
+5688530
+Void Reaping
+5690494
+Arcane Crest
+5691254
+Cross Reaping
+5691969
+Lemure's Slice
+5692548
+Void Reaping
+5693440
+True North
+5694064
+Cross Reaping
+5694955
+Lemure's Slice
+5695533
+Communio
+5697231
+Gluttony
+5697857
+Gallows
+5698970
+Gibbet
+5701514
+Soul Slice
+5703966
+Unveiled Gallows
+5704635
+True North
+5705216
+Gallows
+5706509
+Soul Slice
+5708963
+Unveiled Gibbet
+5709543
+Gibbet
+5711465
+Slice
+5713919
+Waxing Slice
+5716418
+Infernal Slice
+5718914
+Slice
+5721460
+Unveiled Gallows
+5722171
+Gallows
+5723952
+Waxing Slice
+5726403
+Infernal Slice
+5728899
+Enshroud
+5730640
+Shadow of Death
+5731397
+Void Reaping
+5733892
+Cross Reaping
+5735405
+Lemure's Slice
+5735986
+Void Reaping
+5736920
+Feint
+5737498
+Cross Reaping
+5738388
+Lemure's Slice
+5739014
+Communio
+5740663
+Arcane Crest
+5741333
+Soul Slice
+5742407
+Unveiled Gibbet
+5743792
+Gibbet
+5744908
+Slice
+5747402
+Waxing Slice
+5749896
+Infernal Slice
+5752398
+Shadow of Death
+5754937
+Slice
+5757432
+Gluttony
+5758012
+True North
+5758812
+Gallows
+5759923
+Gibbet
+5762376
+Waxing Slice
+5764875
+Soul Slice
+5767377
+Unveiled Gallows
+5767998
+Gallows
+5769872
+Infernal Slice
+5772327
+Slice
+5774829
+Waxing Slice
+5777323
+Infernal Slice
+5779820
+Unveiled Gibbet
+5781026
+Gibbet
+5782317
+Slice
+5784816
+Waxing Slice
+5787314
+Infernal Slice
+5789854
+Enshroud
+5791414
+Shadow of Death
+5792529
+Void Reaping
+5795019
+Shadow of Death
+5796492
+Arcane Circle
+5797562
+Cross Reaping
+5798988
+Lemure's Slice
+5799566
+Void Reaping
+5800503
+Cross Reaping
+5801974
+Lemure's Slice
+5802596
+Communio
+5804242
+Plentiful Harvest
+5806020
+Enshroud
+5806642
+Void Reaping
+5808510
+Cross Reaping
+5810025
+Lemure's Slice
+5810605
+Void Reaping
+5811493
+Cross Reaping
+5813007
+Lemure's Slice
+5813586
+Communio
+5815233
+Soul Slice
+5817012
+True North
+5817636
+Gluttony
+5818215
+Gallows
+5819548
+Gibbet
+5822037
+Slice
+5824531
+Unveiled Gallows
+5825067
+Gallows
+5826985
+Feint
+5827742
+Arcane Crest
+5828545
+Waxing Slice
+5829483
+Soul Slice
+5832044
+Unveiled Gibbet
+5832757
+Gibbet
+5834583
+Infernal Slice
+5837074
+Slice
+5839566
+Waxing Slice
+5842054
+Infernal Slice
+5844547
+Unveiled Gallows
+5845078
+Gallows
+5847032
+Shadow of Death
+5849523
+Enshroud
+5850281
+Void Reaping
+5852012
+Cross Reaping
+5853482
+Lemure's Slice
+5854062
+Void Reaping
+5854950
+Cross Reaping
+5856459
+Lemure's Slice
+5857037
+Communio
+5858684
+Soul Slice
+5860461
+Slice
+5862997
+Arcane Crest
+5863622
+Second Wind
+5864512
+Waxing Slice
+5865452
+Infernal Slice
+5867944
+Bloodbath
+5868608
+Slice
+5870428
+Unveiled Gibbet
+5871009
+True North
+5871631
+Gibbet
+5872966
+Waxing Slice
+5875461
+Infernal Slice
+5877953
+Gluttony
+5878532
+Gallows
+5880450
+Gibbet
+5882951
+Shadow of Death
+5885403
+Soul Slice
+5887904
+Unveiled Gallows
+5888484
+Gallows
+5890405
+Slice
+5892863
+Waxing Slice
+5895360
+Infernal Slice
+5897850
+Slice
+5900390
+Unveiled Gibbet
+5900968
+Gibbet
+5902882
+Waxing Slice
+5905332
+Infernal Slice
+5907828
+Slice
+5910368
+Enshroud
+5911435
+Shadow of Death
+5912858
+Harvest Moon
+5915352
+Shadow of Death
+5917851
+Arcane Circle
+5918519
+Void Reaping
+5920348
+Medicated
+5921106
+Cross Reaping
+5922267
+Lemure's Slice
+5922847
+Void Reaping
+5923784
+Cross Reaping
+5925300
+Lemure's Slice
+5925879
+Communio
+5927526
+Plentiful Harvest
+5929265
+Enshroud
+5929843
+Void Reaping
+5931760
+Cross Reaping
+5933272
+Lemure's Slice
+5933851
+Void Reaping
+5934742
+Cross Reaping
+5936301
+Lemure's Slice
+5936880
+Communio
+5938567
+Waxing Slice
+5940301
+Soul Slice
+5942794
+Gluttony
+5943374
+True North
+5943996
+Gallows
+5945331
+Gibbet
+5947782
+Soul Slice
+5950322
+Unveiled Gallows
+5950902
+Gallows
+5952818
+Infernal Slice
+5955313
+Unveiled Gibbet
+5955891
+Gibbet
+5957805

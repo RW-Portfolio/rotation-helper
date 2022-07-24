@@ -1,0 +1,600 @@
+True Thrust
+898062
+Lance Charge
+898731
+Leg Sweep
+899353
+Disembowel
+900555
+Dragon Sight
+901224
+Medicated
+901935
+Chaotic Spring
+903096
+Battle Litany
+903719
+Geirskogul
+904431
+Wheeling Thrust
+905589
+High Jump
+906215
+Life Surge
+907107
+Fang and Claw
+908088
+Dragonfire Dive
+908712
+Mirage Dive
+909603
+Raiden Thrust
+910584
+Spineshatter Dive
+911207
+Vorpal Thrust
+913080
+Spineshatter Dive
+913702
+Life Surge
+914548
+Heavens' Thrust
+915575
+Fang and Claw
+918073
+Wheeling Thrust
+920567
+Raiden Thrust
+923102
+Wyrmwind Thrust
+923726
+Disembowel
+925596
+Chaotic Spring
+928093
+Bloodbath
+929073
+Wheeling Thrust
+930586
+Fang and Claw
+933083
+Geirskogul
+934418
+Raiden Thrust
+935579
+High Jump
+936244
+Mirage Dive
+937311
+Vorpal Thrust
+938070
+Leg Sweep
+939360
+Heavens' Thrust
+940604
+Fang and Claw
+943100
+Wheeling Thrust
+945593
+Raiden Thrust
+948090
+Disembowel
+950586
+True North
+951434
+Chaotic Spring
+953084
+Wheeling Thrust
+955579
+Fang and Claw
+958081
+Lance Charge
+958703
+Wyrmwind Thrust
+959817
+Raiden Thrust
+960620
+Vorpal Thrust
+963113
+Life Surge
+963738
+Geirskogul
+964407
+Heavens' Thrust
+965612
+High Jump
+966234
+Nastrond
+967169
+Fang and Claw
+968103
+Mirage Dive
+968773
+Feint
+969443
+Wheeling Thrust
+970602
+Stardiver
+971273
+Raiden Thrust
+973102
+Wyrmwind Thrust
+973725
+Disembowel
+975597
+Nastrond
+977156
+Chaotic Spring
+978091
+Leg Sweep
+979429
+Wheeling Thrust
+980589
+Fang and Claw
+983084
+Raiden Thrust
+985580
+Nastrond
+987139
+Vorpal Thrust
+988077
+Heavens' Thrust
+990659
+Fang and Claw
+993154
+Geirskogul
+994536
+Wheeling Thrust
+995650
+High Jump
+996231
+Mirage Dive
+997301
+Raiden Thrust
+998148
+Wyrmwind Thrust
+998729
+Disembowel
+1000643
+Chaotic Spring
+1003139
+Wheeling Thrust
+1005595
+Fang and Claw
+1008088
+Raiden Thrust
+1010583
+Vorpal Thrust
+1013078
+Heavens' Thrust
+1015616
+Fang and Claw
+1018106
+Lance Charge
+1018729
+Leg Sweep
+1019442
+Wheeling Thrust
+1020603
+Dragon Sight
+1021268
+Raiden Thrust
+1023093
+Battle Litany
+1023718
+Geirskogul
+1024565
+Disembowel
+1025633
+High Jump
+1026259
+Nastrond
+1027150
+Chaotic Spring
+1028130
+Spineshatter Dive
+1028753
+Dragonfire Dive
+1029600
+Wheeling Thrust
+1030625
+Wyrmwind Thrust
+1031248
+Mirage Dive
+1031873
+Fang and Claw
+1033121
+Stardiver
+1033745
+Raiden Thrust
+1035657
+Spineshatter Dive
+1036236
+Nastrond
+1037128
+Vorpal Thrust
+1038153
+Life Surge
+1038731
+True North
+1039400
+Heavens' Thrust
+1040648
+Bloodbath
+1041225
+Fang and Claw
+1043138
+Wheeling Thrust
+1045630
+Nastrond
+1047097
+Raiden Thrust
+1048119
+Wyrmwind Thrust
+1048743
+Disembowel
+1050612
+Chaotic Spring
+1053102
+Geirskogul
+1054657
+Wheeling Thrust
+1055591
+High Jump
+1056302
+Mirage Dive
+1057416
+Fang and Claw
+1058130
+Leg Sweep
+1059466
+Raiden Thrust
+1060624
+Feint
+1061870
+Vorpal Thrust
+1063117
+Life Surge
+1063786
+Heavens' Thrust
+1065611
+Fang and Claw
+1068106
+Wheeling Thrust
+1070598
+Raiden Thrust
+1073138
+Disembowel
+1075633
+Chaotic Spring
+1078127
+Lance Charge
+1078750
+Wheeling Thrust
+1080664
+Wyrmwind Thrust
+1081335
+Fang and Claw
+1083162
+Geirskogul
+1084719
+Raiden Thrust
+1085653
+High Jump
+1086277
+Nastrond
+1087122
+Vorpal Thrust
+1088147
+Life Surge
+1088770
+Mirage Dive
+1089394
+Heavens' Thrust
+1090644
+Stardiver
+1091267
+Fang and Claw
+1093139
+Wheeling Thrust
+1095634
+Nastrond
+1097152
+Raiden Thrust
+1098133
+Wyrmwind Thrust
+1098758
+Disembowel
+1100635
+Leg Sweep
+1101258
+True North
+1101884
+Chaotic Spring
+1103131
+Wheeling Thrust
+1105626
+Nastrond
+1107141
+Fang and Claw
+1108120
+Raiden Thrust
+1110617
+Vorpal Thrust
+1113112
+Geirskogul
+1114809
+Heavens' Thrust
+1115656
+High Jump
+1116279
+Mirage Dive
+1117306
+Fang and Claw
+1118198
+Wheeling Thrust
+1120695
+Raiden Thrust
+1123191
+Wyrmwind Thrust
+1123770
+Disembowel
+1125685
+Chaotic Spring
+1128177
+Wheeling Thrust
+1130675
+Fang and Claw
+1133170
+Raiden Thrust
+1135665
+True North
+1137174
+Vorpal Thrust
+1138153
+Lance Charge
+1138777
+Life Surge
+1139399
+Heavens' Thrust
+1140644
+Dragon Sight
+1141311
+Leg Sweep
+1141932
+Fang and Claw
+1143129
+Battle Litany
+1143794
+Geirskogul
+1144819
+Wheeling Thrust
+1145617
+High Jump
+1146371
+Nastrond
+1147172
+Raiden Thrust
+1148192
+Spineshatter Dive
+1148860
+Wyrmwind Thrust
+1149704
+Disembowel
+1150677
+Dragonfire Dive
+1151299
+Mirage Dive
+1152189
+Chaotic Spring
+1153166
+Stardiver
+1153790
+Wheeling Thrust
+1155656
+Spineshatter Dive
+1156280
+Nastrond
+1157172
+Fang and Claw
+1158148
+Raiden Thrust
+1160635
+Vorpal Thrust
+1163120
+Heavens' Thrust
+1165656
+Nastrond
+1167166
+Fang and Claw
+1168143
+Feint
+1168809
+Wheeling Thrust
+1170631
+Raiden Thrust
+1173116
+Wyrmwind Thrust
+1173782
+Geirskogul
+1174983
+Disembowel
+1175651
+High Jump
+1176364
+Mirage Dive
+1177475
+Chaotic Spring
+1178142
+Wheeling Thrust
+1180632
+Leg Sweep
+1181964
+Fang and Claw
+1183119
+Raiden Thrust
+1185653
+Vorpal Thrust
+1188146
+Heavens' Thrust
+1190640
+Fang and Claw
+1193133
+Wheeling Thrust
+1195629
+Raiden Thrust
+1198119
+Lance Charge
+1198786
+Wyrmwind Thrust
+1199719
+Disembowel
+1200654
+True North
+1201679
+Chaotic Spring
+1203151
+Bloodbath
+1203776
+Geirskogul
+1205024
+Wheeling Thrust
+1205649
+High Jump
+1206362
+Nastrond
+1207121
+Fang and Claw
+1208148
+Stardiver
+1208774
+Raiden Thrust
+1210646
+Mirage Dive
+1211273
+Vorpal Thrust
+1213146
+Life Surge
+1213772
+Heavens' Thrust
+1215643
+Nastrond
+1217162
+Fang and Claw
+1218187
+Wheeling Thrust
+1220680
+Leg Sweep
+1221926
+Raiden Thrust
+1223177
+Wyrmwind Thrust
+1223801
+Disembowel
+1225673
+Nastrond
+1227145
+Chaotic Spring
+1228167
+Wheeling Thrust
+1230663
+Fang and Claw
+1233165
+Geirskogul
+1235129
+Raiden Thrust
+1235752
+High Jump
+1236377
+Mirage Dive
+1237405
+Vorpal Thrust
+1238296
+Heavens' Thrust
+1240752
+Fang and Claw
+1243253
+Wheeling Thrust
+1245754
+Raiden Thrust
+1248256
+Disembowel
+1250716
+Chaotic Spring
+1253263
+Sprint
+1254601
+Wheeling Thrust
+1255759
+Medicated
+1256652
+Fang and Claw
+1258302
+Lance Charge
+1258880
+Wyrmwind Thrust
+1259546
+Raiden Thrust
+1260796
+Dragon Sight
+1261374
+True North
+1262041
+Vorpal Thrust
+1263289
+Life Surge
+1263912
+Battle Litany
+1264536
+Geirskogul
+1265157
+Heavens' Thrust
+1265780
+High Jump
+1266446
+Nastrond
+1267338
+Fang and Claw
+1268316
+Stardiver
+1268984
+Wheeling Thrust
+1270807
+Mirage Dive
+1271516
+Spineshatter Dive
+1272138
+Raiden Thrust
+1273339
+Dragonfire Dive
+1273960
+Wyrmwind Thrust
+1274850
+Disembowel
+1275829
+True North
+1276496
+Nastrond
+1277294
+Chaotic Spring
+1278318
+Spineshatter Dive
+1278983
+Leg Sweep
+1279872
+Wheeling Thrust
+1280806
+Life Surge
+1281871
+Fang and Claw
+1283335
+Feint
+1284003
+Raiden Thrust
+1285825
+Nastrond
+1287295
+Vorpal Thrust
+1288317
+Heavens' Thrust
+1290845
