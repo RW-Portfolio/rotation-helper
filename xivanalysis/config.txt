@@ -1,5 +1,0 @@
-Source ID: 1
-Encounter: p2s
-Get Reqeust: W6Avqfd1T9mx3FGg?start=450362&end=991804&translate=true
-Role: tank
-Job: pld
