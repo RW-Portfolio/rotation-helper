@@ -22,7 +22,6 @@ identifiers = {
   f"{CONSTANTS.MeleeDps.RPR.name}":   "Communio",
 }
 
-
 IGNORE_ACTION = ["attack"]
 
 members = [attr for attr in dir(CONSTANTS.RAID_TIER) if not callable(getattr(CONSTANTS.RAID_TIER, attr)) and not attr.startswith("__")]
@@ -33,7 +32,7 @@ def load_url(fight_id):
     options.add_argument("--window-size=1920,1080")
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
-    driver.get(f"https://www.fflogs.com/zone/rankings/44#boss={fight_id.value}&metric=dps&class=Global&spec={JOB.value}")
+    driver.get(f"https://www.fflogs.com/zone/rankings/44#boss={fight_id.value}&metric=dps&class=Global&spec={CONSTANTS.JOB.value}")
     cookies = driver.find_element(by=By.XPATH ,value="/html/body/div[2]/div/div/div/div[2]/div/button[2]/span")
     sleep(1)
     cookies.click()
@@ -61,7 +60,7 @@ def load_url(fight_id):
 
 def create_single_file(fight_name, override = False):
     if os.path.exists(f"{CONSTANTS.XIV_PATH}/jobs/{CONSTANTS.JOB.__class__.__name__}/{CONSTANTS.JOB.name}/P1S.txt") and not override:
-        print(f"{fight_name} file already exists!")
+        print(f"{CONSTANTS.JOB.value}: {fight_name} file already exists!")
         return
 
     conn = http.client.HTTPSConnection("xivanalysis.com")
@@ -128,7 +127,7 @@ def create_raid_tier(force_refresh = False):
         create_single_file(members[x], force_refresh)
 
 def main():
-    create_single_file("P1S")
+    create_single_file(f"{CONSTANTS.RAID.name}")
     #create_raid_tier()
 
 if __name__ == '__main__':

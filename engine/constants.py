@@ -28,5 +28,6 @@ class MeleeDps(Enum):
     SAM = "Samurai"
     RPR = "Reaper"
 
-JOB     = MeleeDps.RPR
+JOB     = Tank.DRK
 RAID_TIER = Pandaemonium
+RAID = Pandaemonium.P1S

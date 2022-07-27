@@ -4,16 +4,7 @@ import engine.entity as ENTITY
 ## TODO Implement this
 import xivanalysis.fetch_parse as XIV
 
-#  ONLY VARIABLES THAT NEED CHANGING  #
-#######################################
-ROLE = "tank"
-JOB = "drk"
 ENCOUNTER = "p3s"
-
-XIV_PARSE = f"{CONSTANTS.XIV_PATH}/jobs/{ROLE}/{JOB}/{ENCOUNTER}.txt"
-
-PARSE = XIV_PARSE
-#########################################
 
 window = ENGINE.Engine()
 actions = []
@@ -80,7 +71,7 @@ def add_timings_ogcd(index):
     return index
 
 def load_timings(file):
-    with open(f"{CONSTANTS.XIV_PATH}/jobs/{ROLE}/{JOB}/{ENCOUNTER}.txt") as timing_file:
+    with open(f"{CONSTANTS.XIV_PATH}/jobs/{CONSTANTS.JOB.__class__.__name__}/{CONSTANTS.JOB.name}/{ENCOUNTER}.txt") as timing_file:
         for line in timing_file:
             actions.append(line.rstrip())
 
@@ -141,9 +132,9 @@ def update(dt):
     remove_out_of_bounds_obj(ogcd_actions)
 
 def main():
-    load_images(ROLE, JOB)
-    load_actions(ROLE, JOB)
-    load_timings(PARSE)
+    load_images(CONSTANTS.JOB.__class__.__name__, CONSTANTS.JOB.name)
+    load_actions(CONSTANTS.JOB.__class__.__name__, CONSTANTS.JOB.name)
+    load_timings(f"{CONSTANTS.XIV_PATH}/jobs/{CONSTANTS.JOB.__class__.__name__}/{CONSTANTS.JOB.name}/{ENCOUNTER}.txt")
     load_encounter(window)
     window.loop()
 
