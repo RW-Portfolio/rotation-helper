@@ -1,54 +1,30 @@
 import http.client
 import json
 import os
-from enum import Enum
-from selenium import webdriver
+from engine import constants as CONSTANTS
+from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.common.by import By
+from selenium import webdriver
 from seleniumwire import webdriver 
 from time import sleep
-import os
-
-class Pandaemonium(Enum):
-    P1S =   78
-    P2S =   79
-    P3S =   80
-    P4SP1 = 81
-    P4SP2 = 82
-
-class Tank(Enum):
-    PLD = "Paladin"
-    GNB = "Gunbreaker"
-    DRK = "DarkKnight"
-    WAR = "Warrior"
-
-class MeleeDps(Enum):
-    MNK = "Monk"
-    DRG = "Dragoon"
-    NIN = "Ninja"
-    SAM = "Samurai"
-    RPR = "Reaper"
+from webdriver_manager.chrome import ChromeDriverManager
 
 identifiers = {
-  f"{Tank.PLD.name}": "Intervene",
-  f"{Tank.GNB.name}": "Bloodfest",
-  f"{Tank.DRK.name}": "Bloodspiller",
-  f"{Tank.WAR.name}": "Maim",
-  f"{MeleeDps.MNK.name}":   "Phantom Rush",
-  f"{MeleeDps.DRG.name}":   "Chaotic Spring",
-  f"{MeleeDps.NIN.name}":   "Fleeting Raiju",
-  f"{MeleeDps.SAM.name}":   "Ogi Namikiri",
-  f"{MeleeDps.RPR.name}":   "Communio",
+  f"{CONSTANTS.Tank.PLD.name}": "Intervene",
+  f"{CONSTANTS.Tank.GNB.name}": "Bloodfest",
+  f"{CONSTANTS.Tank.DRK.name}": "Bloodspiller",
+  f"{CONSTANTS.Tank.WAR.name}": "Maim",
+  f"{CONSTANTS.MeleeDps.MNK.name}":   "Phantom Rush",
+  f"{CONSTANTS.MeleeDps.DRG.name}":   "Chaotic Spring",
+  f"{CONSTANTS.MeleeDps.NIN.name}":   "Fleeting Raiju",
+  f"{CONSTANTS.MeleeDps.SAM.name}":   "Ogi Namikiri",
+  f"{CONSTANTS.MeleeDps.RPR.name}":   "Communio",
 }
 
-JOB     = MeleeDps.RPR
-RAID_TIER = Pandaemonium
-XIV_PATH = f"{os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), os.pardir))}/xivanalysis"
 IGNORE_ACTION = ["attack"]
 
-members = [attr for attr in dir(RAID_TIER) if not callable(getattr(RAID_TIER, attr)) and not attr.startswith("__")]
+members = [attr for attr in dir(CONSTANTS.RAID_TIER) if not callable(getattr(CONSTANTS.RAID_TIER, attr)) and not attr.startswith("__")]
 actions = []
 
 def load_url(fight_id):
@@ -56,7 +32,7 @@ def load_url(fight_id):
     options.add_argument("--window-size=1920,1080")
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
-    driver.get(f"https://www.fflogs.com/zone/rankings/44#boss={fight_id.value}&metric=dps&class=Global&spec={JOB.value}")
+    driver.get(f"https://www.fflogs.com/zone/rankings/44#boss={fight_id.value}&metric=dps&class=Global&spec={CONSTANTS.JOB.value}")
     cookies = driver.find_element(by=By.XPATH ,value="/html/body/div[2]/div/div/div/div[2]/div/button[2]/span")
     sleep(1)
     cookies.click()
@@ -83,8 +59,8 @@ def load_url(fight_id):
     return api_url
 
 def create_single_file(fight_name, override = False):
-    if os.path.exists(f"{XIV_PATH}/jobs/{Tank.__qualname__}/{JOB.name}/{fight_name}.txt") and not override:
-        print(f"{fight_name} file already exists!")
+    if os.path.exists(f"{CONSTANTS.XIV_PATH}/jobs/{CONSTANTS.JOB.__class__.__name__}/{CONSTANTS.JOB.name}/P1S.txt") and not override:
+        print(f"{CONSTANTS.JOB.value}: {fight_name} file already exists!")
         return
 
     conn = http.client.HTTPSConnection("xivanalysis.com")
@@ -102,7 +78,7 @@ def create_single_file(fight_name, override = False):
         'sec-fetch-site': "same-origin",
         'user-agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
         }
-    url = load_url(RAID_TIER[fight_name])
+    url = load_url(CONSTANTS.RAID_TIER[fight_name])
     conn.request("GET", f"/proxy/fflogs/report/events/{url}", payload, headers)
 
     result = conn.getresponse()
@@ -117,7 +93,7 @@ def create_single_file(fight_name, override = False):
     encounter = json.loads(string)
     for entry in encounter['events']:
         try:
-            if entry['ability']['name'] == identifiers[JOB.name]:
+            if entry['ability']['name'] == identifiers[CONSTANTS.JOB.name]:
                 sourceID = entry["sourceID"]
                 break
         except:
@@ -136,7 +112,7 @@ def create_single_file(fight_name, override = False):
             actions.append(entry["ability"]["name"])
             actions.append(entry["timestamp"])
 
-    action_output_path = f"{XIV_PATH}/jobs/{type(JOB).__qualname__}/{JOB.name}"
+    action_output_path = f"{CONSTANTS.XIV_PATH}/jobs/{type(CONSTANTS.JOB).__qualname__}/{CONSTANTS.JOB.name}"
     if not os.path.exists(action_output_path):        
         os.makedirs(action_output_path)
 
@@ -146,13 +122,6 @@ def create_single_file(fight_name, override = False):
     actions.clear()
 
 def create_raid_tier(force_refresh = False):
-    amount_of_fights = (RAID_TIER[members[-1]].value + 1) - RAID_TIER[members[0]].value
+    amount_of_fights = (CONSTANTS.RAID_TIER[members[-1]].value + 1) - CONSTANTS.RAID_TIER[members[0]].value
     for x in range(amount_of_fights):
         create_single_file(members[x], force_refresh)
-
-def main():
-    create_single_file("P1S")
-    #create_raid_tier()
-
-if __name__ == '__main__':
-    main()
