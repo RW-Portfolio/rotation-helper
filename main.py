@@ -1,10 +1,7 @@
 import engine.engine as ENGINE
 import engine.constants as CONSTANTS
 import engine.entity as ENTITY
-## TODO Implement this
 import xivanalysis.fetch_parse as XIV
-
-ENCOUNTER = "p3s"
 
 window = ENGINE.Engine()
 actions = []
@@ -71,7 +68,7 @@ def add_timings_ogcd(index):
     return index
 
 def load_timings(file):
-    with open(f"{CONSTANTS.XIV_PATH}/jobs/{CONSTANTS.JOB.__class__.__name__}/{CONSTANTS.JOB.name}/{ENCOUNTER}.txt") as timing_file:
+    with open(file) as timing_file:
         for line in timing_file:
             actions.append(line.rstrip())
 
@@ -132,9 +129,10 @@ def update(dt):
     remove_out_of_bounds_obj(ogcd_actions)
 
 def main():
+    XIV.create_single_file(f"{CONSTANTS.RAID.name}")
     load_images(CONSTANTS.JOB.__class__.__name__, CONSTANTS.JOB.name)
     load_actions(CONSTANTS.JOB.__class__.__name__, CONSTANTS.JOB.name)
-    load_timings(f"{CONSTANTS.XIV_PATH}/jobs/{CONSTANTS.JOB.__class__.__name__}/{CONSTANTS.JOB.name}/{ENCOUNTER}.txt")
+    load_timings(f"{CONSTANTS.XIV_PATH}/jobs/{CONSTANTS.JOB.__class__.__name__}/{CONSTANTS.JOB.name}/{CONSTANTS.RAID.name}.txt")
     load_encounter(window)
     window.loop()
 

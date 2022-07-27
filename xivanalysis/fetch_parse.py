@@ -125,10 +125,3 @@ def create_raid_tier(force_refresh = False):
     amount_of_fights = (CONSTANTS.RAID_TIER[members[-1]].value + 1) - CONSTANTS.RAID_TIER[members[0]].value
     for x in range(amount_of_fights):
         create_single_file(members[x], force_refresh)
-
-def main():
-    create_single_file(f"{CONSTANTS.RAID.name}")
-    #create_raid_tier()
-
-if __name__ == '__main__':
-    main()

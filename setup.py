@@ -7,4 +7,3 @@ setup(
     author_email='ryanwestwood7@outlook.com',
     packages=find_packages()
 )
-
