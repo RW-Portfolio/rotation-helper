@@ -1,502 +1,556 @@
 Hard Slash
-8102428
+9560668
 Edge of Shadow
-8103185
+9561380
 Delirium
-8103941
+9562092
 Syphon Strike
-8104918
+9563113
 Medicated
-8105676
+9563867
 Souleater
-8107415
+9565552
 Living Shadow
-8108171
+9566171
 Salted Earth
-8108883
-Hard Slash
-8109908
+9566793
+Bloodspiller
+9567994
 Shadowbringer
-8110664
+9568614
 Edge of Shadow
-8111420
+9569281
 Bloodspiller
-8112442
+9570441
 Carve and Spit
-8113199
-Plunge
-8113911
-Bloodspiller
-8114934
+9571062
 Edge of Shadow
-8115647
+9571686
+Bloodspiller
+9572888
+Shadowbringer
+9573511
+Edge of Shadow
+9574134
+Hard Slash
+9575341
 Salt and Darkness
-8116403
-Bloodspiller
-8117427
-Shadowbringer
-8118181
+9575964
 Edge of Shadow
-8118893
+9576633
 Syphon Strike
-8119917
-Edge of Shadow
-8120675
+9577787
 Plunge
-8121430
-Souleater
-8122453
-Hard Slash
-8124945
-Syphon Strike
-8127438
-Souleater
-8129934
-Oblation
-8131004
-Bloodspiller
-8132428
-Hard Slash
-8134965
-Syphon Strike
-8137459
-Dark Mind
-8138750
-Souleater
-8139949
-Hard Slash
-8142440
-Syphon Strike
-8144979
-Souleater
-8147472
-Bloodspiller
-8149963
-Hard Slash
-8152497
-Syphon Strike
-8154992
-Souleater
-8157525
-Hard Slash
-8160056
-Syphon Strike
-8162546
-Delirium
-8163967
-Souleater
-8165033
-Hard Slash
-8167519
-Edge of Shadow
-8168317
-Blood Weapon
-8169117
-Bloodspiller
-8170006
-Edge of Shadow
-8170806
+9578455
 Plunge
-8171606
-Bloodspiller
-8172539
-Carve and Spit
-8173385
-Plunge
-8174097
-Bloodspiller
-8175030
+9579477
+Souleater
+9580367
 Edge of Shadow
-8175831
-Syphon Strike
-8177564
-Bloodspiller
-8180050
-Souleater
-8182536
-Bloodspiller
-8185116
+9581349
 Hard Slash
-8187607
+9582819
 Syphon Strike
-8190096
-Souleater
-8192581
-Hard Slash
-8195066
-Syphon Strike
-8197601
-Salted Earth
-8198889
-Souleater
-8200087
-Salt and Darkness
-8200798
-Bloodspiller
-8202577
-The Blackest Night
-8203554
-Hard Slash
-8205109
-Syphon Strike
-8207595
-Souleater
-8210083
-Hard Slash
-8212612
-Syphon Strike
-8215101
-Souleater
-8217633
-Hard Slash
-8220123
-Syphon Strike
-8222612
-Delirium
-8223945
-Souleater
-8225147
-Hard Slash
-8227640
-Living Shadow
-8228397
-Blood Weapon
-8229155
-Syphon Strike
-8230134
-Shadowbringer
-8230892
-Edge of Shadow
-8231649
-Bloodspiller
-8232628
-Carve and Spit
-8233384
-Plunge
-8234142
-Bloodspiller
-8235169
-Edge of Shadow
-8235971
-Shadowbringer
-8236729
-Bloodspiller
-8237709
-Edge of Shadow
-8238553
-Plunge
-8239355
-Bloodspiller
-8240201
-Edge of Shadow
-8240958
-Souleater
-8242697
-Hard Slash
-8245183
-Edge of Shadow
-8245938
-Syphon Strike
-8247671
-Souleater
-8250202
+9585271
 Reprisal
-8250957
+9585982
+Dark Missionary
+9586696
+Souleater
+9587723
 Bloodspiller
-8252690
+9590178
 Hard Slash
-8255222
+9592592
 Syphon Strike
-8257712
+9595047
+Souleater
+9597500
+Hard Slash
+9599955
+Syphon Strike
+9602370
+Souleater
+9604828
+Bloodspiller
+9607324
+Hard Slash
+9609778
+Syphon Strike
+9612229
+Souleater
+9614688
+Hard Slash
+9617141
+Syphon Strike
+9619684
+Souleater
+9622135
+Delirium
+9622849
+Blood Weapon
+9623516
+Bloodspiller
+9624586
+Shadow Wall
+9625209
+Oblation
+9625837
+Bloodspiller
+9627042
+The Blackest Night
+9627756
+Bloodspiller
+9629497
+Carve and Spit
+9631103
+Bloodspiller
+9631952
+Hard Slash
+9634443
+Plunge
+9635287
 Grit
-8258513
-Souleater
-8260244
-Hard Slash
-8262733
+9635911
 Syphon Strike
-8265221
+9636891
 Provoke
-8266022
+9637604
+Edge of Shadow
+9638226
 Souleater
-8267709
-Hard Slash
-8270246
-Syphon Strike
-8272735
-Souleater
-8275269
-Hard Slash
-8277758
+9639340
+Edge of Shadow
+9640008
+Plunge
+9640764
 Bloodspiller
-8280248
+9641789
+Hard Slash
+9644235
 Syphon Strike
-8282785
+9646729
+Souleater
+9649177
+Hard Slash
+9651623
+Syphon Strike
+9654066
+Souleater
+9656558
+Salted Earth
+9657182
+Reprisal
+9657849
+Hard Slash
+9659004
+Salt and Darkness
+9659672
+The Blackest Night
+9660298
+Syphon Strike
+9661456
+Souleater
+9663901
+Hard Slash
+9666348
+Syphon Strike
+9668845
+Souleater
+9671292
+Bloodspiller
+9673787
+Hard Slash
+9676236
+Syphon Strike
+9678683
+Souleater
+9681179
+Delirium
+9682827
+Hard Slash
+9683626
+Syphon Strike
+9686120
+Living Shadow
+9686789
+Edge of Shadow
+9687903
+Souleater
+9688569
+Blood Weapon
+9689280
+Edge of Shadow
+9689947
+Bloodspiller
+9691064
+Shadowbringer
+9691731
+Carve and Spit
+9692398
+Bloodspiller
+9693510
+Shadowbringer
+9694178
+Edge of Shadow
+9694800
+Bloodspiller
+9695955
+Edge of Shadow
+9696580
+Edge of Shadow
+9697602
+Bloodspiller
+9698402
+Plunge
+9699070
+Plunge
+9700090
+Hard Slash
+9700845
+Syphon Strike
+9703337
+Edge of Shadow
+9704050
+Souleater
+9705789
+Bloodspiller
+9708233
+Hard Slash
+9710678
+Syphon Strike
+9713167
+Souleater
+9715616
+Hard Slash
+9718064
+Syphon Strike
+9720511
 Rampart
-8283630
+9721135
+Oblation
+9721803
 Souleater
-8285275
-Delirium
-8285989
+9723002
+Dark Missionary
+9724204
 Hard Slash
-8287769
-Edge of Shadow
-8288527
-Blood Weapon
-8289326
-Bloodspiller
-8290261
-Salted Earth
-8291061
-Edge of Shadow
-8291820
-Bloodspiller
-8292797
-Carve and Spit
-8293553
-Plunge
-8294354
-Bloodspiller
-8295288
-Salt and Darkness
-8296088
-Plunge
-8296844
-Bloodspiller
-8297826
-Edge of Shadow
-8298539
-Syphon Strike
-8300366
-Souleater
-8302858
-Bloodspiller
-8305353
-Hard Slash
-8307845
-Syphon Strike
-8310335
-Souleater
-8312826
-Hard Slash
-8315360
-Syphon Strike
-8317897
-Souleater
-8320383
-Hard Slash
-8322874
-Living Dead
-8323987
-Syphon Strike
-8325363
+9725448
 The Blackest Night
-8326118
+9726115
+Syphon Strike
+9727938
 Plunge
-8326962
+9729091
 Souleater
-8327895
+9730380
+Grit
+9731226
 Bloodspiller
-8330383
+9732871
 Hard Slash
-8332869
+9735314
+Provoke
+9736521
+Syphon Strike
+9737769
+Reprisal
+9738436
+Edge of Shadow
+9739060
+Souleater
+9740222
+Oblation
+9740933
+Hard Slash
+9742672
+Delirium
+9743341
+Bloodspiller
+9745122
+Bloodspiller
+9747568
+Salted Earth
+9748190
+Blood Weapon
+9749256
+Bloodspiller
+9750056
+Salt and Darkness
+9750680
+Syphon Strike
+9752504
+Carve and Spit
+9753213
+Bloodspiller
+9754995
+Souleater
+9757441
+Hard Slash
+9759981
+Edge of Shadow
+9761277
+Syphon Strike
+9762436
+Bloodspiller
+9764883
+Souleater
+9767333
+Hard Slash
+9769780
+Syphon Strike
+9772274
+Souleater
+9774728
+Shadow Wall
+9775396
+Hard Slash
+9777180
+Dark Mind
+9777986
+Syphon Strike
+9779635
+The Blackest Night
+9780302
+Souleater
+9782086
 Shirk
-8333756
-Syphon Strike
-8335355
-Souleater
-8337888
+9782710
+Bloodspiller
+9784537
+Plunge
+9785161
 Hard Slash
-8340420
+9786990
+Provoke
+9787927
 Syphon Strike
-8342906
+9789484
 Souleater
-8345391
+9791936
+Hard Slash
+9794379
+Syphon Strike
+9796829
+Souleater
+9799280
+Hard Slash
+9801772
 Delirium
-8346145
-Hard Slash
-8347879
+9803329
+Syphon Strike
+9804218
+Souleater
+9806670
 Living Shadow
-8348722
+9807383
+Edge of Shadow
+9808406
+Hard Slash
+9809210
 Blood Weapon
-8349478
-Syphon Strike
-8350413
-Shadowbringer
-8351169
+9809833
 Edge of Shadow
-8351881
+9810546
 Bloodspiller
-8352946
+9811658
+Shadowbringer
+9812326
 Carve and Spit
-8353744
-Plunge
-8354500
+9813262
 Bloodspiller
-8355433
-Edge of Shadow
-8356187
+9814111
 Shadowbringer
-8356988
-Bloodspiller
-8357921
+9814781
 Edge of Shadow
-8358721
-Souleater
-8360409
+9815404
+Bloodspiller
+9816561
 Edge of Shadow
-8361164
+9817182
+Edge of Shadow
+9818206
 Bloodspiller
-8362896
-Hard Slash
-8365429
+9819011
+Plunge
+9819722
+Plunge
+9820748
 Syphon Strike
-8367921
+9821462
+Living Dead
+9822131
 Souleater
-8370412
+9823917
+Edge of Shadow
+9824764
 Hard Slash
-8372945
+9826371
 Syphon Strike
-8375434
+9828824
+Reprisal
+9830249
 Souleater
-8377922
+9831275
+Dark Missionary
+9832655
 Bloodspiller
-8380452
+9833723
+Oblation
+9834974
+Hard Slash
+9836182
+Syphon Strike
+9838635
 Salted Earth
-8381162
-Hard Slash
-8382937
+9839303
 Salt and Darkness
-8383691
-Syphon Strike
-8385472
+9840240
 Souleater
-8387970
+9841086
 Hard Slash
-8390455
+9843536
 Syphon Strike
-8392941
+9846033
 Souleater
-8395473
+9848484
 Bloodspiller
-8398010
+9850935
+Plunge
+9852229
 Hard Slash
-8400495
+9853389
 Syphon Strike
-8402994
+9855839
 Souleater
-8405493
+9858384
+Hard Slash
+9860836
+Syphon Strike
+9863286
 Delirium
-8406254
-Hard Slash
-8407993
+9863911
 Edge of Shadow
-8408796
+9864534
+Bloodspiller
+9865735
+Bloodspiller
+9868183
 Blood Weapon
-8409599
+9869876
 Bloodspiller
-8410492
-Edge of Shadow
-8411294
-Bloodspiller
-8412990
-Carve and Spit
-8413748
-Plunge
-8414507
-Bloodspiller
-8415486
-Edge of Shadow
-8416244
-Plunge
-8417000
-Bloodspiller
-8418025
-Syphon Strike
-8420522
+9870635
 Souleater
-8423058
+9873089
+Carve and Spit
+9873757
+Bloodspiller
+9875541
+Edge of Shadow
+9876922
 Hard Slash
-8425553
+9877993
+Syphon Strike
+9880490
+Souleater
+9882937
 The Blackest Night
-8426622
-Syphon Strike
-8428047
-Souleater
-8430535
+9883828
+Hard Slash
+9885388
+Plunge
+9886371
 Bloodspiller
-8433066
-Hard Slash
-8435557
+9887839
 Syphon Strike
-8438046
+9890293
 Souleater
-8440539
+9892744
 Hard Slash
-8443071
+9895195
 Syphon Strike
-8445611
+9897646
 Souleater
-8448099
+9900102
 Hard Slash
-8450594
+9902554
 Syphon Strike
-8453080
+9905006
 Souleater
-8455570
+9907503
 Hard Slash
-8458105
+9909956
 Syphon Strike
-8460640
+9912414
 Souleater
-8463126
+9914867
 Hard Slash
-8465655
-Delirium
-8466412
-Syphon Strike
-8468148
+9917318
 Medicated
-8469036
-Bloodspiller
-8470634
-Living Shadow
-8471433
-Blood Weapon
-8472144
-Bloodspiller
-8473121
-Edge of Shadow
-8473875
-Salted Earth
-8474586
-Bloodspiller
-8475653
-Carve and Spit
-8476454
-Shadowbringer
-8477299
-Bloodspiller
-8478187
-Edge of Shadow
-8479122
-Salt and Darkness
-8479921
-Souleater
-8480676
-Shadowbringer
-8481474
-Plunge
-8482273
-Bloodspiller
-8483165
-Edge of Shadow
-8483875
-Plunge
-8484674
-Hard Slash
-8485649
-Edge of Shadow
-8486406
+9918075
 Syphon Strike
-8488183
+9919771
+Sprint
+9920706
+Bloodspiller
+9922268
+Delirium
+9923964
+Souleater
+9924720
+Hard Slash
+9927167
+Living Shadow
+9927835
+Edge of Shadow
+9928952
+Syphon Strike
+9929664
+Blood Weapon
+9930333
+Edge of Shadow
+9931045
+Bloodspiller
+9932160
+Salted Earth
+9932783
+Shadowbringer
+9933452
+Bloodspiller
+9934613
+Carve and Spit
+9935994
+Bloodspiller
+9937065
+Shadowbringer
+9937735
+Edge of Shadow
+9938449
+Souleater
+9939521
+Edge of Shadow
+9940146
+Edge of Shadow
+9941216
+Bloodspiller
+9941978
+Salt and Darkness
+9942695
+Plunge
+9943313
+Hard Slash
+9944428
+Plunge
+9945095
+Syphon Strike
+9946877
+Edge of Shadow
+9947591
+Souleater
+9949330
+Interject
+9949954
+Bloodspiller
+9951782
+Low Blow
+9952405
