@@ -1,7 +1,7 @@
 import http.client
 import json
 import os
-from engine import constants as CONSTANTS
+import engine.constants as CONSTANTS
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service

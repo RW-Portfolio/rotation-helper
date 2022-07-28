@@ -1,7 +1,7 @@
 import engine.engine as ENGINE
 import engine.constants as CONSTANTS
 import engine.entity as ENTITY
-import xivanalysis.fetch_parse as XIV
+import fetch_parse as XIV
 
 window = ENGINE.Engine()
 actions = []
@@ -16,10 +16,14 @@ is_ogcd = []
 
 timings = []
 
+JOB     = CONSTANTS.JOB.name
+ROLE    = CONSTANTS.JOB.__class__.__name__
+RAID    = CONSTANTS.RAID.name
+
 types = ["GCD", "oGCD", "Melee", "Mage"]
 
 def load_images_from_txt(file_loc):
-    with open(f"{CONSTANTS.JOBS_PATH}/{file_loc}/actions.txt") as role_file:
+    with open(f"{CONSTANTS.XIV_PATH}/jobs/{file_loc}/actions.txt") as role_file:
         for line in role_file:
             if any(x in line for x in types):
                 continue
@@ -33,13 +37,13 @@ def load_images(role, job):
     load_images_from_txt(f"{role}/{job}")
 
 def load_actions(role, job):
-    with open(f"{CONSTANTS.JOBS_PATH}/{role}/actions.txt", 'r') as role_file:
+    with open(f"{CONSTANTS.XIV_PATH}/jobs/{role}/actions.txt", 'r') as role_file:
         for line in role_file:            
             if line.rstrip() != "oGCD":
                 is_ogcd.append(line.rstrip())  
         
     isMelee, isGCD = False, False
-    with open(f"{CONSTANTS.JOBS_PATH}/{role}/{job}/actions.txt", 'r') as job_file:
+    with open(f"{CONSTANTS.XIV_PATH}/jobs/{role}/{job}/actions.txt", 'r') as job_file:
         for line in job_file:
             line = line.rstrip()
             if line == "GCD":   isGCD = True
@@ -129,10 +133,10 @@ def update(dt):
     remove_out_of_bounds_obj(ogcd_actions)
 
 def main():
-    XIV.create_single_file(f"{CONSTANTS.RAID.name}")
-    load_images(CONSTANTS.JOB.__class__.__name__, CONSTANTS.JOB.name)
-    load_actions(CONSTANTS.JOB.__class__.__name__, CONSTANTS.JOB.name)
-    load_timings(f"{CONSTANTS.XIV_PATH}/jobs/{CONSTANTS.JOB.__class__.__name__}/{CONSTANTS.JOB.name}/{CONSTANTS.RAID.name}.txt")
+    XIV.create_single_file(f"{RAID}")
+    load_actions(ROLE, JOB)
+    load_timings(f"{CONSTANTS.XIV_PATH}/jobs/{ROLE}/{JOB}/{RAID}.txt")
+    load_images(ROLE, JOB)
     load_encounter(window)
     window.loop()
 
