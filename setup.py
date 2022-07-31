@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages  
+from setuptools import setup, find_packages
 
 with open("README.md", "r") as file:
     long_description = file.read()
@@ -12,7 +12,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(),
-    install_requires = [
+    install_requires=[
         "async-generator==1.10",
         "attrs==21.4.0",
         "blinker==1.5",
@@ -48,5 +48,11 @@ setup(
         "webdriver-manager==3.8.2",
         "wsproto==1.1.0",
         "zstandard==0.18.0"
-    ]
+    ],
+    extras_require = {
+        "dev": [
+            "pylint==2.14.5",
+            "autopep8==1.6.0"
+        ]
+    }
 )

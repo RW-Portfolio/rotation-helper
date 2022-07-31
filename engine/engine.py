@@ -1,21 +1,36 @@
 import sdl2
 import sdl2.ext
 
+
 class Engine:
-    def __init__(self, title = "Rotation Helper", width = 588, height = 50, colour = (15,15,15,255)) -> None:
+    def __init__(
+        self,
+        title="Rotation Helper",
+        width=588,
+        height=50,
+        colour=(
+            15,
+            15,
+            15,
+            255)) -> None:
         self.title = title.encode()
         self.width = width
         self.height = height
         self.colour = colour
 
-        self.deltaTime = 1.0/60.0
-        self.update_deltaTime = 0.0
+        self.delta_time = 1.0 / 60.0
+        self.update_delta_time = 0.0
         self.update_handlers = []
         self.draw_handlers = []
 
         sdl2.SDL_Init(sdl2.SDL_INIT_EVERYTHING)
-        self.window = sdl2.ext.Window(self.title, (self.width, self.height), (sdl2.SDL_WINDOWPOS_CENTERED, 1090), 
-                                        sdl2.SDL_WINDOW_SHOWN | sdl2.SDL_WINDOW_BORDERLESS | sdl2.SDL_WINDOW_ALWAYS_ON_TOP | sdl2.SDL_WINDOW_INPUT_FOCUS)
+        self.window = sdl2.ext.Window(
+            self.title,
+            (self.width,
+             self.height),
+            (sdl2.SDL_WINDOWPOS_CENTERED,
+             1090),
+            sdl2.SDL_WINDOW_SHOWN | sdl2.SDL_WINDOW_BORDERLESS | sdl2.SDL_WINDOW_ALWAYS_ON_TOP | sdl2.SDL_WINDOW_INPUT_FOCUS)
         self.renderer = sdl2.ext.Renderer(self.window)
         self.factory = sdl2.ext.SpriteFactory(renderer=self.renderer)
 
@@ -45,27 +60,27 @@ class Engine:
                 self._update((new - current) / frequency)
                 current = new
 
-            self.renderer.clear((30,30,30,255))
+            self.renderer.clear((30, 30, 30, 255))
             self._draw()
             self.renderer.present()
 
         sdl2.SDL_Quit()
 
-    def _update(self, deltaTime):
-        self.update_deltaTime += deltaTime
-        while self.update_deltaTime > self.deltaTime:
+    def _update(self, delta_time):
+        self.update_delta_time += delta_time
+        while self.update_delta_time > self.delta_time:
             for update in self.update_handlers:
-                update(self.deltaTime)
-            self.update_deltaTime -= self.deltaTime
+                update(self.delta_time)
+            self.update_delta_time -= self.delta_time
 
-    def update(self, fn):
-        self.update_handlers.append(fn)
-        return fn
+    def update(self, function):
+        self.update_handlers.append(function)
+        return function
 
     def _draw(self):
         for draw in self.draw_handlers:
             draw()
 
-    def draw(self, fn):
-        self.draw_handlers.append(fn)
-        return fn
+    def draw(self, function):
+        self.draw_handlers.append(function)
+        return function
