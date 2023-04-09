@@ -1,3 +1,9 @@
+<p align="center">
+<div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/naecPU_vs6Y" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
+</p>
+
 FFXIV Rotation Tool is a Python application designed to help players of the popular MMORPG, Final Fantasy XIV (FFXIV), learn effective rotations for different characters in boss fights. This tool automates the process of gathering player-used rotations and presents them to the user in a visually appealing and easy-to-understand format.  
 
 The application consists of several key components:  
